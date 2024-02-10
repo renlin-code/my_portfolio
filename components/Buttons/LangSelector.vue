@@ -41,11 +41,7 @@ const noneSelectedLangs = computed(() => {
 const selectLang = async (newLocale) => {
   // await Tr.switchLanguage(newLocale)
 
-  if (newLocale === "es" || newLocale === "ru") {
-    window.location.replace(`${origin}?${newLocale}`);
-  } else {
-    window.location.replace(`${origin}`);
-  }
+  window.location.replace(`${origin}?${newLocale}`);
 };
 </script>
 

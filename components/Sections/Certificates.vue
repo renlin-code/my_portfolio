@@ -132,7 +132,7 @@ onMounted(() => {
       border-radius: 10rem;
       overflow: hidden;
       box-shadow: 4rem 8rem 50rem rgba(0, 0, 0, 0.81);
-      cursor: url("/src/assets/cursors/loupe.cur"), auto;
+      cursor: url("@/assets/cursors/loupe.cur"), auto;
       @media only screen and (max-width: 650px) {
         width: 260rem;
         height: 200rem;
