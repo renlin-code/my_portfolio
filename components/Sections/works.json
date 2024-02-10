@@ -1,0 +1,26 @@
+[
+  {
+    "deploy_address": "https://time-master.netlify.app/",
+    "repo_address": "https://github.com/renlin-code/timemaster_frontend",
+    "img_url": "https://imgur.com/UkNyv8P.png",
+    "stack": ["HTML", "CSS", "JavaScript", "SASS", "Vue", "Nuxt"]
+  },
+  {
+    "deploy_address": "https://time-master.netlify.app/",
+    "repo_address": "https://github.com/renlin-code/time-master_backend",
+    "img_url": "https://imgur.com/UfeYIXh.png",
+    "stack": ["JavaScript", "Node JS", "Express", "Sequelize ORM", "Postgres SQL"]
+  },
+  {
+    "deploy_address": "https://spyfall-game.netlify.app/#",
+    "repo_address": "https://github.com/renlin-code/spyfall_2.0",
+    "img_url": "https://imgur.com/izC2j8g.png",
+    "stack": ["HTML", "CSS", "JavaScript", "SASS", "Vue"]
+  },
+  {
+    "deploy_address": "https://skills-booster.ru",
+    "repo_address": null,
+    "img_url": "https://imgur.com/J08h9KT.png",
+    "stack": ["HTML", "CSS", "JavaScript", "SASS", "Vue", "Nuxt", "PHP", "Wordpress"]
+  }
+]

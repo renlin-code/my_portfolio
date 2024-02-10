@@ -1,0 +1,159 @@
+@import "./reset";
+@import "./vars";
+@import "./fonts";
+
+html {
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 6rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $secondary-color;
+}
+
+//TEXT STYLES
+
+.renlincode {
+  &-big-title {
+    font-family: "Russo One", sans-serif;
+    font-size: 96rem;
+    line-height: 120rem;
+    letter-spacing: 1rem;
+    font-weight: 600;
+    @media only screen and (max-width: 650px) {
+      font-size: 60rem;
+      line-height: 62rem;
+    }
+  }
+  &-title {
+    font-family: "Russo One", sans-serif;
+    font-size: 40rem;
+    line-height: 41.5rem;
+    font-weight: 600;
+    @media only screen and (max-width: 650px) {
+      font-size: 30rem;
+    }
+  }
+  &-subtitle {
+    font-family: "Russo One", sans-serif;
+    font-size: 20rem;
+    line-height: 26rem;
+    font-weight: 600;
+    @media only screen and (max-width: 650px) {
+      font-size: 16rem;
+      line-height: 22rem;
+    }
+  }
+  &-text {
+    font-size: 14rem;
+    line-height: 20rem;
+  }
+  &-link {
+    color: $main-color;
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14rem;
+  line-height: 20rem;
+}
+
+.renlincode-section {
+  padding-top: 80rem;
+  padding-bottom: 80rem;
+  @media only screen and (max-width: 650px) {
+    padding-top: 50rem;
+    padding-bottom: 50rem;
+  }
+}
+
+.section-title {
+  margin-bottom: 80rem;
+  letter-spacing: 1rem;
+  &::before {
+    content: "---";
+    letter-spacing: -3rem;
+    padding-right: 10rem;
+    border-radius: 2rem;
+  }
+  @media only screen and (max-width: 650px) {
+    margin-bottom: 34rem;
+  }
+}
+
+//VISIBILITY
+.desktop-hidden {
+  @media only screen and (min-width: 650px) {
+    display: none !important;
+  }
+}
+.mobile-hidden {
+  @media only screen and (max-width: 650px) {
+    display: none !important;
+  }
+}
+
+//LAYOUT
+.main-content-wrapper {
+  width: 1100rem;
+  margin: 0 auto;
+  @media only screen and (max-width: 650px) {
+    width: 100%;
+    padding: 0 15rem;
+  }
+}
+.header-spaceholder {
+  width: 100%;
+  height: 70rem;
+}
+
+//HOVER EFFECTS
+.underline {
+  text-decoration: none;
+  background-image: linear-gradient($main-color, $main-color);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1rem;
+  transition: background-size 300ms ease-in-out !important;
+  &:hover {
+    background-size: 100% 1rem;
+    background-position: 0% 100%;
+  }
+}
+.opacity {
+  transition: opacity 300ms ease-in-out !important;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.onhover-light {
+  transition: all 300ms ease-in-out;
+  position: relative;
+  overflow: hidden;
+  .front-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba($very-black-color, 0.8);
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+  }
+  &:hover {
+    box-shadow: 0 0 5rem 3rem $main-color !important;
+    .front-layer {
+      opacity: 1;
+    }
+  }
+}
+
+//GLOBAL
+body {
+  background: $black-color;
+}
