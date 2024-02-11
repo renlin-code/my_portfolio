@@ -1,7 +1,7 @@
 {
   "seo_metadata": {
     "title": "Desarrollador frontend René Linares",
-    "description": "¡Hola! Mi nombre es René, y soy desarrollador frontend con 2 años de experiencia. Soy cubano, pero llevo más de 4 años viviendo en Rusia, así que hablo muy bien el ruso y tengo el derecho de trabajar en este país. Tengo experiencia profesional en HTML, CSS, JavaScript y los frameworks Vue y Nuxt. También tengo experiencia con tecnologías de backend como Node y Express. Además, estoy familiarizado con varias herramientas de desarrollo como Git, Webpack, Vite, Gulp y otras. Mis habilidades me permiten cumplir con mis responsabilidades de manera exitosa, incluyendo el manejo de tareas complejas, y estoy constantemente buscando el crecimiento profesional. Me encantaría ayudar a su empresa a crear sitios web y aplicaciones modernas y de alta calidad."
+    "description": "¡Hola! Mi nombre es René, y soy desarrollador frontend con 3 años de experiencia.<br />Tengo experiencia profesional en el desarollo frontend en especial con los frameworks Vue y Nuxt."
   },
   "nav_links": [
     "Sobre mí",
@@ -16,7 +16,7 @@
   },
   "about_me_section": {
     "title": "Sobre mí",
-    "text": "¡Hola! Mi nombre es René, y soy desarrollador frontend con 2 años de experiencia.<br />Soy cubano, pero llevo más de 4 años viviendo en Rusia, así que hablo muy bien el ruso y tengo permiso para trabajar en este país.<br />Tengo experiencia profesional en el desarollo frontend en especial con los frameworks Vue y Nuxt. Mis habilidades me permiten cumplir con mis responsabilidades de manera exitosa, incluyendo el manejo de tareas complejas, y estoy constantemente buscando el crecimiento profesional.",
+    "text": "¡Hola! Mi nombre es René, y soy desarrollador frontend con 3 años de experiencia.<br />Tengo experiencia profesional en el desarollo frontend en especial con los frameworks Vue y Nuxt.",
     "skills_block": {
       "text": "Habilidades que poseo:",
       "skills_list": [
@@ -27,8 +27,8 @@
         "Dominio de las arquitecturas MVC y FLUX;",
         "Buen conocimiento del entorno de ejecución Node y el framework de backend Express. Comprensión básica de bases de datos y Postgres SQL;",
         "Buen conocimiento de TypeScript;",
-        "Buen conocimiento de Websocket y la librería Socket.io;",
-        "Trabajo con la terminal y uso del sistema de control de versiones Git en cada projecto."
+        "Trabajo con la terminal y uso del sistema de control de versiones Git en cada projecto;",
+        "Perfecto conocimiento de ruso y nivel intermedio de inglés."
       ]
     }
   },

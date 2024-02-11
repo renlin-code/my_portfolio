@@ -1,11 +1,13 @@
 <template>
   <section id="home" class="hero">
     <div class="main-content-wrapper">
-      <p class="hero__subtitle renlincode-subtitle">{{ $t('hero_section.title') }}</p>
-      <h1 class="hero__title renlincode-big-title">{{ $t('hero_section.subtitle') }}</h1>
+      <h1 class="hero__title renlincode-subtitle">
+        {{ $t('hero_section.title') }}
+        <p class="hero__title-big renlincode-big-title">{{ $t('hero_section.subtitle') }}</p>
+      </h1>
       <img
         class="hero__img"
-        src="@/assets/images/banner-picture.png"
+        src="@/assets/images/banner.png"
         alt="Рене Линарес"
       />
       <a href="#about" class="hero__arrows">
@@ -31,19 +33,20 @@ import AnimatedArrows from '../Icons/animatedArrows.vue';
   @media only screen and (max-width: 650px) {
     height: 450rem;
   }
-  &__subtitle {
-    color: $white-color;
+  &__title {
+    color: $main-color;
     padding: 80rem 0 18rem;
-    font-size: 30rem;
+    font-size: 20rem;
     letter-spacing: 1rem;
     @media only screen and (max-width: 650px) {
       padding-top: 20rem;
       font-size: 16rem;
     }
   }
-  &__title {
+  &__title-big {
     color: $white-color;
     width: 430rem;
+    margin-top: 20rem;
     @media only screen and (max-width: 650px) {
       width: 100%;
     }

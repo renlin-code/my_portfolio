@@ -16,7 +16,7 @@
               class="projects__project-img-link"
             >
               <figure class="onhover-light">
-                <img :src="project.img_url" alt="" />
+                <img :src="`_nuxt/assets/images/${project.file_name}.jpg`" alt="" />
                 <div class="front-layer"></div>
               </figure>
             </a>
@@ -42,7 +42,7 @@
       </div>
       <button
         v-if="projectsMobShowing < projects.length"
-        class="projects__load-more renlincode-link opacity desktop-hidden"
+        class="projects__load-more desktop-hidden"
         @click="projectsMobShowing = projectsMobShowing + 2"
       >
         {{ $t('projects_for_companies_section.load_more_text') }}
@@ -54,7 +54,7 @@
 <script setup>
 import skillIcon from "../Icons/skillIcon.vue";
 import { ref, computed, nextTick, onMounted } from "vue";
-import projects from "./projects.json";
+import projects from "/public/data/projects.json";
 
 const clientWidth = ref(null);
 const projectsMobShowing = ref(2);
@@ -73,7 +73,6 @@ const flkty = ref(null);
 const startFlickity = async () => {
   let options = {
     autoPlay: true,
-    pauseAutoPlayOnHover: false,
     wrapAround: true,
     prevNextButtons: false,
     selectedAttraction: 0.05,
@@ -190,6 +189,14 @@ onMounted(() => {
   &__load-more {
     margin-top: 30rem;
     font-size: 16rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: $main-color;
+    text-align: center;
+    padding: 10rem;
+    border: 1rem solid $main-color;
+    border-radius: 10rem;
   }
   .flickity {
     &-viewport {

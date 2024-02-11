@@ -17,7 +17,7 @@
           <div class="works__work-left">
             <a target="_blank" :href="work.deploy_address" class="works__work-img-link">
               <figure class="onhover-light">
-                <img :src="work.img_url" alt="" />
+                <img :src="`_nuxt/assets/images/${work.file_name}.png`" alt="" />
                 <div class="front-layer"></div>
               </figure>
             </a>
@@ -60,7 +60,7 @@
 <script setup>
 import Arrow2 from "../Icons/arrow2.vue";
 import skillIcon from "../Icons/skillIcon.vue";
-import works from "./works.json";
+import works from "/public/data/works.json";
 
 </script>
 

@@ -28,7 +28,7 @@
               @click="openCertificate(index)"
             >
               <div class="front-layer"></div>
-              <img :src="certificate.url" alt="" />
+              <img :src="`_nuxt/assets/images/certificates/${certificate.file_name}.png`" alt="" />
             </figure>
           </div>
           <div class="certificates__slider-shadow shadow-left mobile-hidden"></div>
@@ -43,8 +43,11 @@
 import Modal from "@/components/Layout/Modal.vue";
 import ModalCertificates from "@/components/Modals/ModalCertificates.vue";
 import { ref, onMounted } from "vue";
-import certificates from "./certificates.json";
+import certificates from "/public/data/certificates.json";
 
+const getImageUrl = (path) => {
+  return new URL(path, import.meta.url)    
+} 
 const clientWidth = ref(null);
 const flkty = ref(null);
 

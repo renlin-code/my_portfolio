@@ -1,7 +1,7 @@
 {
   "seo_metadata": {
     "title": "Frontend developer Rene Linares",
-    "description": "Hi! My name is Rene, and I am a frontend developer with 2 years of experience. I am Cuban, but I have been living in Russia for over 4 years, so I speak Russian very well and have permission to work in this country. I have professional experience in frontend development, especially with Vue and Nuxt frameworks. My skills allow me to successfully fulfill my responsibilities, including handling complex tasks, and I am constantly seeking professional growth."
+    "description": "Hi! My name is Rene, and I am a frontend developer with 3 years of experience.<br />I have professional experience in frontend development, especially with the Vue and Nuxt frameworks."
   },
   "nav_links": [
     "About me",
@@ -16,9 +16,9 @@
   },
   "about_me_section": {
     "title": "About me",
-    "text": "Hi! My name is Rene, and I am a frontend developer with 2 years of experience.<br />I am Cuban, but I have been living in Russia for more than 4 years, so I speak Russian very well and I have permission to work in this country.<br />I have professional experience in frontend development, especially with the Vue and Nuxt frameworks.",
+    "text": "Hi! My name is Rene, and I am a frontend developer with 3 years of experience.<br />I have professional experience in frontend development, especially with the Vue and Nuxt frameworks.",
     "skills_block": {
-      "text": "Skills I possess:",
+      "text": "Skills I have:",
       "skills_list": [
         "Solid knowledge of HTML, CSS, JavaScript, SASS/SCSS preprocessor, Vue and Nuxt frameworks;",
         "Specialized knowledge of the framework Vue/Nuxt (options API and compositions API) and other modules of this ecosystem (Vue Router, Vuex, Pinia, Vuetify);",
@@ -27,8 +27,8 @@
         "Good understanding of the MVC and FLUX architectures;",
         "Good knowledge of Node runtime environment and Express backend framework. Basic understanding of databases and Postgres SQL;",
         "Good knowledge of TypeScript;",
-        "Good knowledge of Websocket and library Socket.io;",
-        "Working with the terminal and using Git version control system in every project."
+        "Working with the terminal and using Git version control system in every project;",
+        "Perfect knowledge of Russian and intermediate in English."
       ]
     }
   },

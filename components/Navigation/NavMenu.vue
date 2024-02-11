@@ -34,12 +34,12 @@ const emit = defineEmits(["selectedNavItem"]);
     place-content: center;
     gap: 70rem;
     position: fixed;
-    left: 0;
-    top: calc(-100vh + 66rem);
+    left: 100%;
+    top: 64rem;
     z-index: -1;
     width: 100%;
     height: calc(100vh - 60rem);
-    transition: transform 600ms ease-out;
+    transition: transform 400ms ease-out;
   }
   &__list {
     list-style: none;
@@ -63,7 +63,7 @@ const emit = defineEmits(["selectedNavItem"]);
   }
   &--open {
     @media only screen and (max-width: 650px) {
-      transform: translateY(calc(100vh));
+      transform: translateX(-100%);
       overflow-y: scroll;
     }
   }

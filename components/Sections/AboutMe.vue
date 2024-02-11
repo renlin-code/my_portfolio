@@ -3,9 +3,7 @@
     <div class="about-me__content main-content-wrapper">
       <h2 class="about-me__title renlincode-title section-title">{{ $t('about_me_section.title') }}</h2>
       <div class="about-me__wrapper">
-        <ClientOnly>
-          <AnimatedImg />
-        </ClientOnly>
+        <AnimatedImg />
         <div class="about-me__right">
           <p class="about-me__right-text" v-html="$t('about_me_section.text')"></p>
           <p>{{ $t('about_me_section.skills_block.text') }}<br /><br /></p>
@@ -19,11 +17,7 @@
 </template>
 
 <script setup>
-import { defineAsyncComponent } from 'vue';
-const AnimatedImg = defineAsyncComponent(() =>
-  import('../Other/AnimatedImg.vue')
-)
-// import AnimatedImg from "../Other/AnimatedImg.vue";
+import AnimatedImg from "../Others/AnimatedImg.vue";
 </script>
 
 <style scoped lang="scss">
