@@ -25,7 +25,9 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
   ],
   i18n: {
-    vueI18n: './i18n/i18n.config.ts' 
+    vueI18n: './i18n/i18n.config.ts',
+    locales: ["en", "es", "ru"],
+    defaultLocale: "en",
   },
   devtools: { enabled: false },
   css: ["@/assets/styles/flickity.min.css", "@/assets/styles/global.scss"],

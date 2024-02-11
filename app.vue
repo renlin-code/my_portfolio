@@ -23,6 +23,13 @@ import MyWorks from "@/components/Sections/MyWorks.vue";
 import Contacts from "@/components/Sections/Contacts.vue";
 import ProjectsWithMe from "@/components/Sections/ProjectsWithMe.vue";
 import Footer from "@/components/Layout/Footer.vue";
+import seoHeadTags from '@/helpers/seoHeadTags';
+
+const { t } = useI18n();
+
+useHead(
+  seoHeadTags(() => t("seo_metadata.title"), () => t("seo_metadata.description") )
+)
 </script>
 
 <style scoped lang="scss">

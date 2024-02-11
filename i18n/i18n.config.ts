@@ -4,7 +4,6 @@ import ru from "./locales/ru.json";
 
 export default defineI18nConfig(() => ({
     legacy: false,
-    locale: 'en',
     messages: { en, es, ru }
   }))
   

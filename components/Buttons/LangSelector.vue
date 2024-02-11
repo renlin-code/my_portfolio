@@ -11,8 +11,8 @@
     </div>
     <div class="lang-selector__options">
       <ul>
-        <li class="opacity" v-for="lang in noneSelectedLangs" @click="selectLang(lang)">
-          {{ lang }}
+        <li class="opacity" v-for="loc in availableLocales">
+          <div @click="selectLang(loc)">{{ loc }}</div>
         </li>
       </ul>
     </div>
@@ -20,28 +20,22 @@
 </template>
 
 <script setup>
-  import { useI18n } from 'vue-i18n'
-  import Tr from "@/i18n/translation"
+const switchLocalePath = useSwitchLocalePath();
 
 import Arrow from "../Icons/arrow.vue";
 import { ref, computed } from "vue";
 
 const open = ref(false);
 
-const { locale } = useI18n()
-const supportedLocales = Tr.supportedLocales
+const { locale, locales } = useI18n()
+const availableLocales = computed(() => {
+  return (locales.value).filter(i => i !== locale.value)
+})
 
-const noneSelectedLangs = computed(() => {
-  const langsCopy = [...supportedLocales];
-  const currLocaleIndex = supportedLocales.indexOf(locale.value);
-  langsCopy.splice(currLocaleIndex, 1);
-  return langsCopy;
-});
+const router = useRouter();
 
-const selectLang = async (newLocale) => {
-  // await Tr.switchLanguage(newLocale)
-
-  window.location.replace(`${origin}?${newLocale}`);
+const selectLang = (newLocale) => {
+  router.push(`/${newLocale}`)
 };
 </script>
 
