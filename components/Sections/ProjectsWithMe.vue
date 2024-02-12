@@ -16,7 +16,7 @@
               class="projects__project-img-link"
             >
               <figure class="onhover-light">
-                <img :src="project.img_url" alt="" />
+                <img :src="`/images/${project.file_name}.jpg`" alt="" />
                 <div class="front-layer"></div>
               </figure>
             </a>

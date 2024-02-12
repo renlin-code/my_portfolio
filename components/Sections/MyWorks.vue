@@ -17,7 +17,7 @@
           <div class="works__work-left">
             <a target="_blank" :href="work.deploy_address" class="works__work-img-link">
               <figure class="onhover-light">
-                <img :src="work.img_url" alt="" />
+                <img :src="`/images/${work.file_name}.png`" alt="" />
                 <div class="front-layer"></div>
               </figure>
             </a>

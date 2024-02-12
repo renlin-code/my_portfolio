@@ -7,7 +7,7 @@
       </h1>
       <img
         class="hero__img"
-        src="@/assets/images/banner.png"
+        src="/images/banner.png"
         alt="Рене Линарес"
       />
       <a href="#about" class="hero__arrows">

@@ -99,13 +99,10 @@ const LINKS = [
     }
   }
   &__phone {
-    display: flex;
+    display: grid;
+    grid-template-columns: 20rem 1fr;
     align-items: center;
     gap: 14rem;
-    &-icon {
-      width: 20rem;
-      height: 20rem;
-    }
     span {
       color: $white-color;
     }

@@ -18,7 +18,7 @@
       <span class="word15">&#60/&#62</span>
     </div>
     <figure>
-      <img src="@/assets/images/about-me-img_simple.png" alt="Рене Линарес" />
+      <img src="/images/about-me-img_simple.png" alt="Рене Линарес" />
     </figure>
   </div>
 </template>

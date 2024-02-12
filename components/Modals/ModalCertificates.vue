@@ -8,7 +8,7 @@
         class="modal-certificates__slider-slide"
         v-for="certificate in certificates"
       >
-        <img :src="certificate.url" alt="" />
+        <img :src="`/images/certificates/${certificate.file_name}.png`" alt="" />
       </figure>
     </div>
     <p class="modal-certificates__description">
@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import { ref, reactive, onMounted } from "vue";
+import { ref, onMounted } from "vue";
 import certificates from "/public/data/certificates.json";
 
 const props = defineProps({
