@@ -18,6 +18,7 @@ export default defineNuxtConfig({
         { name: "format-detection", content: "telephone=no" },
         { name: "google", content: "notranslate" },
         { name: "yandex-verification", content: "96447865" },
+        { property: "og:image", content: "/images/og.png" }
       ],
     },
   },
@@ -34,7 +35,6 @@ export default defineNuxtConfig({
     }],
   ],
   robots: {
-    configPath: "/robots.config.ts",
     rules: {
       UserAgent: "*",
       Allow: "/",
