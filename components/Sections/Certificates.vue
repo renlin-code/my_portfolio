@@ -28,7 +28,7 @@
               @click="openCertificate(index)"
             >
               <div class="front-layer"></div>
-              <img :src="`_nuxt/assets/images/certificates/${certificate.file_name}.png`" alt="" />
+              <img :src="certificate.url" alt="" />
             </figure>
           </div>
           <div class="certificates__slider-shadow shadow-left mobile-hidden"></div>

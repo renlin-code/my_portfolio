@@ -8,7 +8,7 @@
         class="modal-certificates__slider-slide"
         v-for="certificate in certificates"
       >
-        <img :src="`_nuxt/assets/images/certificates/${certificate.file_name}.png`" alt="" />
+        <img :src="certificate.url" alt="" />
       </figure>
     </div>
     <p class="modal-certificates__description">

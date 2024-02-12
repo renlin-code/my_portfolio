@@ -16,7 +16,7 @@
               class="projects__project-img-link"
             >
               <figure class="onhover-light">
-                <img :src="`_nuxt/assets/images/${project.file_name}.jpg`" alt="" />
+                <img :src="project.img_url" alt="" />
                 <div class="front-layer"></div>
               </figure>
             </a>
