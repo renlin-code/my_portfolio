@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
-      script: [{ src: "/js/rem.js"}, { src: "/js/flickity.js" }],
+      script: [{ src: "/js/rem.js" }, { src: "/js/flickity.js" }],
       meta: [
         { charset: "utf-8" },
         {
@@ -17,13 +17,30 @@ export default defineNuxtConfig({
         },
         { name: "format-detection", content: "telephone=no" },
         { name: "google", content: "notranslate" },
-        {name: "yandex-verification", content: "486e9cae33d98517"},
+        { name: "yandex-verification", content: "96447865" },
       ],
-    },  
+    },
   },
   modules: [
     '@nuxtjs/i18n',
+    "@nuxtjs/robots",
+    "@nuxtjs/sitemap",
+    ["yandex-metrika-module-nuxt3", {
+      id: "96447865",
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true,
+    }],
   ],
+  robots: {
+    configPath: "/robots.config.ts",
+    rules: {
+      UserAgent: "*",
+      Allow: "/",
+      Sitemap: 'https://renlin-code.online/sitemap.xml',
+    }
+  },
   i18n: {
     vueI18n: './i18n/i18n.config.ts',
     locales: ["en", "es", "ru"],
