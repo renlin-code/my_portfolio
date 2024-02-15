@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         },
         { name: "format-detection", content: "telephone=no" },
         { name: "google", content: "notranslate" },
-        { name: "yandex-verification", content: "96447865" },
+        { name: "yandex-verification", content: "eb69d0ab11dc8429" },
         { property: "og:image", content: "/images/og.png" }
       ],
     },
