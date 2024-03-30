@@ -25,10 +25,13 @@
         "Maquetado compatibles con diferentes navegadores, responsivo y/o elástico, acorde a la metodología BEM, con código semántico, así como animaciones y transiciones CSS;",
         "Profunda comprensión de la naturaleza asíncrona de JavaScript y su aplicación en el backend y frontend. Escritura de código asíncrono de alta calidad y con buenas prácticas para enviar/manejar solicitudes a APIs REST;",
         "Dominio de las arquitecturas MVC y FLUX;",
-        "Buen conocimiento del entorno de ejecución Node y el framework de backend Express. Comprensión básica de bases de datos y Postgres SQL;",
-        "Buen conocimiento de TypeScript;",
+        "Buenos conocimientos del entorno de ejecución Node y el framework de backend Express.js;",
+        "Buenos conocimientos de TypeScript;",
+        "Buenos conocimientos de Websocket;",
+        "Conocimientos intermedios de React;",
+        "Conocimientos básicos de otras tecnologías como SQL, PostgreSQL y Go;",
         "Trabajo con la terminal y uso del sistema de control de versiones Git en cada projecto;",
-        "Perfecto conocimiento de ruso y nivel intermedio de inglés."
+        "Muy buen nivel de idioma ruso y nivel intermedio de inglés."
       ]
     }
   },
