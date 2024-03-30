@@ -25,11 +25,11 @@
         "Creating cross-browser compatible, responsive, and/or fluid layouts with valid code, as well as CSS animations and transitions;",
         "Deep understanding of JavaScript's asynchronous nature and its application in Backend and Frontend. Writing high-quality and grammatically correct asynchronous code for sending/handling requests to REST APIs;",
         "Good understanding of the MVC and FLUX architectures;",
-        "Good knowledge of Node runtime environment and Express.js backend framework.;",
+        "Good knowledge of Node runtime environment and Express.js backend framework;",
+        "Good knowledge of TypeScript;",
         "Good understanding of Websocket;", 
         "Average knowledge of React;", 
         "Basic knowledge of other technologies such as SQL, PostgreSQL, Go;",
-        "Good knowledge of TypeScript;",
         "Working with the terminal and using Git version control system in every project;",
         "Perfect knowledge of Russian and intermediate in English."
       ]
