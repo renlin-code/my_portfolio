@@ -14,7 +14,7 @@
           <div class="projects__project-left">
             <a target="_blank" :href="project.deploy_address" class="projects__project-img-link">
               <figure class="onhover-light">
-                <img :src="`/images/${project.file_name}.png`" alt="" />
+                <img :src="project.img_url" alt="" />
                 <div class="front-layer"></div>
               </figure>
             </a>
@@ -101,13 +101,14 @@ const projectsResult = computed(() => {
 
       figure {
         display: flex;
-        border-radius: 10rem;
+        border-radius: 20rem;
         overflow: hidden;
         width: 580rem;
         box-shadow: 4rem 8rem 50rem rgba(0, 0, 0, 0.81);
 
         @media only screen and (max-width: 650px) {
           width: 100%;
+          border-radius: 16rem;
         }
 
         img {
@@ -137,6 +138,7 @@ const projectsResult = computed(() => {
 
       &-list {
         margin-bottom: 20rem;
+        padding-left: 20rem;
 
         li {
           color: $white-color;
@@ -146,16 +148,11 @@ const projectsResult = computed(() => {
             margin-bottom: 0;
           }
 
-          &::before {
-            content: "> ";
+          &::marker {
+            content: ">  ";
             color: $main-color;
             font-family: "Russo One", sans-serif;
             font-weight: 600;
-            margin-right: 10rem;
-
-            @media only screen and (max-width: 650px) {
-              margin-right: 8rem;
-            }
           }
         }
       }

@@ -34,8 +34,8 @@ body::-webkit-scrollbar-thumb {
     line-height: 56rem;
     font-weight: 400;
     @media only screen and (max-width: 650px) {
-      font-size: 36rem;
-      line-height: 50rem;
+      font-size: 32rem;
+      line-height: 38rem;
     }
   }
   &-subtitle {
@@ -59,7 +59,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 22rem;
     line-height: 27rem;
     @media only screen and (max-width: 650px) {
-      font-size: 17rem;
+      font-size: 16rem;
       line-height: 24rem;  
     }
   }
@@ -73,7 +73,7 @@ body {
   font-size: 22rem;
   line-height: 30rem;
   @media only screen and (max-width: 650px) {
-    font-size: 17rem;
+    font-size: 16rem;
     line-height: 24rem;  
   }
 }

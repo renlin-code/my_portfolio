@@ -151,6 +151,17 @@
     "link_text": "View the repository",
     "projects_list": [
       {
+        "title": "Blog about IT and online courses",
+        "details": [
+          "Elastic layout design;",
+          "Creating and writing components and programming their functionality (Nuxt2 - Options API);",
+          "Customization of the Wordpress admin panel using PHP language;",
+          "Creating a Backend and API;",
+          "Integration with CMS (Wordpress) through API.",
+          "(Private repository)"
+        ]
+      },
+      {
         "title": "Web application for tracking daily tasks (Frontend)",
         "details": [
           "Elastic layout design oriented towards mobile devices;",
@@ -177,16 +188,6 @@
           "Creating and writing components and programming their functionality (Vue2 - Options API);",
           "Using sessionStorage and localStorage for data persistence since the app works without a backend;",
           "Vue-router for navigation."
-        ]
-      },
-      {
-        "title": "Blog about IT and online courses",
-        "details": [
-          "Elastic layout design;",
-          "Creating and writing components and programming their functionality (Nuxt2 - Options API);",
-          "Customization of the Wordpress admin panel using PHP language;",
-          "Creating a Backend and API;",
-          "Integration with CMS (Wordpress) through API."
         ]
       }
     ]

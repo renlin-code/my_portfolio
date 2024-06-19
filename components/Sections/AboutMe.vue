@@ -97,14 +97,14 @@
       padding-bottom: 46rem;
     }
     &-list {
+      padding-left: 20rem;
       li {
         margin-bottom: 8rem;
-        &::before {
-          content: ">";
+        &::marker {
+          content: ">  ";
           color: $main-color;
           font-family: "Russo One", sans-serif;
           font-weight: 600;
-          margin-right: 10rem;
         }
       }
     }

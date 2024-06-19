@@ -37,7 +37,7 @@ import RenlinCodeLogo from "../Logos/renlinCodeLogo.vue";
 import contactIcon from "../Icons/contactIcon.vue";
 
 const LINKS = [
-  "#about", "#certificates", "#works", "#projects", "#contacts"
+  "#about", "#my-stack", "#certificates", "#works", "#projects", "#contacts"
 ];
 </script>
 

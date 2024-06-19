@@ -11,22 +11,13 @@
       <div class="certificates__wrapper">
         <p class="certificates__text">
           {{ $t('certificates_section.text') }}
-          <a
-            target="_blank"
-            class="renlincode-link opacity"
-            href="https://platzi.com"
-            rel="noopener noreferrer"
-            >Platzi</a
-          >.
+          <a target="_blank" class="renlincode-link opacity" href="https://platzi.com"
+            rel="noopener noreferrer">Platzi</a>.
         </p>
         <div class="certificates__slider">
           <div class="certificates__slider-wrapper">
-            <figure
-              class="certificates__slider-slide onhover-light"
-              v-for="(certificate, index) in certificates"
-              :key="certificate.id"
-              @click="openCertificate(index)"
-            >
+            <figure class="certificates__slider-slide onhover-light" v-for="(certificate, index) in certificates"
+              :key="certificate.id" @click="openCertificate(index)">
               <div class="front-layer"></div>
               <img :src="`/images/certificates/${certificate.file_name}-mini.png`" alt="" />
             </figure>
@@ -81,109 +72,114 @@ onMounted(() => {
 .certificates {
   width: 100%;
   background: $black-color;
+
   &__content {
     @media only screen and (max-width: 650px) {
       padding: 0 !important;
     }
   }
+
   &__title {
     color: $white-color;
+
     @media only screen and (max-width: 650px) {
       padding: 0 15rem;
     }
   }
+
   &__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100rem;
     justify-content: space-between;
     align-items: flex-start;
+
     @media only screen and (max-width: 650px) {
       display: flex;
       flex-direction: column;
       gap: 10rem;
     }
   }
+
   &__text {
     color: $white-color;
     padding-top: 40rem;
+
     @media only screen and (max-width: 650px) {
       padding: 0 15rem;
     }
   }
+
   &__slider {
     position: relative;
     width: 100%;
     overflow: hidden;
     padding: 40rem 0;
-    @media only screen and (max-width: 650px) {
-      height: 320rem;
-    }
+
     &-wrapper {
-      width: 100%;
-      height: 100%;
+      width: 820rem;
+      height: 336rem;
+      @media only screen and (max-width: 650px) {
+        width: 100%;
+        height: 276rem;
+      }
     }
+
     &-slide {
       display: flex;
       width: 432rem;
       margin: 0 200rem;
-      border-radius: 10rem;
+      border-radius: 20rem;
       overflow: hidden;
       box-shadow: 4rem 8rem 50rem rgba(0, 0, 0, 0.81);
       cursor: url("@/assets/cursors/loupe.cur"), auto;
+
       @media only screen and (max-width: 650px) {
         width: calc(100% - 30rem);
         margin: 0 50rem;
+        border-radius: 16rem;
       }
+
       img {
         width: 100%;
         object-fit: cover;
       }
     }
+
     &-shadow {
       width: 140rem;
       height: 100%;
       position: absolute;
       top: 0;
+
       &.shadow-left {
         left: 0;
         background: rgb(255, 255, 255);
-        background: -moz-linear-gradient(
-          270deg,
-          rgba(255, 255, 255, 0) 0%,
-          rgba(21, 31, 40, 1) 100%
-        );
-        background: -webkit-linear-gradient(
-          270deg,
-          rgba(255, 255, 255, 0) 0%,
-          rgba(21, 31, 40, 1) 100%
-        );
-        background: linear-gradient(
-          270deg,
-          rgba(255, 255, 255, 0) 0%,
-          rgba(21, 31, 40, 1) 100%
-        );
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#151f28",GradientType=1);
+        background: -moz-linear-gradient(270deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(21, 31, 40, 1) 100%);
+        background: -webkit-linear-gradient(270deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(21, 31, 40, 1) 100%);
+        background: linear-gradient(270deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(21, 31, 40, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#151f28", GradientType=1);
       }
+
       &.shadow-right {
         right: 0;
         background: rgb(255, 255, 255);
-        background: -moz-linear-gradient(
-          90deg,
-          rgba(255, 255, 255, 0) 0%,
-          rgba(21, 31, 40, 1) 100%
-        );
-        background: -webkit-linear-gradient(
-          90deg,
-          rgba(255, 255, 255, 0) 0%,
-          rgba(21, 31, 40, 1) 100%
-        );
-        background: linear-gradient(
-          90deg,
-          rgba(255, 255, 255, 0) 0%,
-          rgba(21, 31, 40, 1) 100%
-        );
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#151f28",GradientType=1);
+        background: -moz-linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(21, 31, 40, 1) 100%);
+        background: -webkit-linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(21, 31, 40, 1) 100%);
+        background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(21, 31, 40, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#151f28", GradientType=1);
       }
     }
 
@@ -192,6 +188,7 @@ onMounted(() => {
         overflow: visible;
         cursor: default !important;
       }
+
       &-prev-next-button {
         z-index: 1;
         width: 46rem;
@@ -200,29 +197,35 @@ onMounted(() => {
         color: $main-color;
         transform: none;
         transition: all 300ms ease-in-out;
+
         @media only screen and (max-width: 650px) {
           width: 36rem;
           height: 36rem;
         }
+
         &:hover {
           background: $white-color;
           color: $very-black-color;
         }
+
         @media only screen and (max-width: 650px) {
           bottom: -36rem;
           top: unset;
         }
+
         &.previous {
           @media only screen and (max-width: 650px) {
             left: 110rem;
           }
         }
+
         &.next {
           @media only screen and (max-width: 650px) {
             right: 110rem;
           }
         }
       }
+
       &-button:focus {
         box-shadow: none;
       }

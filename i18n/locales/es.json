@@ -151,6 +151,17 @@
     "link_text": "Ver el repositorio",
     "projects_list": [
       {
+        "title": "Blog sobre IT y cursos en línea",
+        "details": [
+          "Maquteado elástico del diseño;",
+          "Creación y escritura de componentes y programación de su funcionalidad (Nuxt2 - Options API);",
+          "Personalización del panel de administración de Wordpress usando lenguaje PHP;",
+          "Creación de un Backend y una API;",
+          "Integración con CMS (Wordpress) a través de API.",
+          "(Repositorio privado)"
+        ]
+      },
+      {
         "title": "Aplicación web para llevar control de las tareas diarias (Frontend)",
         "details": [
           "Maquetado elástico de diseño orientado a dispositivos móviles;",
@@ -177,16 +188,6 @@
           "Creación y escritura de componentes y programación de su funcionalidad (Vue2 - Options API);",
           "Uso de sessionStorage y localStorage para la persistencia de datos, ya que la aplicación funciona sin un backend;",
           "Vue-router para la navegación."
-        ]
-      },
-      {
-        "title": "Blog sobre IT y cursos en línea",
-        "details": [
-          "Maquteado elástico del diseño;",
-          "Creación y escritura de componentes y programación de su funcionalidad (Nuxt2 - Options API);",
-          "Personalización del panel de administración de Wordpress usando lenguaje PHP;",
-          "Creación de un Backend y una API;",
-          "Integración con CMS (Wordpress) a través de API."
         ]
       }
     ]

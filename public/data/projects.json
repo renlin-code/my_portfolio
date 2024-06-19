@@ -1,30 +1,30 @@
 [
   {
+    "file_name": "skills-booster",
+    "deploy_address": "https://skills-booster.ru",
+    "repo_address": null,
+    "img_url": "/images/projects/skills-booster.png",
+    "stack": ["html", "css", "js", "sass", "vue", "nuxt", "php", "wordpress"]
+  },
+  {
     "file_name": "timemaster_front",
-    "deploy_address": "https://time-master.netlify.app/",
+    "deploy_address": "https://github.com/renlin-code/timemaster_frontend",
     "repo_address": "https://github.com/renlin-code/timemaster_frontend",
-    "img_url": "https://imgur.com/UkNyv8P.png",
+    "img_url": "/images/projects/timemaster_front.png",
     "stack": ["html", "css", "js", "sass", "vue", "nuxt"]
   },
   {
     "file_name": "timemaster_back",
-    "deploy_address": "https://time-master.netlify.app/",
+    "deploy_address": "https://github.com/renlin-code/time-master_backend",
     "repo_address": "https://github.com/renlin-code/time-master_backend",
-    "img_url": "https://imgur.com/UfeYIXh.png",
+    "img_url": "/images/projects/timemaster_back.png",
     "stack": ["js", "node", "express", "sequelize", "postgres"]
   },
   {
     "file_name": "spyfall",
-    "deploy_address": "https://spyfall-game.netlify.app/#",
+    "deploy_address": "https://github.com/renlin-code/spyfall_2.0",
     "repo_address": "https://github.com/renlin-code/spyfall_2.0",
-    "img_url": "https://imgur.com/izC2j8g.png",
+    "img_url": "/images/projects/spyfall.png",
     "stack": ["html", "css", "js", "sass", "vue"]
-  },
-  {
-    "file_name": "skills-booster",
-    "deploy_address": "https://skills-booster.ru",
-    "repo_address": null,
-    "img_url": "https://imgur.com/J08h9KT.png",
-    "stack": ["html", "css", "js", "sass", "vue", "nuxt", "php", "wordpress"]
   }
 ]

@@ -82,7 +82,6 @@ const flkty = ref(null);
 
 const startFlickity = async () => {
   let options = {
-    autoPlay: true,
     prevNextButtons: false,
     selectedAttraction: 0.05,
     friction: 1,
@@ -140,6 +139,7 @@ onMounted(() => {
         padding: 40rem;
         @media only screen and (max-width: 650px) {
           padding: 24rem;
+          border-radius: 16rem;
         }
       }
 

@@ -67,7 +67,6 @@ const flkty = ref(null);
 
 const startFlickity = async () => {
   let options = {
-    autoPlay: true,
     wrapAround: true,
     prevNextButtons: false,
     selectedAttraction: 0.05,
@@ -130,9 +129,11 @@ onMounted(() => {
       figure {
         display: flex;
         width: 100%;
-        border-radius: 10rem;
+        border-radius: 20rem;
         box-shadow: 4rem 8rem 50rem rgba(0, 0, 0, 0.81);
-
+        @media only screen and (max-width: 650px) {
+          border-radius: 16rem;
+        }
         img {
           width: 100%;
           height: 100%;
@@ -161,7 +162,7 @@ onMounted(() => {
 
       &-list {
         margin-bottom: 20rem;
-
+        padding-left: 20rem;
         @media only screen and (max-width: 650px) {
           margin-bottom: 30rem;
         }
@@ -180,16 +181,11 @@ onMounted(() => {
             margin-bottom: 0;
           }
 
-          &::before {
-            content: "> ";
+          &::marker {
+            content: ">  ";
             color: $main-color;
             font-family: "Russo One", sans-serif;
             font-weight: 600;
-            margin-right: 10rem;
-
-            @media only screen and (max-width: 650px) {
-              margin-right: 8rem;
-            }
           }
         }
       }
