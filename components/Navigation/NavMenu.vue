@@ -39,7 +39,7 @@ const emit = defineEmits(["selectedNavItem"]);
     gap: 20rem;
     position: fixed;
     left: 100%;
-    top: 64rem;
+    top: 50rem;
     z-index: -1;
     width: 100%;
     height: calc(100vh - 60rem);
