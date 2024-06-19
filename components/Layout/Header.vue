@@ -1,6 +1,6 @@
 <template>
-  <header :style="`background: ${color}; box-shadow: ${shadow}`" class="header" :class="{'header--up' : headerUp}">
-    <div :style="`background: ${color}`" class="header__content main-content-wrapper">
+  <header class="header" :class="[{'header--up' : headerUp}, {'header--max-top': !scrolled}]">
+    <div class="header__content main-content-wrapper">
       <BurgerButton
         class="desktop-hidden"
         :open="menuOpen"
@@ -11,15 +11,14 @@
       </a>
 
       <NavMenu
-        :style="`background: ${clientWidth <= 650 ? color : 'transparent'}`"
         :open="menuOpen"
+        :dark="scrolled"
         @selectedNavItem="menuOpen = false"
       />
-      <LangSelector class="mobile-hidden" />
-      <a target="_blank" class="header__phone opacity" href="tel:+79373217299">
-        <contactIcon type="phone" class="header__phone-icon" />
-        <span class="mobile-hidden">+7 (937) 321 72 99</span>
-      </a>
+      <LangSelector 
+        class="mobile-hidden" 
+        :dark="scrolled"
+      />
     </div>
   </header>
 </template>
@@ -31,30 +30,25 @@ import contactIcon from "../Icons/contactIcon.vue";
 import RenlinCodeLogo from "../Logos/renlinCodeLogo.vue";
 import LangSelector from "../Buttons/LangSelector.vue";
 
-import { ref, watch, onMounted } from "vue";
-
 const menuOpen = ref(false);
 watch(menuOpen, (value) => {
   document.querySelector("body").style.overflowY = value ? "hidden" : "scroll";
 });
 
 const clientWidth = ref(null);
-const color = ref("#151F28");
-const shadow = ref("none");
 const headerUp = ref(false);
+const scrolled = ref(false);
 
 const headerScrollHandler = () => {
   let lastScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  scrolled.value = lastScrollPosition > 0;
   window.addEventListener("scroll", () => {
     const currentScrollPosition =
       window.pageYOffset || document.documentElement.scrollTop;
 
     headerUp.value = currentScrollPosition > lastScrollPosition;
     lastScrollPosition = currentScrollPosition;
-    const headerColored = lastScrollPosition > 0;
-
-    color.value = headerColored ? "#0f1b1f" : "#151F28";
-    shadow.value = headerColored ? "4rem 0rem 20rem rgba(0, 0, 0, 0.81)" : "none";
+    scrolled.value = lastScrollPosition > 0;
   });
 };
 
@@ -68,23 +62,27 @@ onMounted(() => {
 .header {
   width: 100%;
   position: fixed;
-  background: $black-color;
-  transition: all 360ms ease-out;
+  background: $very-black-color;
+  transition: all 400ms ease-out;
   z-index: 2;
+  padding: 10rem 0;
+  @media only screen and (max-width: 650px) {
+    padding: 23rem 0;
+  }
   &__content {
-    height: 70rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: all 360ms ease-out;
+    transition: all 400ms ease-out;
+    @media only screen and (max-width: 650px) {
+      flex-direction: row-reverse;
+    }
   }
 
   &__logo {
-    width: 177rem;
-    height: 23rem;
+    width: 244rem;
     @media only screen and (max-width: 650px) {
-      width: 150rem;
-      height: 20rem;
+      width: 128rem;
     }
   }
   &__phone {
@@ -98,6 +96,14 @@ onMounted(() => {
   }
   &--up {
     transform: translateY(-100%);
+  }
+  &--max-top {
+    padding-top: 40rem;
+    background: transparent;
+    @media only screen and (max-width: 650px) {
+      padding-top: 23rem;
+      background: $very-black-color;
+    }
   }
 }
 </style>

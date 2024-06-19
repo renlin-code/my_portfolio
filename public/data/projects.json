@@ -1,50 +1,30 @@
 [
   {
-    "file_name": "m2",
-    "deploy_address": "https://m2connect.ru",
-    "img_url": "https://imgur.com/CHVLTpL.jpg",
-    "stack": ["HTML", "CSS", "JavaScript", "SASS", "Vue", "Nuxt", "PHP", "Wordpress"]
+    "file_name": "timemaster_front",
+    "deploy_address": "https://time-master.netlify.app/",
+    "repo_address": "https://github.com/renlin-code/timemaster_frontend",
+    "img_url": "https://imgur.com/UkNyv8P.png",
+    "stack": ["html", "css", "js", "sass", "vue", "nuxt"]
   },
   {
-    "file_name": "logist",
-    "deploy_address": "https://logistllc.ru",
-    "img_url": "https://imgur.com/3njrv8c.jpg",
-    "stack": ["HTML", "CSS", "JavaScript", "SASS", "Vue", "Nuxt", "PHP", "Wordpress"]
+    "file_name": "timemaster_back",
+    "deploy_address": "https://time-master.netlify.app/",
+    "repo_address": "https://github.com/renlin-code/time-master_backend",
+    "img_url": "https://imgur.com/UfeYIXh.png",
+    "stack": ["js", "node", "express", "sequelize", "postgres"]
   },
   {
-    "file_name": "mir-kv",
-    "deploy_address": "https://mirkv.ru",
-    "img_url": "https://imgur.com/pAAN7d0.jpg",
-    "stack": ["HTML", "CSS", "JavaScript", "SASS", "Vue", "Nuxt", "Node JS", "Express", "Prisma ORM"]
+    "file_name": "spyfall",
+    "deploy_address": "https://spyfall-game.netlify.app/#",
+    "repo_address": "https://github.com/renlin-code/spyfall_2.0",
+    "img_url": "https://imgur.com/izC2j8g.png",
+    "stack": ["html", "css", "js", "sass", "vue"]
   },
   {
-    "file_name": "skytechnic",
-    "deploy_address": "https://skytechnic.aero",
-    "img_url": "https://imgur.com/fw0e2iI.jpg",
-    "stack": ["HTML", "CSS", "JavaScript", "SASS", "Vue", "Nuxt", "PHP", "Wordpress"]
-  },
-  {
-    "file_name": "akit",
-    "deploy_address": "https://akit.ru",
-    "img_url": "https://imgur.com/k31WsWo.jpg",
-    "stack": ["HTML", "CSS", "JavaScript", "SASS", "Vue", "Nuxt", "PHP", "Wordpress"]
-  },
-  {
-    "file_name": "sonex",
-    "deploy_address": "https://nelprow3.fvds.ru",
-    "img_url": "https://imgur.com/UzVumoZ.jpg",
-    "stack": ["HTML", "CSS", "JavaScript", "PHP", "1C Bitrix"]
-  },
-  {
-    "file_name": "nasledie",
-    "deploy_address": "https://nasledie.digital",
-    "img_url": "https://imgur.com/rd0fszb.jpg",
-    "stack": ["HTML", "CSS", "JavaScript", "SASS", "Vue", "Nuxt", "PHP", "Wordpress"]
-  },
-  {
-    "file_name": "omnicdek",
-    "deploy_address": "https://omnicdek.ru/",
-    "img_url": "https://imgur.com/dbUnquQ.jpg",
-    "stack": ["HTML", "CSS", "JavaScript", "Tilda"]
+    "file_name": "skills-booster",
+    "deploy_address": "https://skills-booster.ru",
+    "repo_address": null,
+    "img_url": "https://imgur.com/J08h9KT.png",
+    "stack": ["html", "css", "js", "sass", "vue", "nuxt", "php", "wordpress"]
   }
 ]

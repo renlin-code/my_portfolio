@@ -42,12 +42,8 @@
 <script setup>
 import Modal from "@/components/Layout/Modal.vue";
 import ModalCertificates from "@/components/Modals/ModalCertificates.vue";
-import { ref, onMounted } from "vue";
 import certificates from "/public/data/certificates.json";
 
-const getImageUrl = (path) => {
-  return new URL(path, import.meta.url)    
-} 
 const clientWidth = ref(null);
 const flkty = ref(null);
 
@@ -81,7 +77,7 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .certificates {
   width: 100%;
   background: $black-color;
@@ -98,7 +94,7 @@ onMounted(() => {
   }
   &__wrapper {
     display: grid;
-    grid-template-columns: 450rem 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 100rem;
     justify-content: space-between;
     align-items: flex-start;
@@ -118,27 +114,25 @@ onMounted(() => {
   &__slider {
     position: relative;
     width: 100%;
-    height: 313rem;
     overflow: hidden;
     padding: 40rem 0;
     @media only screen and (max-width: 650px) {
-      height: 327rem;
+      height: 320rem;
     }
     &-wrapper {
       width: 100%;
       height: 100%;
     }
     &-slide {
-      width: 300rem;
-      height: 232rem;
+      display: flex;
+      width: 432rem;
       margin: 0 200rem;
       border-radius: 10rem;
       overflow: hidden;
       box-shadow: 4rem 8rem 50rem rgba(0, 0, 0, 0.81);
       cursor: url("@/assets/cursors/loupe.cur"), auto;
       @media only screen and (max-width: 650px) {
-        width: 260rem;
-        height: 200rem;
+        width: calc(100% - 30rem);
         margin: 0 50rem;
       }
       img {
@@ -193,25 +187,29 @@ onMounted(() => {
       }
     }
 
-    .flickity {
+    &::v-deep .flickity {
       &-viewport {
         overflow: visible;
         cursor: default !important;
       }
       &-prev-next-button {
         z-index: 1;
-        width: 26rem;
-        height: 26rem;
+        width: 46rem;
+        height: 46rem;
         background: transparent;
         color: $main-color;
         transform: none;
         transition: all 300ms ease-in-out;
+        @media only screen and (max-width: 650px) {
+          width: 36rem;
+          height: 36rem;
+        }
         &:hover {
           background: $white-color;
           color: $very-black-color;
         }
         @media only screen and (max-width: 650px) {
-          bottom: -20rem;
+          bottom: -36rem;
           top: unset;
         }
         &.previous {

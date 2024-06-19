@@ -1,39 +1,37 @@
 {
   "seo_metadata": {
-    "title": "Desarrollador frontend René Linares",
-    "description": "¡Hola! Mi nombre es René, y soy desarrollador frontend con 3 años de experiencia.<br />Tengo experiencia profesional en el desarollo frontend en especial con los frameworks Vue y Nuxt."
+    "title": "Desarrollador fullstack René Linares",
+    "description": "¡Hola! Mi nombre es René, y soy desarrollador frontend con 3 años de experiencia. Tengo experiencia profesional en el desarollo frontend en especial con los frameworks Vue y Nuxt."
   },
   "nav_links": [
     "Sobre mí",
+    "Stack",
     "Certificados",
-    "Proyectos personales",
-    "Con mi participación",
+    "Mis trabajos",
+    "Mis proyectos",
     "Contactos"
   ],
   "hero_section": {
-    "title": "desarrollador frontend",
-    "subtitle": "René Linares"
+    "title": "desarrollador fullstack",
+    "subtitle": "René Linares",
+    "button": "Escríbeme"
   },
   "about_me_section": {
     "title": "Sobre mí",
-    "text": "¡Hola! Mi nombre es René, y soy desarrollador frontend con 3 años de experiencia.<br />Tengo experiencia profesional en el desarollo frontend en especial con los frameworks Vue y Nuxt.",
+    "top_text": "Soy un desarrollador Fullstack apasionado y altamente cualificado con experiencia en el diseño, desarrollo e implementación de aplicaciones web robustas.",
     "skills_block": {
-      "text": "Habilidades que poseo:",
-      "skills_list": [
-        "Sólidos conocimientos de HTML, CSS, JavaScript, TypeScript y preprocesador SASS/SCSS;",
-        "Conocimientos especializados en los frameworks Vue/Nuxt (options API y composition API) y en otros módulos de este ecosistema(Vue Router, Vuex, Pinia, Vuetify);",
-        "Maquetado compatibles con diferentes navegadores, responsivo y/o elástico, acorde a la metodología BEM, con código semántico, así como animaciones y transiciones CSS;",
-        "Profunda comprensión de la naturaleza asíncrona de JavaScript y su aplicación en el backend y frontend. Escritura de código asíncrono de alta calidad y con buenas prácticas para enviar/manejar solicitudes a APIs REST;",
-        "Dominio de las arquitecturas MVC y FLUX;",
-        "Buenos conocimientos del entorno de ejecución Node y el framework de backend Express.js;",
-        "Buenos conocimientos de TypeScript;",
-        "Buenos conocimientos de Websocket;",
-        "Conocimientos intermedios de React;",
-        "Conocimientos básicos de otras tecnologías como SQL, PostgreSQL y Go;",
-        "Trabajo con la terminal y uso del sistema de control de versiones Git en cada projecto;",
-        "Muy buen nivel de idioma ruso y nivel intermedio de inglés."
+      "text": "Estoy bien versado en el ciclo de vida de desarrollo de software y tengo un profundo conocimiento de tecnologías de front-end y back-end, que incluyen:",
+      "skills": [
+        "Front-end: HTML5, CSS3, JavaScript, Vue.js, Nuxt.js",
+        "Back-end: Go, Node.js, PHP, SQL, NoSQL, gRPC",
+        "Herramientas y tecnologías: Git, Docker, Shell"
       ]
-    }
+    },
+    "bottom_text": "Me encanta resolver problemas y desafíos complejos en mi trabajo. Estoy orientado a resultados de alta calidad, tengo una gran capacidad para aprender y adaptarme a nuevas tecnologías. Me gusta trabajar en equipo y crear soluciones innovadoras que satisfagan las necesidades de las empresas y los clientes."
+  },
+  "stack_section": {
+    "title": "Stack que uso en mi trabajo",
+    "also_text": "También uso:"
   },
   "certificates_section": {
     "title": "Certificados",
@@ -60,6 +58,91 @@
       "Curso de consumo de API REST con JavaScript",
       "Curso de Fundamentos de TypeScript",
       "Curso de Introducción y Fundamentos de Vue.js"
+    ]
+  },
+  "projects_for_companies_section": {
+    "title": "Algunos proyectos con mi participación",
+    "details_text": "Que hice yo en el projecto:",
+    "techs_text": "Stack del projecto:",
+    "load_more_text": "Ver más proyectos",
+    "projects_list": [
+      {
+        "title": "Constructor de cursos online para la formación de empleados de Sberbank",
+        "details": [
+          "Creación de nuevos componentes basados en el UI Kit de Sberbank;",
+          "Mantenimiento del Frontend (constructor e interfaz de estudiantes);",
+          "Interacción con el Backend a través de una API REST;",
+          "Integración con bibliotecas externas."
+        ]
+      },
+      {
+        "title": "Sitio web de proveedor de servicios de Internet con cuenta personal.",
+        "details": [
+          "Maquetación de todas las páginas según el diseño;",
+          "Creación de un interruptor entre temas oscuros y claros;",
+          "Escritura y programación de todo el Frontend en Nuxt2 (Options API);",
+          "Interacción con el Backend a través de una API REST;",
+          "Gestión de la sesión utilizando JWT y localStorage."
+        ]
+      },
+      {
+        "title": "Sitio web de una empresa logística con cuenta personal",
+        "details": [
+          "Maquetación elástica de todas las páginas según el diseño;",
+          "Escribir y programar Frontend en Nuxt2 (Options API);",
+          "Interacción con Backend a través de API;",
+          "Creación de animaciones para todo el sitio web y un preloader complejo;",
+          "(Aún en desarrollo)"
+        ]
+      },
+      {
+        "title": "Sitio web de agencia de inmobiliarios con catálogo de objetos",
+        "details": [
+          "Mantenimiento del Frontend y Backend del projecto y escritura de nuevos componentes en Nuxt2 (Options API);",
+          "Desarrollo de nuevas funcionalidades en el Backend;",
+          "Interacción con el Backend a través de una API REST."
+        ]
+      },
+      {
+        "title": "Sitio web corporativo para la empresa SKYTECHNIC",
+        "details": [
+          "Escritura y programación de todo el Frontend en Nuxt2 (Options API);",
+          "Interacción con el Backend a través de una API REST;",
+          "Creación de animaciones para todo el sitio web y un preloader complejo."
+        ]
+      },
+      {
+        "title": "Sitio web corporativo con análisis de mercado de comercio electrónico en Rusia",
+        "details": [
+          "Mantenimiento del Frontend y Backend del projecto y escritura de nuevos componentes en Nuxt2 (Options API);",
+          "Desarrollo de nuevas funcionalidades en el Backend;",
+          "Interacción con el Backend a través de una API REST."
+        ]
+      },
+      {
+        "title": "Tienda en línea de lámparas y candelabros al por mayor",
+        "details": [
+          "Maquetación elástica de todas las páginas según el diseño;",
+          "Escritura de algunas funcionalidades en JS nativo;",
+          "(Aún en desarrollo)"
+        ]
+      },
+      {
+        "title": "Nasledie - Portal para crear una “cápsula de la vida”",
+        "details": [
+          "Maquetación elástica de algunas páginas según el diseño;",
+          "Escritura de algunas funcionalidades en JS nativo;",
+          "(Aún en desarrollo)"
+        ]
+      },
+      {
+        "title": "Sitio web hecho con Tilda con integración a otros servicios",
+        "details": [
+          "Personalización de algunos bloques utilizando CSS;",
+          "Integración con Unisender y Bitrix24;",
+          "Escritura de código adicional en JS nativo para funcionalidades personalizadas."
+        ]
+      }
     ]
   },
   "personal_projects_section": {
@@ -104,83 +187,6 @@
           "Personalización del panel de administración de Wordpress usando lenguaje PHP;",
           "Creación de un Backend y una API;",
           "Integración con CMS (Wordpress) a través de API."
-        ]
-      }
-    ]
-  },
-  "projects_for_companies_section": {
-    "title": "Algunos proyectos con mi participación",
-    "details_text": "Que hice yo en el projecto:",
-    "techs_text": "Stack del projecto:",
-    "load_more_text": "Ver más proyectos",
-    "projects_list": [
-      {
-        "title": "Sitio web de proveedor de servicios de Internet con cuenta personal.",
-        "details": [
-          "Maquetación de todas las páginas según el diseño;",
-          "Creación de un interruptor entre temas oscuros y claros;",
-          "Escritura y programación de todo el Frontend en Nuxt2 (Options API);",
-          "Interacción con el Backend a través de una API REST;",
-          "Gestión de la sesión utilizando JWT y localStorage;",
-          "(Aún en desarrollo)"
-        ]
-      },
-      {
-        "title": "Sitio web de una empresa logística con cuenta personal",
-        "details": [
-          "Maquetación elástica de todas las páginas según el diseño;",
-          "Escribir y programar Frontend en Nuxt2 (Options API);",
-          "Interacción con Backend a través de API;",
-          "Creación de animaciones para todo el sitio web y un preloader complejo;",
-          "(Aún en desarrollo)"
-        ]
-      },
-      {
-        "title": "Sitio web de agencia de inmobiliarios con catálogo de objetos",
-        "details": [
-          "Soporte del Frontend y Backend del projecto y escritura de nuevos componentes en Nuxt2 (Options API);",
-          "Interacción con el Backend a través de una API REST;",
-          "Correcciones en el sitio web."
-        ]
-      },
-      {
-        "title": "Sitio web corporativo para la empresa SKYTECHNIC",
-        "details": [
-          "Escritura y programación de todo el Frontend en Nuxt2 (Options API);",
-          "Interacción con el Backend a través de una API REST;",
-          "Creación de animaciones para todo el sitio web y un preloader complejo."
-        ]
-      },
-      {
-        "title": "Sitio web corporativo con análisis de mercado de comercio electrónico en Rusia",
-        "details": [
-          "Soporte del Frontend y Backend del projecto y escritura de nuevos componentes en Nuxt2 (Options API);",
-          "Interacción con el Backend a través de una API REST;",
-          "Correcciones en el sitio web."
-        ]
-      },
-      {
-        "title": "Tienda en línea de lámparas y candelabros al por mayor",
-        "details": [
-          "Maquetación elástica de todas las páginas según el diseño;",
-          "Escritura de algunas funcionalidades en JS nativo;",
-          "(Aún en desarrollo)"
-        ]
-      },
-      {
-        "title": "Nasledie - Portal para crear una “cápsula de la vida”",
-        "details": [
-          "Maquetación elástica de algunas páginas según el diseño;",
-          "Escritura de algunas funcionalidades en JS nativo;",
-          "(Aún en desarrollo)"
-        ]
-      },
-      {
-        "title": "Sitio web hecho con Tilda con integración a otros servicios",
-        "details": [
-          "Personalización de algunos bloques utilizando CSS;",
-          "Integración con Unisender y Bitrix24;",
-          "Escritura de código adicional en JS nativo para funcionalidades personalizadas."
         ]
       }
     ]

@@ -4,10 +4,7 @@
       {{ selected + 1 }} / {{ certificates.length }}
     </div>
     <div class="modal-certificates__slider">
-      <figure
-        class="modal-certificates__slider-slide"
-        v-for="certificate in certificates"
-      >
+      <figure class="modal-certificates__slider-slide" v-for="certificate in certificates">
         <img :src="`/images/certificates/${certificate.file_name}.png`" alt="" />
       </figure>
     </div>
@@ -18,7 +15,6 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
 import certificates from "/public/data/certificates.json";
 
 const props = defineProps({
@@ -57,45 +53,42 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .modal-certificates {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   &__counter {
     color: $white-color;
     justify-self: center;
-    font-size: 20rem;
-    line-height: 26rem;
-    font-weight: 600;
     margin-bottom: 30rem;
-    @media only screen and (max-width: 650px) {
-      font-size: 16rem;
-      line-height: 22rem;
-    }
   }
+
   &__slider {
-    width: 1300rem;
-    height: 436rem;
+    width: 1500rem;
+    height: 536rem;
+
     @media only screen and (max-width: 650px) {
       width: 100%;
       height: 223rem;
     }
+
     &-slide {
-      width: 560rem;
+      width: 692rem;
       height: 100%;
       margin: 0 30%;
       box-shadow: 4rem 8rem 50rem rgba(0, 0, 0, 0.81);
-      background: radial-gradient(
-        circle,
-        $secondary-color 0%,
-        $black-color 100%
-      );
+      background: radial-gradient(circle,
+          $secondary-color 0%,
+          $black-color 100%);
+
       @media only screen and (max-width: 650px) {
         width: calc(100% - 30rem);
         margin: 0 10rem;
       }
+
       img {
         width: 100%;
         height: 100%;
@@ -103,6 +96,7 @@ onMounted(() => {
       }
     }
   }
+
   &__description {
     color: $white-color;
     width: 1040rem;
@@ -112,6 +106,7 @@ onMounted(() => {
     line-height: 26rem;
     font-weight: 600;
     margin-top: 30rem;
+
     @media only screen and (max-width: 650px) {
       width: calc(100% - 30rem);
       min-height: 100rem;
@@ -119,40 +114,51 @@ onMounted(() => {
       line-height: 22rem;
     }
   }
-  .flickity {
+
+  &::v-deep .flickity {
     &-viewport {
       overflow: visible;
       cursor: default !important;
     }
+
     &-prev-next-button {
       z-index: 1;
-      width: 26rem;
-      height: 26rem;
+      width: 46rem;
+      height: 46rem;
       background: transparent;
       color: $main-color;
       transform: none;
       transition: all 300ms ease-in-out;
+
       &:hover {
         background: $white-color;
         color: $very-black-color;
       }
+
       @media only screen and (max-width: 650px) {
+        width: 36rem;
+        height: 36rem;
         bottom: -190rem;
         top: unset;
       }
+
       &.previous {
         left: 20rem;
+
         @media only screen and (max-width: 650px) {
           left: 110rem;
         }
       }
+
       &.next {
         right: 20rem;
+
         @media only screen and (max-width: 650px) {
           right: 110rem;
         }
       }
     }
+
     &-button:focus {
       box-shadow: none;
     }

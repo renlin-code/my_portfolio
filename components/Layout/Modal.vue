@@ -9,7 +9,6 @@
 
 <script setup>
 import Close from "@/components/Icons/close.vue";
-import { onMounted, onBeforeUnmount } from "vue";
 
 onMounted(() => {
   document.querySelector("body").style.overflowY = "hidden";
@@ -38,9 +37,13 @@ const emit = defineEmits(["close"]);
     position: absolute;
     top: 20rem;
     right: 20rem;
-    width: 16rem;
-    height: 16rem;
+    width: 24rem;
+    height: 24rem;
     display: flex;
+    @media only screen and (max-width: 650px) {
+      width: 20rem;
+      height: 20rem;
+    }
   }
 }
 </style>

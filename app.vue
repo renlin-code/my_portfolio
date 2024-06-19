@@ -2,12 +2,12 @@
   <div class="container">
     <Header />
     <main class="container__main">
-      <div class="header-spaceholder"></div>
       <Hero />
       <AboutMe />
+      <MyStack />
       <Certificates />
       <MyWorks />
-      <ProjectsWithMe />
+      <MyProjects />
       <Contacts />
     </main>
     <Footer />
@@ -18,10 +18,11 @@
 import Header from "@/components/Layout/Header.vue";
 import Hero from "@/components/Sections/Hero.vue";
 import AboutMe from "@/components/Sections/AboutMe.vue";
+import MyStack from "@/components/Sections/MyStack.vue";
 import Certificates from "@/components/Sections/Certificates.vue";
-import MyWorks from "@/components/Sections/MyWorks.vue";
+import MyProjects from "@/components/Sections/MyProjects.vue";
 import Contacts from "@/components/Sections/Contacts.vue";
-import ProjectsWithMe from "@/components/Sections/ProjectsWithMe.vue";
+import MyWorks from "@/components/Sections/MyWorks.vue";
 import Footer from "@/components/Layout/Footer.vue";
 import seoHeadTags from '@/helpers/seoHeadTags';
 

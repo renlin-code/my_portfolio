@@ -5,42 +5,22 @@
       <div class="contacts__wrapper">
         <ul class="contacts__list">
           <li>
-            <a
-              class="opacity"
-              href="mailto:renelj1997@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a class="opacity" href="mailto:renelj1997@gmail.com" target="_blank" rel="noopener noreferrer">
               <contactIcon type="email" />
             </a>
           </li>
           <li>
-            <a
-              class="opacity"
-              href="https://wa.me/+79373217299"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a class="opacity" href="https://wa.me/+79373217299" target="_blank" rel="noopener noreferrer">
               <contactIcon type="whatsapp" />
             </a>
           </li>
           <li>
-            <a
-              class="opacity"
-              href="https://t.me/rene_linares"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a class="opacity" href="https://t.me/rene_linares" target="_blank" rel="noopener noreferrer">
               <contactIcon type="telegram" />
             </a>
           </li>
           <li>
-            <a
-              class="opacity"
-              href="https://github.com/renlin-code"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a class="opacity" href="https://github.com/renlin-code" target="_blank" rel="noopener noreferrer">
               <contactIcon type="github" />
             </a>
           </li>
@@ -62,37 +42,55 @@ import contactIcon from "../Icons/contactIcon.vue";
 .contacts {
   width: 100%;
   background: $black-color;
+
   &__title {
     color: $white-color;
   }
+
   &__wrapper {
     display: flex;
     justify-content: space-between;
+
     @media only screen and (max-width: 650px) {
       flex-direction: column;
-      gap: 20rem;
+      gap: 40rem;
     }
   }
+
   &__list {
     display: flex;
     gap: 20rem;
     list-style: none;
+
+    @media only screen and (max-width: 650px) {
+      gap: 18rem;
+    }
+
     li {
       a {
         display: block;
-        width: 26rem;
-        height: 26rem;
+        width: 45rem;
+        height: 45rem;
+
+        @media only screen and (max-width: 650px) {
+          width: 30rem;
+          height: 30rem;
+        }
       }
     }
-    @media only screen and (max-width: 650px) {
-      gap: 24rem;
-    }
   }
+
   &__phone {
     display: grid;
-    grid-template-columns: 20rem 1fr;
+    grid-template-columns: 30rem 1fr;
     align-items: center;
     gap: 14rem;
+
+    @media only screen and (max-width: 650px) {
+      grid-template-columns: 20rem 1fr;
+      gap: 10rem;
+    }
+
     span {
       color: $white-color;
       font-family: "Open Sans", sans-serif;

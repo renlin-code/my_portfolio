@@ -17,13 +17,13 @@ const props = defineProps({
 
 <style scoped lang="scss">
 .burger {
-  width: 28rem;
-  height: 20rem;
+  width: 34rem;
+  height: 23rem;
   position: relative;
   cursor: pointer;
   transition: all 0.4s ease;
   &__strip {
-    width: 28rem;
+    width: 34rem;
     height: 2rem;
     border-radius: 1rem;
     transition: all 0.4s ease;

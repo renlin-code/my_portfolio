@@ -1,39 +1,37 @@
 {
   "seo_metadata": {
-    "title": "Frontend developer Rene Linares",
-    "description": "Hi! My name is Rene, and I am a frontend developer with 3 years of experience.<br />I have professional experience in frontend development, especially with the Vue and Nuxt frameworks."
+    "title": "Fullstack developer Rene Linares",
+    "description": "Hi! My name is Rene, and I am a frontend developer with 3 years of experience. I have professional experience in frontend development, especially with the Vue and Nuxt frameworks."
   },
   "nav_links": [
     "About me",
+    "Stack",
     "Certificates",
-    "Personal projects",
-    "My participation",
+    "My works",
+    "My projects",
     "Contacts"
   ],
   "hero_section": {
-    "title": "frontend developer",
-    "subtitle": "Rene Linares"
+    "title": "fullstack developer",
+    "subtitle": "Rene Linares",
+    "button": "Contact me"
   },
   "about_me_section": {
     "title": "About me",
-    "text": "Hi! My name is Rene, and I am a frontend developer with 3 years of experience.<br />I have professional experience in frontend development, especially with the Vue and Nuxt frameworks.",
+    "top_text": "I am a passionate and highly skilled Fullstack developer with experience in designing, developing, and implementing robust web applications.",
     "skills_block": {
-      "text": "Skills I have:",
-      "skills_list": [
-        "Solid knowledge of HTML, CSS, JavaScript, SASS/SCSS preprocessor, Vue and Nuxt frameworks;",
-        "Specialized knowledge of the framework Vue/Nuxt (options API and compositions API) and other modules of this ecosystem (Vue Router, Vuex, Pinia, Vuetify);",
-        "Creating cross-browser compatible, responsive, and/or fluid layouts with valid code, as well as CSS animations and transitions;",
-        "Deep understanding of JavaScript's asynchronous nature and its application in Backend and Frontend. Writing high-quality and grammatically correct asynchronous code for sending/handling requests to REST APIs;",
-        "Good understanding of the MVC and FLUX architectures;",
-        "Good knowledge of Node runtime environment and Express.js backend framework;",
-        "Good knowledge of TypeScript;",
-        "Good understanding of Websocket;", 
-        "Average knowledge of React;", 
-        "Basic knowledge of other technologies such as SQL, PostgreSQL, Go;",
-        "Working with the terminal and using Git version control system in every project;",
-        "Perfect knowledge of Russian and intermediate in English."
+      "text": "I am well-versed in the software development lifecycle and have a deep understanding of both front-end and back-end technologies, including:",
+      "skills": [
+        "Front-end: HTML5, CSS3, JavaScript, Vue.js, Nuxt.js",
+        "Back-end: Go, Node.js, PHP, SQL, NoSQL, gRPC",
+        "Tools and technologies: Git, Docker, Shell"
       ]
-    }
+    },
+    "bottom_text": "I love solving complex problems and challenges in my work. I am results-oriented with a strong ability to learn and adapt to new technologies. I enjoy working in a team environment and creating innovative solutions that meet the needs of businesses and clients."
+  },
+  "stack_section": {
+    "title": "Stack I use in work",
+    "also_text": "Also I use:"
   },
   "certificates_section": {
     "title": "Certificates",
@@ -60,6 +58,91 @@
       "Course on REST API with JavaScript",
       "Introduction to TypeScript Course",
       "Introduction to Vue.js Course"
+    ]
+  },
+  "projects_for_companies_section": {
+    "title": "Some projects with my participation",
+    "details_text": "What I did for the project:",
+    "techs_text": "Project stack:",
+    "load_more_text": "View more projects",
+    "projects_list": [
+      {
+        "title": "Online course designer for training Sberbank employees",
+        "details": [
+          "Creation of new components based on the Sberbank UI Kit;",
+          "Support for Frontend (constructor and student interface);",
+          "Interaction with the Backend through a REST API;",
+          "Integration with external libraries."        
+        ]
+      },
+      {
+        "title": "Website for an Internet service provider with a personal account",
+        "details": [
+          "Elastic layout of all pages according to the design;",
+          "Creation of a toggle switch between dark and light themes;",
+          "Writing and programming the entire Frontend using Nuxt2 (Options API);",
+          "Interaction with Backend through REST API;",
+          "Account management using JWT and localStorage."
+        ]
+      },
+      {
+        "title": "Website for a logistics company with a personal account",
+        "details": [
+          "Elastic layout of all pages according to the design;",
+          "Writing and programming Frontend using Nuxt2 (Options API);",
+          "Interaction with Backend through API;",
+          "Creation of animation for the entire website and a complex preloader;",
+          "(Still in development)"
+        ]
+      },
+      {
+        "title": "Website for a real estate agency with a property catalog",
+        "details": [
+          "Support for Frontend and Backend of the project and writing new components on Nuxt2 (Options API);",
+          "Development of new functionalities in the Backend;",
+          "Interaction with Backend through REST API."
+        ]
+      },
+      {
+        "title": "Corporate website of SKYTECHNIC company",
+        "details": [
+          "Writing and programming the entire Frontend in Nuxt2 (Options API);",
+          "Interaction with Backend through REST API;",
+          "Creating animation for the entire website and complex preloader."
+        ]
+      },
+      {
+        "title": "Corporate website with market analytics for E-commerce in Russia",
+        "details": [
+          "Support for Frontend project and writing new components on Nuxt2 (Options API);",
+          "Development of new functionalities in the Backend;",
+          "Interaction with Backend through REST API."
+        ]
+      },
+      {
+        "title": "Wholesale online store for lamps and chandeliers",
+        "details": [
+          "Elastic layout of all pages based on the design;",
+          "Writing some functionalities in native JS;",
+          "(Still in development)"
+        ]
+      },
+      {
+        "title": "Nasledie - a portal for creating a “Life Capsule”",
+        "details": [
+          "Elastic layout of certain pages based on the design;",
+          "Writing some functionalities in native JS;",
+          "(Still in development)"
+        ]
+      },
+      {
+        "title": "Website on Tilda with integration with other services.",
+        "details": [
+          "Customizing some blocks using CSS;",
+          "Integration with Unisender and Bitrix24;",
+          "Writing additional code in native JS for custom functionalities."
+        ]
+      }
     ]
   },
   "personal_projects_section": {
@@ -104,83 +187,6 @@
           "Customization of the Wordpress admin panel using PHP language;",
           "Creating a Backend and API;",
           "Integration with CMS (Wordpress) through API."
-        ]
-      }
-    ]
-  },
-  "projects_for_companies_section": {
-    "title": "Some projects with my participation",
-    "details_text": "What I did for the project:",
-    "techs_text": "Project stack:",
-    "load_more_text": "View more projects",
-    "projects_list": [
-      {
-        "title": "Website for an Internet service provider with a personal account",
-        "details": [
-          "Elastic layout of all pages according to the design;",
-          "Creation of a toggle switch between dark and light themes;",
-          "Writing and programming the entire Frontend using Nuxt2 (Options API);",
-          "Interaction with Backend through REST API;",
-          "Account management using JWT and localStorage;",
-          "(Still in development)"
-        ]
-      },
-      {
-        "title": "Website for a logistics company with a personal account",
-        "details": [
-          "Elastic layout of all pages according to the design;",
-          "Writing and programming Frontend using Nuxt2 (Options API);",
-          "Interaction with Backend through API;",
-          "Creation of animation for the entire website and a complex preloader;",
-          "(Still in development)"
-        ]
-      },
-      {
-        "title": "Website for a real estate agency with a property catalog",
-        "details": [
-          "Support for Frontend and Backend of the project and writing new components on Nuxt2 (Options API);",
-          "Interaction with Backend through REST API;",
-          "Site modifications."
-        ]
-      },
-      {
-        "title": "Corporate website of SKYTECHNIC company",
-        "details": [
-          "Writing and programming the entire Frontend in Nuxt2 (Options API);",
-          "Interaction with Backend through REST API;",
-          "Creating animation for the entire website and complex preloader."
-        ]
-      },
-      {
-        "title": "Corporate website with market analytics for E-commerce in Russia",
-        "details": [
-          "Support for Frontend project and writing new components on Nuxt2 (Options API);",
-          "Interaction with Backend through REST API;",
-          "Site modifications."
-        ]
-      },
-      {
-        "title": "Wholesale online store for lamps and chandeliers",
-        "details": [
-          "Elastic layout of all pages based on the design;",
-          "Writing some functionalities in native JS;",
-          "(Still in development)"
-        ]
-      },
-      {
-        "title": "Nasledie - a portal for creating a “Life Capsule”",
-        "details": [
-          "Elastic layout of certain pages based on the design;",
-          "Writing some functionalities in native JS;",
-          "(Still in development)"
-        ]
-      },
-      {
-        "title": "Website on Tilda with integration with other services.",
-        "details": [
-          "Customizing some blocks using CSS;",
-          "Integration with Unisender and Bitrix24;",
-          "Writing additional code in native JS for custom functionalities."
         ]
       }
     ]

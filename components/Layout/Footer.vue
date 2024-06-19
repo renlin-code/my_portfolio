@@ -14,10 +14,6 @@
             </ul>
           </nav>
           <div class="footer__right">
-            <a class="footer__phone opacity" href="tel:+79373217299">
-              <contactIcon type="phone" class="footer__phone-icon" />
-              <span class="renlincode-text">+7 (937) 321 72 99</span>
-            </a>
             <span class="footer__link">
               {{ $t('footer.link_text') }}
               <a
@@ -30,6 +26,7 @@
             </span>
           </div>
         </div>
+        <span class="footer__copyright">© {{ new Date().getFullYear() }} | Rene Linares</span>
       </div>
     </div>
   </footer>
@@ -47,8 +44,11 @@ const LINKS = [
 <style scoped lang="scss">
 .footer {
   width: 100%;
-  padding: 40rem 0;
+  padding: 40rem 0 30rem;
   background: $very-black-color;
+  @media only screen and (max-width: 650px) {
+    padding-bottom: 20rem;
+  }
   &__logo {
     display: flex;
     justify-content: center;
@@ -57,11 +57,9 @@ const LINKS = [
       margin-bottom: 50rem;
     }
     svg {
-      width: 177rem;
-      height: 23rem;
+      width: 214rem;
       @media only screen and (max-width: 650px) {
-        width: 150rem;
-        height: 20rem;
+        width: 110rem;
       }
     }
   }
@@ -98,17 +96,19 @@ const LINKS = [
       gap: 16rem;
     }
   }
-  &__phone {
-    display: grid;
-    grid-template-columns: 20rem 1fr;
-    align-items: center;
-    gap: 14rem;
-    span {
-      color: $white-color;
-    }
-  }
   &__link {
     color: $white-color;
+  }
+  &__copyright {
+    display: block;
+    text-align: center;
+    color: $white-color;
+    opacity: 0.4;
+    font-size: 16rem;
+    margin-top: 30rem;
+    @media only screen and (max-width: 650px) {
+      font-size: 14rem;
+    }
   }
 }
 </style>

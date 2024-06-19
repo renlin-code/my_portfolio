@@ -19,10 +19,10 @@ body::-webkit-scrollbar-thumb {
 .renlincode {
   &-big-title {
     font-family: "Russo One", sans-serif;
-    font-size: 96rem;
-    line-height: 120rem;
+    font-size: 130rem;
+    line-height: 164rem;
     letter-spacing: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     @media only screen and (max-width: 650px) {
       font-size: 60rem;
       line-height: 62rem;
@@ -30,26 +30,38 @@ body::-webkit-scrollbar-thumb {
   }
   &-title {
     font-family: "Russo One", sans-serif;
-    font-size: 40rem;
-    line-height: 41.5rem;
-    font-weight: 600;
+    font-size: 54rem;
+    line-height: 56rem;
+    font-weight: 400;
     @media only screen and (max-width: 650px) {
-      font-size: 30rem;
+      font-size: 36rem;
+      line-height: 50rem;
     }
   }
   &-subtitle {
-    font-family: "Russo One", sans-serif;
-    font-size: 20rem;
-    line-height: 26rem;
+    font-size: 27rem;
+    line-height: 34rem;
     font-weight: 600;
     @media only screen and (max-width: 650px) {
+      font-size: 20rem;
+      line-height: 24rem;
+    }
+  }
+  &-big-text {
+    font-size: 24rem;
+    line-height: 27rem;
+    @media only screen and (max-width: 650px) {
       font-size: 16rem;
-      line-height: 22rem;
+      line-height: 18rem;  
     }
   }
   &-text {
-    font-size: 14rem;
-    line-height: 20rem;
+    font-size: 22rem;
+    line-height: 27rem;
+    @media only screen and (max-width: 650px) {
+      font-size: 17rem;
+      line-height: 24rem;  
+    }
   }
   &-link {
     color: $main-color;
@@ -58,30 +70,37 @@ body::-webkit-scrollbar-thumb {
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 14rem;
-  line-height: 20rem;
+  font-size: 22rem;
+  line-height: 30rem;
+  @media only screen and (max-width: 650px) {
+    font-size: 17rem;
+    line-height: 24rem;  
+  }
 }
 
 .renlincode-section {
-  padding-top: 80rem;
-  padding-bottom: 80rem;
+  padding-top:150rem;
+  padding-bottom: 150rem;
   @media only screen and (max-width: 650px) {
-    padding-top: 50rem;
-    padding-bottom: 50rem;
+    padding-top: 60rem;
+    padding-bottom: 60rem;
   }
 }
 
 .section-title {
-  margin-bottom: 80rem;
-  letter-spacing: 1rem;
+  margin-bottom: 104rem;
+  letter-spacing: 1.37rem;
   &::before {
     content: "---";
-    letter-spacing: -3rem;
+    letter-spacing: -6rem;
     padding-right: 10rem;
     border-radius: 2rem;
   }
   @media only screen and (max-width: 650px) {
-    margin-bottom: 34rem;
+    margin-bottom: 30rem;
+    &::before {
+      display: none;
+    }
   }
 }
 
@@ -99,16 +118,12 @@ body {
 
 //LAYOUT
 .main-content-wrapper {
-  width: 1100rem;
+  width: 1740rem;
   margin: 0 auto;
   @media only screen and (max-width: 650px) {
     width: 100%;
     padding: 0 15rem;
   }
-}
-.header-spaceholder {
-  width: 100%;
-  height: 70rem;
 }
 
 //HOVER EFFECTS
