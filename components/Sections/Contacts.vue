@@ -82,13 +82,12 @@ import contactIcon from "../Icons/contactIcon.vue";
 
   &__phone {
     display: grid;
-    grid-template-columns: 30rem 1fr;
+    grid-template-columns: 35rem 1fr;
     align-items: center;
-    gap: 14rem;
+    gap: 4rem;
 
     @media only screen and (max-width: 650px) {
       grid-template-columns: 20rem 1fr;
-      gap: 10rem;
     }
 
     span {
