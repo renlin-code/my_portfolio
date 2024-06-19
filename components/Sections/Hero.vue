@@ -81,7 +81,7 @@ const contacts = computed(() => CONTACTS)
   }
 
   @media only screen and (max-width: 650px) {
-    padding-top: 68rem;
+    padding-top: 50rem;
     height: auto;
   }
 

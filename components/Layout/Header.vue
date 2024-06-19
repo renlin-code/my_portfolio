@@ -67,7 +67,7 @@ onMounted(() => {
   z-index: 2;
   padding: 10rem 0;
   @media only screen and (max-width: 650px) {
-    padding: 23rem 0;
+    padding: 14rem 0;
   }
   &__content {
     display: flex;
@@ -101,7 +101,7 @@ onMounted(() => {
     padding-top: 40rem;
     background: transparent;
     @media only screen and (max-width: 650px) {
-      padding-top: 23rem;
+      padding-top: 14rem;
       background: $very-black-color;
     }
   }

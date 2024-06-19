@@ -36,7 +36,7 @@ const emit = defineEmits(["selectedNavItem"]);
   @media only screen and (max-width: 650px) {
     display: grid;
     place-content: center;
-    gap: 70rem;
+    gap: 20rem;
     position: fixed;
     left: 100%;
     top: 64rem;
