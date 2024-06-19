@@ -45,8 +45,8 @@
       float: right;
       margin-top: -56rem;
       @media only screen and (max-width: 650px) {
-        font-size: 36rem;
-        line-height: 50rem;
+        font-size: 32rem;
+        line-height: 38rem;
         margin-top: -43rem;
       }
     }
