@@ -1,7 +1,7 @@
 {
   "seo_metadata": {
     "title": "Desarrollador fullstack René Linares",
-    "description": "¡Hola! Mi nombre es René, y soy fullstack developer con experiencia de 3 años en el desarrollo de aplicaciones web. Mi habilidad para trabajar tanto en el frontend como en el backend me permite crear soluciones completas y funcionales para las necesidades de mis clientes."
+    "description": "¡Hola! Mi nombre es René, y soy fullstack developer con experiencia de 3 años en el desarrollo de aplicaciones web. Mi habilidad para trabajar tanto en el Frontend como en el Backend me permite crear soluciones completas y funcionales para las necesidades de mis clientes."
   },
   "nav_links": [
     "Sobre mí",
@@ -20,7 +20,7 @@
     "title": "Sobre mí",
     "top_text": "Soy un desarrollador Fullstack apasionado y altamente cualificado con experiencia en el diseño, desarrollo e implementación de aplicaciones web robustas.",
     "skills_block": {
-      "text": "Estoy bien versado en el ciclo de vida de desarrollo de software y tengo un profundo conocimiento de tecnologías de front-end y back-end, que incluyen:",
+      "text": "Estoy bien versado en el ciclo de vida de desarrollo de software y tengo un profundo conocimiento de tecnologías de Frontend y Backend, que incluyen:",
       "skills": [
         "Front-end: HTML5, CSS3, JavaScript, Vue.js, Nuxt.js",
         "Back-end: Go, Node.js, PHP, SQL, NoSQL, gRPC",
@@ -62,8 +62,8 @@
   },
   "projects_for_companies_section": {
     "title": "Algunos proyectos con mi participación",
-    "details_text": "Que hice yo en el projecto:",
-    "techs_text": "Stack del projecto:",
+    "details_text": "Que hice yo en el proyecto:",
+    "techs_text": "Stack del proyecto:",
     "load_more_text": "Ver más proyectos",
     "projects_list": [
       {
@@ -98,7 +98,7 @@
       {
         "title": "Sitio web de agencia de inmobiliarios con catálogo de objetos",
         "details": [
-          "Mantenimiento del Frontend y Backend del projecto y escritura de nuevos componentes en Nuxt2 (Options API);",
+          "Mantenimiento del Frontend y Backend del proyecto y escritura de nuevos componentes en Nuxt2 (Options API);",
           "Desarrollo de nuevas funcionalidades en el Backend;",
           "Interacción con el Backend a través de una API REST."
         ]
@@ -114,7 +114,7 @@
       {
         "title": "Sitio web corporativo con análisis de mercado de comercio electrónico en Rusia",
         "details": [
-          "Mantenimiento del Frontend y Backend del projecto y escritura de nuevos componentes en Nuxt2 (Options API);",
+          "Mantenimiento del Frontend y Backend del proyecto y escritura de nuevos componentes en Nuxt2 (Options API);",
           "Desarrollo de nuevas funcionalidades en el Backend;",
           "Interacción con el Backend a través de una API REST."
         ]
@@ -147,13 +147,13 @@
   },
   "personal_projects_section": {
     "title": "Mis proyectos personales",
-    "techs_text": "En este projecto he utilizado:",
+    "techs_text": "En este proyecto he utilizado:",
     "link_text": "Ver el repositorio",
     "projects_list": [
       {
         "title": "Blog sobre IT y cursos en línea",
         "details": [
-          "Maquteado elástico del diseño;",
+          "Maqueteado elástico del diseño;",
           "Creación y escritura de componentes y programación de su funcionalidad (Nuxt2 - Options API);",
           "Personalización del panel de administración de Wordpress usando lenguaje PHP;",
           "Creación de un Backend y una API;",
@@ -166,7 +166,7 @@
         "details": [
           "Maquetado elástico de diseño orientado a dispositivos móviles;",
           "Creación y escritura de componentes y programación de su funcionalidad (Nuxt2 - Options API);",
-          "Interacción con el backend a través de una API RESTful;",
+          "Interacción con el Backend a través de una API RESTful;",
           "Gestión de la cuenta de usuario utilizando JWT y localStorage;",
           "Despliegue de la aplicación en modo SPA (Single Page App) y PWA (Progressive Web App)."
         ]
@@ -186,7 +186,7 @@
         "details": [
           "Maquetado elástico de diseño orientado a dispositivos móviles;",
           "Creación y escritura de componentes y programación de su funcionalidad (Vue2 - Options API);",
-          "Uso de sessionStorage y localStorage para la persistencia de datos, ya que la aplicación funciona sin un backend;",
+          "Uso de sessionStorage y localStorage para la persistencia de datos, ya que la aplicación funciona sin un Backend;",
           "Vue-router para la navegación."
         ]
       }
