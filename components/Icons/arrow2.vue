@@ -4,8 +4,8 @@
 
 <style scoped lang="scss">
   svg {
-    width: 14rem;
-    height: 14rem;
+    width: 18rem;
+    height: 18rem;
     path {
       fill: $main-color;
     }
