@@ -22,8 +22,8 @@
     "skills_block": {
       "text": "Estoy bien versado en el ciclo de vida de desarrollo de software y tengo un profundo conocimiento de tecnologías de Frontend y Backend, que incluyen:",
       "skills": [
-        "Front-end: HTML5, CSS3, JavaScript, Vue.js, Nuxt.js",
-        "Back-end: Go, Node.js, PHP, SQL, NoSQL, gRPC",
+        "Frontend: HTML5, CSS3, JavaScript, Vue.js, Nuxt.js",
+        "Backend: Go, Node.js, PHP, SQL, NoSQL, gRPC",
         "Herramientas y tecnologías: Git, Docker, Shell"
       ]
     },
