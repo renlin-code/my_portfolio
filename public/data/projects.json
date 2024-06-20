@@ -1,5 +1,12 @@
 [
   {
+    "file_name": "mock-shop-api",
+    "deploy_address": "https://github.com/renlin-code/mock-shop-api",
+    "repo_address": "https://github.com/renlin-code/mock-shop-api",
+    "img_url": "/images/projects/mock-shop-api.png",
+    "stack": ["go", "postgres", "docker"]
+  },
+  {
     "file_name": "skills-booster",
     "deploy_address": "https://skills-booster.ru",
     "repo_address": null,

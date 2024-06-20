@@ -151,6 +151,17 @@
     "link_text": "View the repository",
     "projects_list": [
       {
+        "title": "API for an online store",
+        "details": [
+          "Service for user authorization and authentication using JWT;",
+          "User password recovery service;",
+          "Endpoints for a catalog with products and categories;",
+          "Private endpoints for catalog management;",
+          "Using of the Clean Architecture principle;",
+          "Containerization of the app using Docker."
+        ]
+      },
+      {
         "title": "Blog about IT and online courses",
         "details": [
           "Elastic layout design;",

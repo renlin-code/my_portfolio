@@ -151,6 +151,17 @@
     "link_text": "Ver el repositorio",
     "projects_list": [
       {
+        "title": "API para una tienda online",
+        "details": [
+          "Servicio de autorización y autenticación de usuarios a través de JWT;",
+          "Servicio de recuperación de contraseña del usuario;",
+          "Endpoints para catálogo de articulos y categorías;",
+          "Endpoints privados para administración del catálogo;",
+          "Uso del principio de Arquitectura Limpia;",
+          "Contenerización de la aplicación usando Docker."
+        ]
+      },
+      {
         "title": "Blog sobre IT y cursos en línea",
         "details": [
           "Maqueteado elástico del diseño;",
