@@ -73,6 +73,7 @@ const projectsResult = computed(() => {
   width: 100%;
   background: $black-color;
   padding-bottom: 0;
+  overflow: hidden;
   &__title {
     color: $white-color;
   }

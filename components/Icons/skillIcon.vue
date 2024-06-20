@@ -184,6 +184,9 @@ const iconData = computed(() => ICONS.find(i => i.key === props.type))
     color: $white-color;
     left: 0;
     top: -50rem;
+    @media only screen and (max-width: 650px) {
+      top: -44rem;
+    }
 
     &::before {
       content: "";
