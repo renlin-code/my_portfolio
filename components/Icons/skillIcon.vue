@@ -34,6 +34,7 @@ import ViteIcon from "@/public/images/skills_icons/ViteIcon.svg"
 import GitIcon from "@/public/images/skills_icons/GitIcon.svg"
 import FigmaIcon from "@/public/images/skills_icons/FigmaIcon.svg"
 import MongoIcon from "@/public/images/skills_icons/MongoIcon.svg"
+import SQLiteIcon from "@/public/images/skills_icons/SQLiteIcon.svg"
 
 const props = defineProps({
   type: {
@@ -163,6 +164,11 @@ const ICONS = [
     key: 'mongo',
     name: 'MongoDB',
     icon: MongoIcon
+  },
+  {
+    key: 'sqlite',
+    name: 'SQLite',
+    icon: SQLiteIcon
   },
 ]
 

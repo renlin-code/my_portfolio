@@ -151,13 +151,26 @@
     "link_text": "View the repository",
     "projects_list": [
       {
+        "title": "URL shortening API",
+        "details": [
+          "Endpoints for generating URLs and redirecting;",
+          "Private endpoints for generating custom URLs and for deleting them;",
+          "Using of the “Clean Architecture” principle;",
+          "Writing unit tests;",
+          "Writing functional tests;",
+          "Containerization of the app using Docker."
+        ]
+      },
+      {
         "title": "API for an online store",
         "details": [
           "Service for user authorization and authentication using JWT;",
           "User password recovery service;",
           "Endpoints for a catalog with products and categories;",
           "Private endpoints for catalog management;",
-          "Using of the Clean Architecture principle;",
+          "Using of the “Clean Architecture” principle;",
+          "Writing unit tests;",
+          "Writing Swagger documentation;",
           "Containerization of the app using Docker."
         ]
       },

@@ -1,5 +1,12 @@
 [
   {
+    "file_name": "go-shortener",
+    "deploy_address": "https://github.com/renlin-code/go-shortener",
+    "repo_address": "https://github.com/renlin-code/go-shortener",
+    "img_url": "/images/projects/go-shortener.png",
+    "stack": ["go", "sqlite", "docker"]
+  },
+  {
     "file_name": "mock-shop-api",
     "deploy_address": "https://github.com/renlin-code/mock-shop-api",
     "repo_address": "https://github.com/renlin-code/mock-shop-api",

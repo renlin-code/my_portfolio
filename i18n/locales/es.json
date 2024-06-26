@@ -151,13 +151,26 @@
     "link_text": "Ver el repositorio",
     "projects_list": [
       {
+        "title": "API para acortar URLs",
+        "details": [
+          "Endpoints para generar URLs y para redireccionarlas;",
+          "Endpoints privados para generar URLs personalizadas y para eliminarlas;",
+          "Uso del principio de “Arquitectura Limpia”;",
+          "Escritura de tests unitarios;",
+          "Escritura de tests funcionales;",
+          "Contenerización de la aplicación usando Docker."
+        ]
+      },
+      {
         "title": "API para una tienda online",
         "details": [
           "Servicio de autorización y autenticación de usuarios a través de JWT;",
           "Servicio de recuperación de contraseña del usuario;",
           "Endpoints para catálogo de articulos y categorías;",
           "Endpoints privados para administración del catálogo;",
-          "Uso del principio de Arquitectura Limpia;",
+          "Uso del principio de “Arquitectura Limpia”;",
+          "Escritura de tests unitarios;",
+          "Escritura de documentación Swagger;",
           "Contenerización de la aplicación usando Docker."
         ]
       },
