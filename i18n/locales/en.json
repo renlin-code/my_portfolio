@@ -71,7 +71,8 @@
         "details": [
           "Creation of new components based on the Sberbank UI Kit;",
           "Support for Frontend (constructor and student interface);",
-          "Interaction with the Backend through a REST API;",
+          "Interaction with the Backend through a REST API and WebSocket;",
+          "Creation of new features with TypeScript;",
           "Integration with external libraries."        
         ]
       },
