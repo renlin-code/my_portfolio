@@ -1,7 +1,7 @@
 {
   "seo_metadata": {
     "title": "Fullstack developer Rene Linares",
-    "description": "Hello! My name is Rene, and I am a Fullstack developer with 3 years of experience in web application development. My ability to work on both the Frontend and Backend allows me to create comprehensive and functional solutions for my clients' needs."
+    "description": "Hello! My name is Rene, and I am a Fullstack developer with 3 years of experience in web application development. My ability to work on both the Frontend and Backend allows me to create comprehensive and functional products."
   },
   "nav_links": [
     "About me",
@@ -18,7 +18,7 @@
   },
   "about_me_section": {
     "title": "About me",
-    "top_text": "I am a passionate and highly skilled Fullstack developer with experience in designing, developing, and implementing robust web applications.",
+    "top_text": "I am a passionate and skilled Fullstack developer with experience in designing, developing, and implementing robust web applications.",
     "skills_block": {
       "text": "I am well-versed in the software development lifecycle and have a deep understanding of both Frontend and Backend technologies, including:",
       "skills": [
