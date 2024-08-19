@@ -212,6 +212,10 @@ const iconData = computed(() => ICONS.find(i => i.key === props.type))
     display: flex;
     justify-content: center;
     align-items: center;
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
   }
 
   .fade-enter-active,
