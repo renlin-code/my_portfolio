@@ -22,7 +22,7 @@
     "skills_block": {
       "text": "Я хорошо знаком с жизненным циклом разработки программного обеспечения и имею глубокие знания технологий Фронтенда и Бэкенда, включая:",
       "skills": [
-        "Фронтенд: HTML5, CSS3, JavaScript, Vue.js, Nuxt.js",
+        "Фронтенд: HTML5, CSS3, JavaScript, Vue.js, React",
         "Бэкенд: Go, Node.js, PHP, SQL, NoSQL, gRPC",
         "Инструменты и технологии: Git, Docker, Shell"
       ]

@@ -15,8 +15,8 @@
   },
   {
     "file_name": "skills-booster",
-    "deploy_address": "https://skills-booster.ru",
-    "repo_address": null,
+    "deploy_address": "https://github.com/renlin-code/skills-booster_front",
+    "repo_address": "https://github.com/renlin-code/skills-booster_front",
     "img_url": "/images/projects/skills-booster.png",
     "stack": ["html", "css", "js", "sass", "vue", "nuxt", "php", "wordpress"]
   },

@@ -54,8 +54,8 @@ const MAIN_STACK = [
     name: 'Vue.js'
   },
   {
-    key: 'nuxt',
-    name: 'Nuxt.js'
+    key: 'react',
+    name: 'React'
   },
   {
     key: 'postgres',
@@ -75,7 +75,7 @@ const mainStackMatrix = computed(() => {
 
     return result;
 })
-const EXTRA_STACK = ['docker', 'git', 'mongo', 'html', 'css', 'react', 'sass', 'vite', 'php', 'wordpress', 'figma']
+const EXTRA_STACK = ['docker', 'git', 'mongo', 'html', 'css', 'nuxt', 'sass', 'vite', 'php', 'wordpress', 'figma']
 
 
 const flkty = ref(null);

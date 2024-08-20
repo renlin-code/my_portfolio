@@ -3,7 +3,7 @@
     "file_name": "sber-university",
     "deploy_address": "https://study.sberuniversity.online/",
     "img_url": "/images/works/sber-university.png",
-    "stack": ["html", "css", "js", "sass", "vue", "php"]
+    "stack": ["html", "css", "js", "sass", "vue", "react", "php"]
   },
   {
     "file_name": "m2",
@@ -37,9 +37,9 @@
   },
   {
     "file_name": "sonex",
-    "deploy_address": "https://nelprow3.fvds.ru",
+    "deploy_address": "https://isonex.ru",
     "img_url": "/images/works/sonex.png",
-    "stack": ["html", "css", "js", "php", "1c"]
+    "stack": ["html", "css", "js", "react", "php", "1c"]
   },
   {
     "file_name": "nasledie",
