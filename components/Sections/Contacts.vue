@@ -10,7 +10,7 @@
             </a>
           </li>
           <li>
-            <a class="opacity" href="https://wa.me/+79373217299" target="_blank" rel="noopener noreferrer">
+            <a class="opacity" href="https://wa.me/+16452146877" target="_blank" rel="noopener noreferrer">
               <contactIcon type="whatsapp" />
             </a>
           </li>

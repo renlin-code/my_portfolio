@@ -8,7 +8,7 @@
             <p class="hero__title-big renlincode-big-title">{{ $t('hero_section.subtitle') }}</p>
           </h1>
           <div class="hero__contacts mobile-hidden">
-            <PrimaryButton as="a" href="https://wa.me/+79373217299" target="_blank">
+            <PrimaryButton as="a" href="https://wa.me/+16452146877" target="_blank">
               {{ $t('hero_section.button') }}
             </PrimaryButton>
             <ul class="hero__contacts-others">
@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="hero__bottom">
-        <PrimaryButton class="desktop-hidden" fullWidth as="a" href="https://wa.me/+79373217299" target="_blank">
+        <PrimaryButton class="desktop-hidden" fullWidth as="a" href="https://wa.me/+16452146877" target="_blank">
           {{ $t('hero_section.button') }}
         </PrimaryButton>
 
