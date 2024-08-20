@@ -25,9 +25,9 @@
             </a>
           </li>
         </ul>
-        <a class="contacts__phone opacity" href="tel:+79373217299">
+        <a class="contacts__phone opacity" href="tel:+16452146877">
           <contactIcon type="phone" color="#00E991" class="contacts__phone-icon" />
-          <span class="renlincode-subtitle">+7 (937) 321 72 99</span>
+          <span class="renlincode-subtitle">+1 (645) 214 6877</span>
         </a>
       </div>
     </div>
