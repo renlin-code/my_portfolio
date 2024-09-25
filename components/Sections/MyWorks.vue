@@ -236,7 +236,7 @@ onMounted(() => {
     margin-top: 30rem;
   }
 
-  &::v-deep .flickity {
+  &:deep .flickity {
     &-viewport {
       overflow: visible;
       cursor: default !important;

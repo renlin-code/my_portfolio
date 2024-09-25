@@ -22,6 +22,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   modules: [
     '@nuxtjs/i18n',
     "@nuxtjs/robots",
@@ -34,6 +35,7 @@ export default defineNuxtConfig({
       webvisor: true,
     }],
   ],
+
   robots: {
     rules: {
       UserAgent: "*",
@@ -41,13 +43,16 @@ export default defineNuxtConfig({
       Sitemap: 'https://renlin-code.online/sitemap.xml',
     }
   },
+
   i18n: {
     vueI18n: './i18n/i18n.config.ts',
     locales: ["en", "es", "ru"],
     defaultLocale: "en",
   },
+
   devtools: { enabled: false },
   css: ["@/assets/styles/flickity.min.css", "@/assets/styles/global.scss"],
+
   vite: {
     css: {
       preprocessorOptions: {
@@ -57,4 +62,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  compatibilityDate: "2024-09-25",
 })

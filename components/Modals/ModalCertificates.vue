@@ -115,7 +115,7 @@ onMounted(() => {
     }
   }
 
-  &::v-deep .flickity {
+  &:deep .flickity {
     &-viewport {
       overflow: visible;
       cursor: default !important;

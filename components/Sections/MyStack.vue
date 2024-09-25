@@ -196,7 +196,7 @@ onMounted(() => {
       }
     }
   }
-  &::v-deep .flickity {
+  &:deep .flickity {
     &-page-dots {
       bottom: -46rem;
       .dot {

@@ -25,7 +25,6 @@ const props = defineProps({
     default: true,
   },
 });
-
 const open = ref(false);
 
 const { locale, locales } = useI18n()
