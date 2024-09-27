@@ -71,7 +71,7 @@ onMounted(() => {
 <style scoped lang="scss">
 .certificates {
   width: 100%;
-  background: $black-color;
+  background: $very-black-color;
 
   &__content {
     @media only screen and (max-width: 650px) {
@@ -117,7 +117,7 @@ onMounted(() => {
     padding: 40rem 0;
 
     &-wrapper {
-      width: 820rem;
+      width: 100%;
       height: 336rem;
       @media only screen and (max-width: 650px) {
         width: 100%;
@@ -128,7 +128,7 @@ onMounted(() => {
     &-slide {
       display: flex;
       width: 432rem;
-      margin: 0 200rem;
+      margin: 0 100rem;
       border-radius: 20rem;
       overflow: hidden;
       box-shadow: 4rem 8rem 50rem rgba(0, 0, 0, 0.81);
@@ -157,13 +157,13 @@ onMounted(() => {
         background: rgb(255, 255, 255);
         background: -moz-linear-gradient(270deg,
             rgba(255, 255, 255, 0) 0%,
-            rgba(21, 31, 40, 1) 100%);
+            rgba(15, 27, 31, 1) 100%);
         background: -webkit-linear-gradient(270deg,
             rgba(255, 255, 255, 0) 0%,
-            rgba(21, 31, 40, 1) 100%);
+            rgba(15, 27, 31, 1) 100%);
         background: linear-gradient(270deg,
             rgba(255, 255, 255, 0) 0%,
-            rgba(21, 31, 40, 1) 100%);
+            rgba(15, 27, 31, 1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#151f28", GradientType=1);
       }
 
@@ -172,13 +172,13 @@ onMounted(() => {
         background: rgb(255, 255, 255);
         background: -moz-linear-gradient(90deg,
             rgba(255, 255, 255, 0) 0%,
-            rgba(21, 31, 40, 1) 100%);
+            rgba(15, 27, 31, 1) 100%);
         background: -webkit-linear-gradient(90deg,
             rgba(255, 255, 255, 0) 0%,
-            rgba(21, 31, 40, 1) 100%);
+            rgba(15, 27, 31, 1) 100%);
         background: linear-gradient(90deg,
             rgba(255, 255, 255, 0) 0%,
-            rgba(21, 31, 40, 1) 100%);
+            rgba(15, 27, 31, 1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#151f28", GradientType=1);
       }
     }

@@ -43,7 +43,7 @@ const selectLang = (newLocale) => {
 .lang-selector {
   position: relative;
   width: 130rem;
-  height: 75rem;
+  height: 70rem;
 
   @media only screen and (max-width: 650px) {
     width: 84rem;

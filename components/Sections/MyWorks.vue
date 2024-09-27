@@ -38,16 +38,16 @@
           </div>
         </li>
       </ul>
-      <PrimaryButton class="works__load-more desktop-hidden" fullWidth v-if="worksMobShowing < works.length"
+      <MainButton class="works__load-more desktop-hidden" fullWidth v-if="worksMobShowing < works.length"
         @click="worksMobShowing = worksMobShowing + 2">
         {{ $t('projects_for_companies_section.load_more_text') }}
-      </PrimaryButton>
+      </MainButton>
     </div>
   </section>
 </template>
 
 <script setup>
-import PrimaryButton from "../Buttons/PrimaryButton.vue";
+import MainButton from "../Buttons/MainButton.vue";
 import skillIcon from "../Icons/skillIcon.vue";
 import works from "/public/data/works.json";
 

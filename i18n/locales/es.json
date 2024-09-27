@@ -4,17 +4,18 @@
     "description": "¡Hola! Mi nombre es René, y soy fullstack developer con experiencia de 3 años en el desarrollo de aplicaciones web. Mi habilidad para trabajar tanto en el Frontend como en el Backend me permite crear productos completas y funcionales."
   },
   "nav_links": [
-    "Sobre mí",
-    "Stack",
+    "Proyectos",
+    "Habilidades",
     "Certificados",
-    "Mis trabajos",
-    "Mis proyectos",
     "Contactos"
   ],
+  "resume_button": "Currículum",
   "hero_section": {
-    "title": "desarrollador fullstack",
-    "subtitle": "René Linares",
-    "button": "Escríbeme"
+    "title": "René Linares",
+    "subtitle": "Desarrollador Fullstack",
+    "sec_button": "Proyectos",
+    "prim_button": "Contrátame",
+    "picture_badge": "Disponible para trabajo"
   },
   "about_me_section": {
     "title": "Sobre mí",
@@ -38,26 +39,7 @@
     "text": "Intento mejorar constantemente, lo cual puede comprobarse al observar mis certificados. La mayoría de los cursos y certificados los obtuve en la popular plataforma",
     "certificates_names_list": [
       "Curso de Frontend Developer",
-      "Curso Práctico de Frontend Developer",
-      "Curso Definitivo de HTML y CSS",
-      "Curso Práctico de HTML y CSS",
-      "Curso de Responsive Design: Mobile First",
-      "Curso de Terminal y Línea de Comandos",
-      "Curso Profesional de Git y GitHub",
-      "Curso Básico de JavaScript",
-      "Curso Práctico de JavaScript",
-      "Curso de Closures y Scope en JavaScript",
-      "Curso de Fundamentos de Ingeniería de Software",
-      "Curso Básico de POO con JavaScript",
-      "Curso Intermedio de POO con JavaScript",
-      "Curso de Manipulación de Arreglos con JavaScript",
-      "Curso de asincronismo con JavaScript",
-      "Curso de Diseño Web con CSS Grid y Flexbox",
-      "Curso de Transformaciones y Transiciones en CSS",
-      "Curso de Ecmascript 6+",
-      "Curso de consumo de API REST con JavaScript",
-      "Curso de Fundamentos de TypeScript",
-      "Curso de Introducción y Fundamentos de Vue.js"
+      "Curso de Ingeniería de Software"
     ]
   },
   "projects_for_companies_section": {
@@ -218,7 +200,7 @@
     ]
   },
   "contacts_section": {
-    "title": "Mis contactos"
+    "title": "Contactos"
   },
   "footer": {
     "link_text": "Encuéntrame en GitHub"

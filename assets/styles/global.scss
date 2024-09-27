@@ -19,9 +19,9 @@ body::-webkit-scrollbar-thumb {
 .renlincode {
   &-big-title {
     font-family: "Russo One", sans-serif;
-    font-size: 130rem;
-    line-height: 164rem;
-    letter-spacing: 1rem;
+    font-size: 70rem;
+    line-height: 70rem;
+    letter-spacing: 1.3rem;
     font-weight: 400;
     @media only screen and (max-width: 650px) {
       font-size: 60rem;
@@ -47,14 +47,6 @@ body::-webkit-scrollbar-thumb {
       line-height: 24rem;
     }
   }
-  &-big-text {
-    font-size: 24rem;
-    line-height: 27rem;
-    @media only screen and (max-width: 650px) {
-      font-size: 16rem;
-      line-height: 18rem;  
-    }
-  }
   &-text {
     font-size: 22rem;
     line-height: 27rem;
@@ -63,8 +55,16 @@ body::-webkit-scrollbar-thumb {
       line-height: 24rem;  
     }
   }
+  &-small-text {
+    font-size: 20rem;
+    line-height: 24rem;
+    @media only screen and (max-width: 650px) {
+      font-size: 14rem;
+      line-height: 27rem;  
+    }
+  }
   &-link {
-    color: $main-color;
+    color: $yellow-color;
   }
 }
 
@@ -122,7 +122,7 @@ body {
   margin: 0 auto;
   @media only screen and (max-width: 650px) {
     width: 100%;
-    padding: 0 15rem;
+    padding: 0 12rem;
   }
 }
 

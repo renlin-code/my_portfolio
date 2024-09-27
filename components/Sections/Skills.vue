@@ -1,22 +1,22 @@
 <template>
-  <section id="my-stack" class="my-stack renlincode-section">
-    <div class="my-stack__content main-content-wrapper">
-      <h2 class="my-stack__title renlincode-title section-title">{{ $t('stack_section.title') }}</h2>
-      <ul class="my-stack__main-stack">
+  <section id="skills" class="skills renlincode-section">
+    <div class="skills__content main-content-wrapper">
+      <h2 class="skills__title renlincode-title section-title">{{ $t('stack_section.title') }}</h2>
+      <ul class="skills__main-stack">
         <li v-for="skillsCol in mainStackMatrix">
-          <div class="my-stack__main-stack-card" v-for="skill in skillsCol">
-            <div class="my-stack__main-stack-card-figure">
-              <skillIcon class="my-stack__main-stack-card-icon" :type="skill.key" />
+          <div class="skills__main-stack-card" v-for="skill in skillsCol">
+            <div class="skills__main-stack-card-figure">
+              <skillIcon class="skills__main-stack-card-icon" :type="skill.key" />
             </div>
-            <span class="my-stack__main-stack-card-name">{{ skill.name }}</span>
+            <span class="skills__main-stack-card-name">{{ skill.name }}</span>
           </div>
         </li>
       </ul>
-      <div class="my-stack__others">
+      <div class="skills__others">
         <span>{{ $t('stack_section.also_text') }}</span>
-        <ul class="my-stack__others-list">
+        <ul class="skills__others-list">
           <li v-for="skill in EXTRA_STACK">
-            <skillIcon withTooltip class="my-stack__others-icon" :type="skill" />
+            <skillIcon withTooltip class="skills__others-icon" :type="skill" />
           </li>
         </ul>
       </div>
@@ -65,15 +65,15 @@ const MAIN_STACK = [
 
 const mainStackMatrix = computed(() => {
   const result = [];
-    const COLUMNS = clientWidth.value <= 650 ? 2 : 1;
-    let counter = 0;
+  const COLUMNS = clientWidth.value <= 650 ? 4 : 1;
+  let counter = 0;
 
-    while (counter < MAIN_STACK.length) {
-      result.push(MAIN_STACK.slice(counter, counter + COLUMNS));
-      counter += COLUMNS;
-    }
+  while (counter < MAIN_STACK.length) {
+    result.push(MAIN_STACK.slice(counter, counter + COLUMNS));
+    counter += COLUMNS;
+  }
 
-    return result;
+  return result;
 })
 const EXTRA_STACK = ['docker', 'git', 'mongo', 'html', 'css', 'nuxt', 'sass', 'vite', 'php', 'wordpress', 'figma']
 
@@ -87,7 +87,7 @@ const startFlickity = async () => {
     friction: 1,
   };
   await nextTick();
-  flkty.value = new Flickity(".my-stack__main-stack", options);
+  flkty.value = new Flickity(".skills__main-stack", options);
 };
 
 onMounted(() => {
@@ -99,13 +99,14 @@ onMounted(() => {
 </script>
 
 <style scoped lang="scss">
-.my-stack {
+.skills {
   width: 100%;
   background: $very-black-color;
   background-image: url("/images/ellipse_bg2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 
   &__title {
     color: $white-color;
@@ -116,19 +117,26 @@ onMounted(() => {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20rem;
     row-gap: 30rem;
+
     @media only screen and (max-width: 650px) {
       display: block;
-      margin: 0 -15rem;
+      margin: 0 -12rem;
     }
+
     li {
       display: flex;
       flex-direction: column;
       gap: 20rem;
+
       @media only screen and (max-width: 650px) {
-        width: 290rem;
-        margin: 0 50rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12rem;
+        width: 296rem;
+        margin: 0 7rem;
       }
     }
+
     &-card {
       &-figure {
         background: $black-color;
@@ -137,6 +145,7 @@ onMounted(() => {
         display: grid;
         place-content: center;
         padding: 40rem;
+
         @media only screen and (max-width: 650px) {
           padding: 24rem;
           border-radius: 16rem;
@@ -146,6 +155,7 @@ onMounted(() => {
       &-icon {
         width: 100rem;
         height: 100rem;
+
         @media only screen and (max-width: 650px) {
           width: 60rem;
           height: 60rem;
@@ -157,6 +167,7 @@ onMounted(() => {
         display: block;
         text-align: center;
         margin-top: 16rem;
+
         @media only screen and (max-width: 650px) {
           margin-top: 10rem;
         }
@@ -170,10 +181,12 @@ onMounted(() => {
     justify-content: center;
     align-items: center;
     gap: 20rem;
+
     @media only screen and (max-width: 650px) {
       flex-direction: column;
       margin-top: 86rem;
     }
+
     span {
       color: $white-color;
     }
@@ -181,6 +194,7 @@ onMounted(() => {
     &-list {
       display: flex;
       gap: 14rem;
+
       @media only screen and (max-width: 650px) {
         flex-wrap: wrap;
         justify-content: center;
@@ -190,15 +204,18 @@ onMounted(() => {
     &-icon {
       width: 54rem;
       height: 54rem;
+
       @media only screen and (max-width: 650px) {
         width: 36rem;
         height: 36rem;
       }
     }
   }
+
   &:deep .flickity {
     &-page-dots {
       bottom: -46rem;
+
       .dot {
         width: 8rem;
         height: 8rem;
@@ -206,6 +223,7 @@ onMounted(() => {
         margin: 0 8rem;
         background: $white-color;
         transition: all 300ms ease-in-out;
+
         &.is-selected {
           background: $main-color;
           width: 30rem;

@@ -4,17 +4,18 @@
     "description": "Hello! My name is Rene, and I am a Fullstack developer with 3 years of experience in web application development. My ability to work on both the Frontend and Backend allows me to create comprehensive and functional products."
   },
   "nav_links": [
-    "About me",
-    "Stack",
+    "Projects",
+    "Skills",
     "Certificates",
-    "My works",
-    "My projects",
     "Contacts"
   ],
+  "resume_button": "Resume",
   "hero_section": {
-    "title": "fullstack developer",
-    "subtitle": "Rene Linares",
-    "button": "Contact me"
+    "title": "Rene Linares",
+    "subtitle": "Fullstack Developer",
+    "sec_button": "Projects",
+    "prim_button": "Hire me",
+    "picture_badge": "Availible for work"
   },
   "about_me_section": {
     "title": "About me",
@@ -37,27 +38,8 @@
     "title": "Certificates",
     "text": "I strive to constantly improve, which you can see by looking at my certificates. Most of the courses and certificates I obtained from the popular platform",
     "certificates_names_list": [
-      "Theoretical Course on Frontend Development",
-      "Practical Course on Frontend Development",
-      "Complete Theoretical Course on HTML and CSS",
-      "Complete Practical Course on HTML and CSS",
-      "Course on Mobile First Responsive Design",
-      "Course on Command Line",
-      "Git and GitHub Professional Course",
-      "Basic Theoretical Course on JavaScript",
-      "Basic Practical Course on JavaScript",
-      "Course on Closures and Scope on JavaScript",
-      "Course on Software Engineering",
-      "Basic Course on Object-Oriented Programming with JavaScript",
-      "Intermediate Course on Object-Oriented Programming with JavaScript",
-      "Course on Array Methods with JavaScript",
-      "Course on Asynchronicity in JavaScript",
-      "Course on Web Design with Flexbox and CSS Grid",
-      "Course on Transform and Transition with CSS",
-      "Course on Ecmascript 6+",
-      "Course on REST API with JavaScript",
-      "Introduction to TypeScript Course",
-      "Introduction to Vue.js Course"
+      "Course of Frontend Development",
+      "Course of Software Engineering"
     ]
   },
   "projects_for_companies_section": {
@@ -218,7 +200,7 @@
     ]
   },
   "contacts_section": {
-    "title": "My contacts"
+    "title": "Contacts"
   },
   "footer": {
     "link_text": "Find me on GitHub"

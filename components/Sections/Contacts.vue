@@ -3,32 +3,20 @@
     <div class="contacts__content main-content-wrapper">
       <h2 class="contacts__title renlincode-title section-title">{{ $t('contacts_section.title') }}</h2>
       <div class="contacts__wrapper">
-        <ul class="contacts__list">
-          <li>
-            <a class="opacity" href="mailto:renelj1997@gmail.com" target="_blank" rel="noopener noreferrer">
-              <contactIcon type="email" />
-            </a>
-          </li>
-          <li>
-            <a class="opacity" href="https://wa.me/+16452146877" target="_blank" rel="noopener noreferrer">
-              <contactIcon type="whatsapp" />
-            </a>
-          </li>
-          <li>
-            <a class="opacity" href="https://t.me/rene_linares" target="_blank" rel="noopener noreferrer">
-              <contactIcon type="telegram" />
-            </a>
-          </li>
-          <li>
-            <a class="opacity" href="https://github.com/renlin-code" target="_blank" rel="noopener noreferrer">
-              <contactIcon type="github" />
-            </a>
-          </li>
-        </ul>
-        <a class="contacts__phone opacity" href="tel:+16452146877">
-          <contactIcon type="phone" color="#00E991" class="contacts__phone-icon" />
-          <span class="renlincode-subtitle">+1 (645) 214 6877</span>
-        </a>
+        <div class="contacts__info">
+          <p>If you are looking for a Full stack Web Developer with great experience, please contact me if you or
+            someone you know is hiring middle developers.</p>
+        </div>
+        <div class="contacts__contacts">
+          <a class="contacts__contacts-tel opacity" href="tel:+16452146877" target="_blank">+1 (645) 2146 8779</a>
+          <ul class="contacts__contacts-list">
+            <li class="contacts__contacts-item" v-for="contact in contacts">
+              <a :href="contact.link" target="_blank">
+                <contactIcon :name="contact.name" color="#0F1B1F" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -36,63 +24,87 @@
 
 <script setup>
 import contactIcon from "../Icons/contactIcon.vue";
+import contacts from "/public/data/contacts";
 </script>
 
 <style scoped lang="scss">
 .contacts {
   width: 100%;
   background: $black-color;
-
+  padding-bottom: 40rem;
+  @media only screen and (max-width: 650px) {
+    padding-bottom: 10rem;
+  }
   &__title {
     color: $white-color;
   }
 
   &__wrapper {
-    display: flex;
-    justify-content: space-between;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18rem;
     @media only screen and (max-width: 650px) {
+      display: flex;
       flex-direction: column;
-      gap: 40rem;
+      gap: 16rem;
     }
   }
 
-  &__list {
-    display: flex;
-    gap: 20rem;
-    list-style: none;
-
+  &__info {
+    display: grid;
+    place-content: center;
+    padding: 90rem 0;
+    background: $very-black-color;
+    border-radius: 20rem;
+    border: 1rem solid $yellow-color;
     @media only screen and (max-width: 650px) {
-      gap: 18rem;
+      padding: 20rem 12rem;
     }
-
-    li {
-      a {
-        display: block;
-        width: 45rem;
-        height: 45rem;
-
-        @media only screen and (max-width: 650px) {
-          width: 30rem;
-          height: 30rem;
-        }
+    p {
+      text-align: center;
+      width: 780rem;
+      color: $white-color;
+      @media only screen and (max-width: 650px) {
+        font-size: 14rem;
+        line-height: 27rem;
+        width: 100%;
       }
     }
   }
-
-  &__phone {
+  &__contacts {
+    background: $main-color;
+    border-radius: 20rem;
     display: grid;
-    grid-template-columns: 35rem 1fr;
-    align-items: center;
-    gap: 4rem;
-
+    place-content: center;
+    justify-items: center;
+    gap: 12rem;
     @media only screen and (max-width: 650px) {
-      grid-template-columns: 20rem 1fr;
+      padding: 22rem 12rem;
+    }
+    &-tel {
+      color: $very-black-color;
+      font-size: 27rem;
+      font-weight: 600;
+      @media only screen and (max-width: 650px) {
+        font-size: 20rem;
+      }
+    }
+    &-list {
+      display: flex;
+      align-items: center;
+      gap: 16rem;
+
+      @media only screen and (max-width: 650px) {
+        gap: 12rem;
+      }
     }
 
-    span {
-      color: $white-color;
-      font-family: "Open Sans", sans-serif;
+    &-item {
+      width: 45rem;
+
+      @media only screen and (max-width: 650px) {
+        width: 40rem;
+      }
     }
   }
 }

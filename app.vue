@@ -1,13 +1,13 @@
 <template>
-  <div class="container">
+  <div class="app container">
     <Header />
-    <main class="container__main">
+    <main>
       <Hero />
-      <AboutMe />
-      <MyStack />
+      <!-- <AboutMe /> -->
+      <Skills />
       <Certificates />
-      <MyWorks />
-      <MyProjects />
+      <!-- <MyWorks /> -->
+      <!-- <MyProjects /> -->
       <Contacts />
     </main>
     <Footer />
@@ -17,8 +17,8 @@
 <script setup>
 import Header from "@/components/Layout/Header.vue";
 import Hero from "@/components/Sections/Hero.vue";
-import AboutMe from "@/components/Sections/AboutMe.vue";
-import MyStack from "@/components/Sections/MyStack.vue";
+// import AboutMe from "@/components/Sections/AboutMe.vue";
+import Skills from "@/components/Sections/Skills.vue";
 import Certificates from "@/components/Sections/Certificates.vue";
 import MyProjects from "@/components/Sections/MyProjects.vue";
 import Contacts from "@/components/Sections/Contacts.vue";
@@ -29,7 +29,7 @@ import seoHeadTags from '@/helpers/seoHeadTags';
 const { t } = useI18n();
 
 useHead(
-  seoHeadTags(() => t("seo_metadata.title"), () => t("seo_metadata.description") )
+  seoHeadTags(() => t("seo_metadata.title"), () => t("seo_metadata.description"))
 )
 </script>
 

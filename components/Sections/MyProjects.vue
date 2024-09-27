@@ -46,16 +46,16 @@
           </div>
         </li>
       </ul>
-      <PrimaryButton class="projects__load-more" v-if="projectsShowing < projects.length"
+      <MainButton class="projects__load-more" v-if="projectsShowing < projects.length"
         @click="projectsShowing = projectsShowing + 2">
         {{ $t('projects_for_companies_section.load_more_text') }}
-      </PrimaryButton>
+      </MainButton>
     </div>
   </section>
 </template>
 
 <script setup>
-import PrimaryButton from "../Buttons/PrimaryButton.vue";
+import MainButton from "../Buttons/MainButton.vue";
 import Arrow2 from "../Icons/arrow2.vue";
 import skillIcon from "../Icons/skillIcon.vue";
 import projects from "/public/data/projects.json";

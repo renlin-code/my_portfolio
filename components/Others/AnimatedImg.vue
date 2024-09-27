@@ -41,7 +41,7 @@
       z-index: 1;
 
       @media only screen and (max-width: 650px) {
-        width: 290rem;
+        width: 100%;
         padding-top: 35rem;
       }
     }
