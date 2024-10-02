@@ -111,6 +111,7 @@ const HIRE_ME_HREF = "mailto:renelj1997@gmail.com?subject=Job%20Offer"
 
   @media only screen and (max-width: 650px) {
     padding-top: 56rem;
+    padding-bottom: 0;
     height: auto;
   }
 
