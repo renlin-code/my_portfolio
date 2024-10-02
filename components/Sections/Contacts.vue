@@ -54,32 +54,33 @@ import contacts from "/public/data/contacts";
     display: grid;
     place-content: center;
     padding: 90rem 0;
-    background: $very-black-color;
-    border-radius: 20rem;
-    border: 1rem solid $yellow-color;
+    background: $yellow-color;
+    border-radius: 28rem;
     @media only screen and (max-width: 650px) {
       padding: 20rem 12rem;
+      border-radius: 12rem;
     }
     p {
       text-align: center;
-      width: 780rem;
-      color: $white-color;
+      width: 686rem;
+      color: $very-black-color;
       @media only screen and (max-width: 650px) {
         font-size: 14rem;
-        line-height: 27rem;
+        line-height: 20rem;
         width: 100%;
       }
     }
   }
   &__contacts {
     background: $main-color;
-    border-radius: 20rem;
+    border-radius: 28rem;
     display: grid;
     place-content: center;
     justify-items: center;
     gap: 12rem;
     @media only screen and (max-width: 650px) {
       padding: 22rem 12rem;
+      border-radius: 12rem;
     }
     &-tel {
       color: $very-black-color;

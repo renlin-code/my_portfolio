@@ -44,12 +44,12 @@ body::-webkit-scrollbar-thumb {
     font-weight: 600;
     @media only screen and (max-width: 650px) {
       font-size: 20rem;
-      line-height: 24rem;
+      line-height: 27rem;
     }
   }
   &-text {
     font-size: 22rem;
-    line-height: 27rem;
+    line-height: 34rem;
     @media only screen and (max-width: 650px) {
       font-size: 16rem;
       line-height: 24rem;  
@@ -57,21 +57,24 @@ body::-webkit-scrollbar-thumb {
   }
   &-small-text {
     font-size: 20rem;
-    line-height: 24rem;
+    line-height: 30rem;
     @media only screen and (max-width: 650px) {
       font-size: 14rem;
-      line-height: 27rem;  
+      line-height: 24rem;  
     }
   }
   &-link {
     color: $yellow-color;
+  }
+  &-link--green {
+    color: $main-color;
   }
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 22rem;
-  line-height: 30rem;
+  line-height: 34rem;
   @media only screen and (max-width: 650px) {
     font-size: 16rem;
     line-height: 24rem;  
@@ -118,7 +121,7 @@ body {
 
 //LAYOUT
 .main-content-wrapper {
-  width: 1740rem;
+  width: 1600rem;
   margin: 0 auto;
   @media only screen and (max-width: 650px) {
     width: 100%;

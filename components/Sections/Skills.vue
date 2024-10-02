@@ -75,7 +75,7 @@ const mainStackMatrix = computed(() => {
 
   return result;
 })
-const EXTRA_STACK = ['docker', 'git', 'mongo', 'html', 'css', 'nuxt', 'sass', 'vite', 'php', 'wordpress', 'figma']
+const EXTRA_STACK = ['html', 'css', 'sass', 'next', 'nuxt', 'vite', 'docker', 'git', 'mongo', 'php', 'wordpress', 'figma']
 
 
 const flkty = ref(null);
@@ -107,7 +107,9 @@ onMounted(() => {
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-
+  @media only screen and (max-width: 650px) {
+    padding-top: 30rem;
+  }
   &__title {
     color: $white-color;
   }
@@ -140,7 +142,7 @@ onMounted(() => {
     &-card {
       &-figure {
         background: $black-color;
-        border-radius: 20rem;
+        border-radius: 28rem;
         border: 1rem solid $gray-color;
         display: grid;
         place-content: center;
@@ -148,7 +150,7 @@ onMounted(() => {
 
         @media only screen and (max-width: 650px) {
           padding: 24rem;
-          border-radius: 16rem;
+          border-radius: 12rem;
         }
       }
 

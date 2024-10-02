@@ -1,44 +1,187 @@
-[
-  {
-    "file_name": "go-shortener",
-    "deploy_address": "https://github.com/renlin-code/go-shortener",
-    "repo_address": "https://github.com/renlin-code/go-shortener",
-    "img_url": "/images/projects/go-shortener.png",
-    "stack": ["go", "sqlite", "docker"]
-  },
-  {
-    "file_name": "mock-shop-api",
-    "deploy_address": "https://github.com/renlin-code/mock-shop-api",
-    "repo_address": "https://github.com/renlin-code/mock-shop-api",
-    "img_url": "/images/projects/mock-shop-api.png",
-    "stack": ["go", "postgres", "docker"]
-  },
-  {
-    "file_name": "skills-booster",
-    "deploy_address": "https://github.com/renlin-code/skills-booster_front",
-    "repo_address": "https://github.com/renlin-code/skills-booster_front",
-    "img_url": "/images/projects/skills-booster.png",
-    "stack": ["html", "css", "js", "sass", "vue", "nuxt", "php", "wordpress"]
-  },
-  {
-    "file_name": "timemaster_front",
-    "deploy_address": "https://github.com/renlin-code/timemaster_frontend",
-    "repo_address": "https://github.com/renlin-code/timemaster_frontend",
-    "img_url": "/images/projects/timemaster_front.png",
-    "stack": ["html", "css", "js", "sass", "vue", "nuxt"]
-  },
-  {
-    "file_name": "timemaster_back",
-    "deploy_address": "https://github.com/renlin-code/time-master_backend",
-    "repo_address": "https://github.com/renlin-code/time-master_backend",
-    "img_url": "/images/projects/timemaster_back.png",
-    "stack": ["js", "node", "express", "sequelize", "postgres"]
-  },
-  {
-    "file_name": "spyfall",
-    "deploy_address": "https://github.com/renlin-code/spyfall_2.0",
-    "repo_address": "https://github.com/renlin-code/spyfall_2.0",
-    "img_url": "/images/projects/spyfall.png",
-    "stack": ["html", "css", "js", "sass", "vue"]
-  }
-]
+{
+  "commercial": [
+    {
+      "file_name": "sber-university",
+      "deploy_address": "https://sberuniversity.ru/",
+      "repo_address": "",
+      "img_url": "/images/commercial_projects/sber-university.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "sass",
+        "vue",
+        "react",
+        "php",
+        "mysql",
+        "docker"
+      ]
+    },
+    {
+      "file_name": "m2",
+      "deploy_address": "https://m2connect.ru/",
+      "repo_address": "",
+      "img_url": "/images/commercial_projects/m2.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "sass",
+        "vue",
+        "nuxt",
+        "php",
+        "wordpress",
+        "docker"
+      ]
+    },
+    {
+      "file_name": "logist",
+      "deploy_address": "https://logistllc.ru/",
+      "repo_address": "",
+      "img_url": "/images/commercial_projects/logist.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "sass",
+        "vue",
+        "nuxt",
+        "php",
+        "wordpress",
+        "go",
+        "mongo"
+      ]
+    },
+    {
+      "file_name": "mk",
+      "deploy_address": "https://mirkv.ru/",
+      "repo_address": "",
+      "img_url": "/images/commercial_projects/mir-kv.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "sass",
+        "vue",
+        "nuxt",
+        "node",
+        "express",
+        "prisma",
+        "postgres"
+      ]
+    },
+    {
+      "file_name": "skytechnic",
+      "deploy_address": "https://skytechnic.aero/",
+      "repo_address": "",
+      "img_url": "/images/commercial_projects/skytechnic.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "sass",
+        "react",
+        "next",
+        "php",
+        "wordpress",
+        "docker"
+      ]
+    },
+    {
+      "file_name": "nasledie",
+      "deploy_address": "https://nasledie.digital/",
+      "repo_address": "",
+      "img_url": "/images/commercial_projects/nasledie.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "sass",
+        "vue",
+        "nuxt",
+        "php",
+        "wordpress"
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "file_name": "go-shortener",
+      "deploy_address": "https://github.com/renlin-code/go-shortener",
+      "repo_address": "https://github.com/renlin-code/go-shortener",
+      "img_url": "/images/personal_projects/go-shortener.png",
+      "stack": [
+        "go",
+        "sqlite",
+        "docker"
+      ]
+    },
+    {
+      "file_name": "mock-shop-api",
+      "deploy_address": "https://github.com/renlin-code/mock-shop-api",
+      "repo_address": "https://github.com/renlin-code/mock-shop-api",
+      "img_url": "/images/personal_projects/mock-shop-api.png",
+      "stack": [
+        "go",
+        "postgres",
+        "docker"
+      ]
+    },
+    {
+      "file_name": "skills-booster",
+      "deploy_address": "https://github.com/renlin-code/skills-booster_front",
+      "repo_address": "https://github.com/renlin-code/skills-booster_front",
+      "img_url": "/images/personal_projects/skills-booster.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "sass",
+        "vue",
+        "nuxt",
+        "php",
+        "wordpress"
+      ]
+    },
+    {
+      "file_name": "timemaster_front",
+      "deploy_address": "https://github.com/renlin-code/timemaster_frontend",
+      "repo_address": "https://github.com/renlin-code/timemaster_frontend",
+      "img_url": "/images/personal_projects/timemaster_front.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "sass",
+        "vue",
+        "nuxt"
+      ]
+    },
+    {
+      "file_name": "timemaster_back",
+      "deploy_address": "https://github.com/renlin-code/time-master_backend",
+      "repo_address": "https://github.com/renlin-code/time-master_backend",
+      "img_url": "/images/personal_projects/timemaster_back.png",
+      "stack": [
+        "js",
+        "node",
+        "express",
+        "sequelize",
+        "postgres"
+      ]
+    },
+    {
+      "file_name": "spyfall",
+      "deploy_address": "https://github.com/renlin-code/spyfall_2.0",
+      "repo_address": "https://github.com/renlin-code/spyfall_2.0",
+      "img_url": "/images/personal_projects/spyfall.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "sass",
+        "vue"
+      ]
+    }
+  ]
+}

@@ -1,9 +1,8 @@
 <template>
-    <component class="main-button opacity" :is="as" :class="{
+    <component class="main-button opacity" :is="as" :class="[`main-button--${type}`, {
         'main-button--full-width': fullWidth,
-        'main-button--primary': primary,
         'main-button--bold': bold,
-    }">
+    }]">
         <slot name="before" />
         <slot />
     </component>
@@ -19,9 +18,9 @@ const props = defineProps({
         type: Boolean,
         default: false,
     },
-    primary: {
-        type: Boolean,
-        default: false,
+    type: {
+        type: String,
+        default: "primary", // primary, transparent, gray
     },
     bold: {
         type: Boolean,
@@ -45,7 +44,6 @@ const props = defineProps({
     border-radius: 100rem;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
-    background: $light-gray-color;
 
     @media only screen and (max-width: 650px) {
         padding: 10rem;
@@ -55,9 +53,20 @@ const props = defineProps({
     &--full-width {
         width: 100%;
     }
+
     &--primary {
         background: $main-color;
     }
+
+    &--transparent {
+        background: transparent;
+        border: 1rem solid $main-color;
+        color: $white-color;
+    }
+    &--gray {
+        background: $light-gray-color;
+    }
+
     &--bold {
         font-weight: 600;
     }

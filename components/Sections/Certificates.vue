@@ -129,7 +129,7 @@ onMounted(() => {
       display: flex;
       width: 432rem;
       margin: 0 100rem;
-      border-radius: 20rem;
+      border-radius: 28rem;
       overflow: hidden;
       box-shadow: 4rem 8rem 50rem rgba(0, 0, 0, 0.81);
       cursor: url("@/assets/cursors/loupe.cur"), auto;
@@ -137,7 +137,7 @@ onMounted(() => {
       @media only screen and (max-width: 650px) {
         width: calc(100% - 30rem);
         margin: 0 50rem;
-        border-radius: 16rem;
+        border-radius: 12rem;
       }
 
       img {

@@ -44,6 +44,7 @@ const linkProps = computed(() =>
     justify-content: center;
     align-items: center;
     &:before {
+        z-index: -1;
         width: 250%;
         height: 250%;
         left: 50%;

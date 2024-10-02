@@ -30,11 +30,13 @@ import PrismaIcon from "@/public/images/skills_icons/PrismaIcon.svg"
 import GoIcon from "@/public/images/skills_icons/GoIcon.svg"
 import DockerIcon from "@/public/images/skills_icons/DockerIcon.svg"
 import ReactIcon from "@/public/images/skills_icons/ReactIcon.svg"
+import NextIcon from "@/public/images/skills_icons/NextIcon.svg"
 import ViteIcon from "@/public/images/skills_icons/ViteIcon.svg"
 import GitIcon from "@/public/images/skills_icons/GitIcon.svg"
 import FigmaIcon from "@/public/images/skills_icons/FigmaIcon.svg"
 import MongoIcon from "@/public/images/skills_icons/MongoIcon.svg"
 import SQLiteIcon from "@/public/images/skills_icons/SQLiteIcon.svg"
+import MySQLIcon from "@/public/images/skills_icons/MySQLIcon.svg"
 
 const props = defineProps({
   type: {
@@ -146,6 +148,11 @@ const ICONS = [
     icon: ReactIcon
   },
   {
+    key: 'next',
+    name: 'Next.js',
+    icon: NextIcon
+  },
+  {
     key: 'vite',
     name: 'Vite',
     icon: ViteIcon
@@ -170,6 +177,12 @@ const ICONS = [
     name: 'SQLite',
     icon: SQLiteIcon
   },
+  {
+    key: 'mysql',
+    name: 'MySQL',
+    icon: MySQLIcon
+  },
+
 ]
 
 const iconData = computed(() => ICONS.find(i => i.key === props.type))

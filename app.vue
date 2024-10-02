@@ -3,11 +3,9 @@
     <Header />
     <main>
       <Hero />
-      <!-- <AboutMe /> -->
+      <Projects />
       <Skills />
       <Certificates />
-      <!-- <MyWorks /> -->
-      <!-- <MyProjects /> -->
       <Contacts />
     </main>
     <Footer />
@@ -17,12 +15,10 @@
 <script setup>
 import Header from "@/components/Layout/Header.vue";
 import Hero from "@/components/Sections/Hero.vue";
-// import AboutMe from "@/components/Sections/AboutMe.vue";
 import Skills from "@/components/Sections/Skills.vue";
 import Certificates from "@/components/Sections/Certificates.vue";
-import MyProjects from "@/components/Sections/MyProjects.vue";
+import Projects from "@/components/Sections/Projects.vue";
 import Contacts from "@/components/Sections/Contacts.vue";
-import MyWorks from "@/components/Sections/MyWorks.vue";
 import Footer from "@/components/Layout/Footer.vue";
 import seoHeadTags from '@/helpers/seoHeadTags';
 

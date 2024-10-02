@@ -1,7 +1,7 @@
 {
   "seo_metadata": {
-    "title": "Fullstack developer Rene Linares",
-    "description": "Hello! My name is Rene, and I am a Fullstack developer with 3 years of experience in web application development. My ability to work on both the Frontend and Backend allows me to create comprehensive and functional products."
+    "title": "Rene Linares | Software Engineer & Web Developer",
+    "description": "Based in Miami, I'm a Fullstack Developer with experience creating responsive, user-friendly websites, applications and software of all kinds of complexity."
   },
   "nav_links": [
     "Projects",
@@ -12,10 +12,151 @@
   "resume_button": "Resume",
   "hero_section": {
     "title": "Rene Linares",
-    "subtitle": "Fullstack Developer",
+    "subtitle": "Web Developer",
+    "description": "I am a Web Developer with 3 years of experience in applications and software development. Proficient in both Frontend and Backend, I perfectly understand the entire web product lifecycle. I have experience collaborating with teams on projects for large companies and small businesses. Feel free to contact me for collaborations!",
     "sec_button": "Projects",
     "prim_button": "Hire me",
     "picture_badge": "Availible for work"
+  },
+  "projects_section": {
+    "title": "Key projects",
+    "projects_tabs": [
+      "Commercial projects",
+      "Personal projects"
+    ],
+    "keys": [
+      "Duration",
+      "Description",
+      "My role in the project",
+      "Details"
+    ],
+    "commercial": [
+      {
+        "title": "Sber University | E-Learning platform",
+        "duration": "1 year",
+        "description": "A prestigious, high-standard online education platform with more than 500 study programs that allows thousands of specialists to develop professional skills and build a successful career. Sber University is a product financed and sponsored by Sberbank, one of the largest companies in Russia with more than 276 thousand employees.",
+        "details": [
+          "Development of new features for a 'Drag and Drop' course constructor, which includes charts for statistics, automatic report generation, management of homeworks uploaded by students, calendars and events, support chats, management of student access, as well as integration with an AI content generator through a REST API",
+          "Migration of UI components from Vue.js to React",
+          "Code review for other team members"
+        ]
+      },
+      {
+        "title": "M2 | Corporate website for an Internet provider",
+        "duration": "4 months",
+        "description": "An Internet provider dedicated to delivering high-speed, reliable services to homes and businesses.",
+        "details": [
+          "Setting up the development and production environments of the project from scratch (Docker, Nginx, PM2, etc.)",
+          "Frontend development using Server-Side Rendering (SSR) improving the SEO and performance of the website by 30%",
+          "Integration with REST API provided by the company for handling user session, making online payments, displaying subscription plans, statistics, etc.",
+          "Integration with CMS (Wordpress) through REST API for managing website content. Customization of the Wordpress admin interface"
+        ]
+      },
+      {
+        "title": "Logist | Corporate website for a transport and logistics company",
+        "duration": "3 months",
+        "description": "A company located in Vladivostok, Russia that offers transportation and logistics services at national and international levels.",
+        "details": [
+          "Frontend development using Server-Side Rendering (SSR) significantly improving the SEO and performance of the website",
+          "Development of a REST API for the management of transport routes, schedules, etc.",
+          "Development and management of database in MongoDB",
+          "Integration with CMS (Wordpress) through REST API for the management of website content. Customization of the Wordpress administrator interface"
+        ]
+      },
+      {
+        "title": "Mir Kvartir | Real estate rental and sales platform",
+        "duration": "7 months",
+        "description": "A platform that allows users to search, rent or buy properties in St. Petersburg and its surroundings. It has more than 2 thousand properties available in its catalog.",
+        "details": [
+          "Support for less experienced developers in the creation of UI components",
+          "Refactoring and correction of UI components to improve the user experience",
+          "Development of a REST API for the management of property catalogs, realtors, etc.",
+          "Development and management of relational database in PostgreSQL"
+        ]
+      },
+      {
+        "title": "Skytechnic | Aircraft maintenance services company",
+        "duration": "5 months",
+        "description": "A company that provides aircraft maintenance and repair services at major Moscow airports.",
+        "details": [
+          "Setting up the development and production environments of the project from scratch (Docker, Nginx, PM2, etc.)",
+          "Support for less experienced developers in the creation of UI components",
+          "Frontend development using Server-Side Rendering (SSR) significantly improving SEO and website performance",
+          "Integration with CMS (Wordpress) via REST API for website content management. Customization of Wordpress admin interface"
+        ]
+      },
+      {
+        "title": "Nasledie | Online biography management service",
+        "duration": "2 months",
+        "description": "Promising and innovative online biography management platform that allows users to create and share their life stories, photos, videos and more.",
+        "details": [
+          "Development of new feature (user personal account) for managing biographies, plan payments, etc.",
+          "Maintenance of the platform's Frontend. Debugging and bug fixing"
+        ]
+      }
+    ],
+    "personal": [
+      {
+        "title": "Online course builder for training Sberbank employees",
+        "duration": "2 years of consistently shipping new features every 3 months.",
+        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      },
+      {
+        "title": "Online course builder for training Sberbank employees",
+        "duration": "2 years of consistently shipping new features every 3 months.",
+        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      },
+      {
+        "title": "Online course builder for training Sberbank employees",
+        "duration": "2 years of consistently shipping new features every 3 months.",
+        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      },
+      {
+        "title": "Online course builder for training Sberbank employees",
+        "duration": "2 years of consistently shipping new features every 3 months.",
+        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      },
+      {
+        "title": "Online course builder for training Sberbank employees",
+        "duration": "2 years of consistently shipping new features every 3 months.",
+        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      },
+      {
+        "title": "Online course builder for training Sberbank employees",
+        "duration": "2 years of consistently shipping new features every 3 months.",
+        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      }
+    ]
   },
   "about_me_section": {
     "title": "About me",
@@ -40,92 +181,6 @@
     "certificates_names_list": [
       "Course of Frontend Development",
       "Course of Software Engineering"
-    ]
-  },
-  "projects_for_companies_section": {
-    "title": "Some projects with my participation",
-    "details_text": "What I did for the project:",
-    "techs_text": "Project stack:",
-    "load_more_text": "View more projects",
-    "projects_list": [
-      {
-        "title": "Online course designer for training Sberbank employees",
-        "details": [
-          "Creation of new components based on the Sberbank UI Kit;",
-          "Support for Frontend (constructor and student interface);",
-          "Interaction with the Backend through a REST API and WebSocket;",
-          "Creation of new features with TypeScript;",
-          "Integration with external libraries."        
-        ]
-      },
-      {
-        "title": "Website for an Internet service provider with a personal account",
-        "details": [
-          "Elastic layout of all pages according to the design;",
-          "Creation of a toggle switch between dark and light themes;",
-          "Writing and programming the entire Frontend using Nuxt2 (Options API);",
-          "Interaction with Backend through REST API;",
-          "Account management using JWT and localStorage."
-        ]
-      },
-      {
-        "title": "Website for a logistics company with a personal account",
-        "details": [
-          "Elastic layout of all pages according to the design;",
-          "Writing and programming Frontend using Nuxt2 (Options API);",
-          "Interaction with Backend through API;",
-          "Creation of animation for the entire website and a complex preloader;",
-          "(Still in development)"
-        ]
-      },
-      {
-        "title": "Website for a real estate agency with a property catalog",
-        "details": [
-          "Support for Frontend and Backend of the project and writing new components on Nuxt2 (Options API);",
-          "Development of new functionalities in the Backend;",
-          "Interaction with Backend through REST API."
-        ]
-      },
-      {
-        "title": "Corporate website of SKYTECHNIC company",
-        "details": [
-          "Writing and programming the entire Frontend in Nuxt2 (Options API);",
-          "Interaction with Backend through REST API;",
-          "Creating animation for the entire website and complex preloader."
-        ]
-      },
-      {
-        "title": "Corporate website with market analytics for E-commerce in Russia",
-        "details": [
-          "Support for Frontend project and writing new components on Nuxt2 (Options API);",
-          "Development of new functionalities in the Backend;",
-          "Interaction with Backend through REST API."
-        ]
-      },
-      {
-        "title": "Wholesale online store for lamps and chandeliers",
-        "details": [
-          "Elastic layout of all pages based on the design;",
-          "Writing some functionalities in native JS;",
-          "(Still in development)"
-        ]
-      },
-      {
-        "title": "Nasledie - a portal for creating a “Life Capsule”",
-        "details": [
-          "Elastic layout of certain pages based on the design;",
-          "Writing some functionalities in native JS;",
-          "(Still in development)"
-        ]
-      },
-      {
-        "title": "Website on Tilda with integration with other services.",
-        "details": [
-          "Customizing some blocks using CSS;",
-          "Integration with Unisender and Bitrix24;",
-          "Writing additional code in native JS for custom functionalities."
-        ]
-      }
     ]
   },
   "personal_projects_section": {

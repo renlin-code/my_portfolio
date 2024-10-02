@@ -1,7 +1,7 @@
 {
   "seo_metadata": {
-    "title": "Desarrollador fullstack René Linares",
-    "description": "¡Hola! Mi nombre es René, y soy fullstack developer con experiencia de 3 años en el desarrollo de aplicaciones web. Mi habilidad para trabajar tanto en el Frontend como en el Backend me permite crear productos completas y funcionales."
+    "title": "René Linares | Ingeniero de Software y Desarrollador Web",
+    "description": "Con base en Miami, soy un desarrollador Fullstack con experiencia en la creación de sitios web, aplicaciones y software de todo tipo de complejidad que son responsivos y fáciles de usar."
   },
   "nav_links": [
     "Proyectos",
@@ -12,10 +12,152 @@
   "resume_button": "Currículum",
   "hero_section": {
     "title": "René Linares",
-    "subtitle": "Desarrollador Fullstack",
+    "subtitle": "Desarrollador Web",
+    "description": "Soy un desarrollador Fullstack con 3 años de experiencia en el desarrollo de aplicaciones y software. Con conocimentos de Frontend y Backend, entiendo a la perfección todo el ciclo de vida de un producto web. Tengo experiencia trabajando en equipo haciendo proyectos para grandes y pequeñas empresas. Contácteme para colaboraciones!",
     "sec_button": "Proyectos",
     "prim_button": "Contrátame",
     "picture_badge": "Disponible para trabajo"
+  },
+  "projects_section": {
+    "title": "Proyectos clave",
+    "projects_tabs": [
+      "Proyectos comerciales",
+      "Proyectos personales"
+    ],
+    "keys": [
+      "Duración",
+      "Descripción",
+      "Mi rol en el proyecto",
+      "Detalles"
+    ],
+    "commercial": [
+      {
+        "title": "Sber University | Plataforma de educación en línea",
+        "duration": "1 año",
+        "description": "Una prestigiosa plataforma de educación en línea de alto estándar con más de 500 programas de estudio que permite a miles de especialistas desarrollar habilidades profesionales y construir una carrera exitosa. Sber University es un producto financiado y patrocinado por Sberbank, una de las empresas más grandes de Rusia que cuenta con más de 276 mil empleados.",
+        "details": [
+          "Desarrollo de nuevas funcionalidades para un constructor de cursos 'Drag and Drop' en las que se incluyen gráficos para estadísticas, creación automática de informes, manejo de las tareas subidas por los estudiantes, calendarios y eventos, chats de soporte, manejo de los accesos de los estudiantes, asi como integración con una IA generadora de contenido a travez de una API REST",
+          "Migración de componentes UI de Vue.js a React",
+          "Revisión de codigo para otros miembros del equipo"
+        ]
+      },
+      {
+        "title": "M2 | Sitio web corporativo para un proveedor de Internet",
+        "duration": "4 meses",
+        "description": "Un proveedor de Internet que se dedica a ofrecer servicios de alta velocidad y confiabilidad para hogares y empresas.",
+        "details": [
+          "Configuración de los entornos de desarrollo y producción del proyecto desde cero (Docker, Nginx, PM2, etc.)",
+          "Desarrollo del Frontend utilizando Server-Side Rendering (SSR) mejorando el SEO y el rendimiento del sitio web en un 30%",
+          "Integración con API REST proporcionada por la compañía para el manejo de la sesión del usuario, hacer pagos en línea, mostrar los planes de suscripción, estadísticas, etc.",
+          "Integración con CMS (Wordpress) a través de API REST para la gestión de los contenidos del sitio web. Personalización de la interfaz de administrador de Wordpress"
+        ]
+      },
+      {
+        "title": "Logist | Sitio web corporativo para una  empresa de transporte y logística",
+        "duration": "3 meses",
+        "description": "Una empresa localizada en Vladivostok, Rusia que ofrece servicios de transporte y logística a nivel nacional e internacional.",
+        "details": [
+          "Desarrollo del Frontend utilizando Server-Side Rendering (SSR) mejorando significativamente el SEO y el rendimiento del sitio web",
+          "Desarrollo de una API REST para la gestión de las rutas de transporte, horarios, etc.",
+          "Desarrollo y gestión de base de datos en MongoDB",
+          "Integración con CMS (Wordpress) a través de API REST para la gestión de los contenidos del sitio web. Personalización de la interfaz de administrador de Wordpress"
+        ]
+      },
+      {
+        "title": "Mir Kvartir | Plataforma de alquiler y venta de inmobiliario",
+        "duration": "7 meses",
+        "description": "Una plataforma que permite a los usuarios buscar, alquilar o comprar propiedades en San Petersburgo y sus alrededores. Cuenta con más de 2 mil propiedades disponibles en su catálogo.",
+        "details": [
+          "Asesoramiento a desarrolladores de menor experiencia en la creación de componentes UI",
+          "Refactorización y corrección de componentes UI para mejorar la experiencia del usuario",
+          "Desarrollo de una API REST para la gestión del catálogos de propiedades, realtors, etc.",
+          "Desarrollo y gestión de base de datos relacional en PostgreSQL"
+        ]
+      },
+      {
+        "title": "Skytechnic | Compañía de servicios de manteniminto de aeronaves",
+        "duration": "5 meses",
+        "description": "Una compañía que ofrece servicios de mantenimiento y reparación de aeronaves en los principales aeropuertos de Moscú.",
+        "details": [
+          "Configuración de los entornos de desarrollo y producción del proyecto desde cero (Docker, Nginx, PM2, etc.)",
+          "Asesoramiento a desarrolladores de menor experiencia en la creación de componentes UI",
+          "Desarrollo del Frontend utilizando Server-Side Rendering (SSR) mejorando significativamente el SEO y el rendimiento del sitio web",
+          "Integración con CMS (Wordpress) a través de API REST para la gestión de los contenidos del sitio web. Personalización de la interfaz de administrador de Wordpress"
+
+        ]
+      },
+      {
+        "title": "Nasledie | Servicio para la gestión de biografías en línea",
+        "duration": "2 meses",
+        "description": "Prometedora e innovadora plataforma de gestión de biografías en línea que permite a los usuarios crear y compartir sus historias de vida, fotografías, videos y más.",
+        "details": [
+          "Desarrollo de nueva funcionalidad (cuenta personal del ususario) para la gestion de las biografías, pagos de tarifas, etc.",
+          "Mantenimiento del Frontend de la plataforma. Debugueo y corrección de errores"
+        ]
+      }
+    ],
+    "personal": [
+      {
+        "title": "Sber University | plataforma de educación en línea",
+        "duration": "1 año",
+        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      },
+      {
+        "title": "Sber University | plataforma de educación en línea",
+        "duration": "1 año",
+        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      },
+      {
+        "title": "Sber University | plataforma de educación en línea",
+        "duration": "1 año",
+        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      },
+      {
+        "title": "Sber University | plataforma de educación en línea",
+        "duration": "1 año",
+        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      },
+      {
+        "title": "Sber University | plataforma de educación en línea",
+        "duration": "1 año",
+        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      },
+      {
+        "title": "Sber University | plataforma de educación en línea",
+        "duration": "1 año",
+        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "details": [
+          "lorem ipsum",
+          "lorem ipsum",
+          "lorem ipsum"
+        ]
+      }
+    ]
   },
   "about_me_section": {
     "title": "Sobre mí",
@@ -40,92 +182,6 @@
     "certificates_names_list": [
       "Curso de Frontend Developer",
       "Curso de Ingeniería de Software"
-    ]
-  },
-  "projects_for_companies_section": {
-    "title": "Algunos proyectos con mi participación",
-    "details_text": "Que hice yo en el proyecto:",
-    "techs_text": "Stack del proyecto:",
-    "load_more_text": "Ver más proyectos",
-    "projects_list": [
-      {
-        "title": "Constructor de cursos online para la formación de empleados de Sberbank",
-        "details": [
-          "Creación de nuevos componentes basados en el UI Kit de Sberbank;",
-          "Mantenimiento del Frontend (constructor e interfaz de estudiantes);",
-          "Interacción con el Backend a través de una API REST y WebSocket;",
-          "Creación de nuevas funcionalidades en TypeScript;",
-          "Integración con bibliotecas externas."
-        ]
-      },
-      {
-        "title": "Sitio web de proveedor de servicios de Internet con cuenta personal.",
-        "details": [
-          "Maquetación de todas las páginas según el diseño;",
-          "Creación de un interruptor entre temas oscuros y claros;",
-          "Escritura y programación de todo el Frontend en Nuxt2 (Options API);",
-          "Interacción con el Backend a través de una API REST;",
-          "Gestión de la sesión utilizando JWT y localStorage."
-        ]
-      },
-      {
-        "title": "Sitio web de una empresa logística con cuenta personal",
-        "details": [
-          "Maquetación elástica de todas las páginas según el diseño;",
-          "Escribir y programar Frontend en Nuxt2 (Options API);",
-          "Interacción con Backend a través de API;",
-          "Creación de animaciones para todo el sitio web y un preloader complejo;",
-          "(Aún en desarrollo)"
-        ]
-      },
-      {
-        "title": "Sitio web de agencia de inmobiliarios con catálogo de objetos",
-        "details": [
-          "Mantenimiento del Frontend y Backend del proyecto y escritura de nuevos componentes en Nuxt2 (Options API);",
-          "Desarrollo de nuevas funcionalidades en el Backend;",
-          "Interacción con el Backend a través de una API REST."
-        ]
-      },
-      {
-        "title": "Sitio web corporativo para la empresa SKYTECHNIC",
-        "details": [
-          "Escritura y programación de todo el Frontend en Nuxt2 (Options API);",
-          "Interacción con el Backend a través de una API REST;",
-          "Creación de animaciones para todo el sitio web y un preloader complejo."
-        ]
-      },
-      {
-        "title": "Sitio web corporativo con análisis de mercado de comercio electrónico en Rusia",
-        "details": [
-          "Mantenimiento del Frontend y Backend del proyecto y escritura de nuevos componentes en Nuxt2 (Options API);",
-          "Desarrollo de nuevas funcionalidades en el Backend;",
-          "Interacción con el Backend a través de una API REST."
-        ]
-      },
-      {
-        "title": "Tienda en línea de lámparas y candelabros al por mayor",
-        "details": [
-          "Maquetación elástica de todas las páginas según el diseño;",
-          "Escritura de algunas funcionalidades en JS nativo;",
-          "(Aún en desarrollo)"
-        ]
-      },
-      {
-        "title": "Nasledie - Portal para crear una “cápsula de la vida”",
-        "details": [
-          "Maquetación elástica de algunas páginas según el diseño;",
-          "Escritura de algunas funcionalidades en JS nativo;",
-          "(Aún en desarrollo)"
-        ]
-      },
-      {
-        "title": "Sitio web hecho con Tilda con integración a otros servicios",
-        "details": [
-          "Personalización de algunos bloques utilizando CSS;",
-          "Integración con Unisender y Bitrix24;",
-          "Escritura de código adicional en JS nativo para funcionalidades personalizadas."
-        ]
-      }
     ]
   },
   "personal_projects_section": {

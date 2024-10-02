@@ -10,9 +10,7 @@
             {{ $t('hero_section.subtitle') }}
           </h2>
           <p class="hero__description">
-            Hi! I’m a frontend developer with over 3 years of experience. Based on Miami. I’m proficient at Frontend
-            Development, Backend Development, Full Stack Development, App Development, Responsive Design, Error Fixing,
-            Database Management, and Unit Testing
+            {{ $t('hero_section.description') }}
           </p>
           <ul class="hero__contacts mobile-hidden">
             <li class="hero__contacts-item" v-for="contact in contacts">
@@ -22,7 +20,7 @@
             </li>
           </ul>
           <div class="hero__buttons mobile-hidden">
-            <MainButton as="a" bold href="#projects">
+            <MainButton type="gray" as="a" bold href="#projects">
               <template #before>
                 <svg width="26rem" height="20rem" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -32,7 +30,7 @@
               </template>
               {{ $t('hero_section.sec_button') }}
             </MainButton>
-            <MainButton primary bold as="a" href="https://wa.me/+16452146877" target="_blank">
+            <MainButton primary bold as="a" :href="HIRE_ME_HREF" target="_blank">
               {{ $t('hero_section.prim_button') }}
             </MainButton>
           </div>
@@ -58,7 +56,7 @@
       </div>
       <div class="hero__bottom desktop-hidden">
         <div class="hero__bottom-buttons">
-          <MainButton fullWidth as="a" bold href="#projects">
+          <MainButton type="gray" fullWidth as="a" bold href="#projects">
             <template #before>
               <svg width="26rem" height="20rem" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -68,7 +66,7 @@
             </template>
             {{ $t('hero_section.sec_button') }}
           </MainButton>
-          <MainButton fullWidth primary bold as="a" href="https://wa.me/+16452146877" target="_blank">
+          <MainButton fullWidth primary bold as="a" :href="HIRE_ME_HREF" target="_blank">
             {{ $t('hero_section.prim_button') }}
           </MainButton>
         </div>
@@ -89,6 +87,8 @@ import AnimatedImg from "../Others/AnimatedImg.vue";
 import contactIcon from '../Icons/contactIcon.vue';
 import MainButton from '../Buttons/MainButton.vue';
 import contacts from "/public/data/contacts";
+
+const HIRE_ME_HREF = "mailto:renelj1997@gmail.com?subject=Job%20Offer"
 </script>
 
 <style scoped lang="scss">
@@ -132,7 +132,7 @@ import contacts from "/public/data/contacts";
 
     @media only screen and (max-width: 650px) {
       flex-direction: column;
-      gap: 10rem;
+      gap: 20rem;
     }
   }
 
@@ -175,7 +175,7 @@ import contacts from "/public/data/contacts";
       width: 100%;
       margin-bottom: 0;
       font-size: 14rem;
-      line-height: 27rem;
+      line-height: 24rem;
     }
   }
 
@@ -184,6 +184,7 @@ import contacts from "/public/data/contacts";
     align-items: center;
     margin-bottom: 40rem;
     gap: 16rem;
+
     @media only screen and (max-width: 650px) {
       gap: 12rem;
       margin-bottom: 60rem;
@@ -191,22 +192,27 @@ import contacts from "/public/data/contacts";
 
     &-item {
       width: 45rem;
+
       @media only screen and (max-width: 650px) {
         width: 40rem;
       }
     }
+
     &::before,
     &::after {
       width: 30rem;
       height: 1rem;
       background: $white-color;
+
       @media only screen and (max-width: 650px) {
         content: "";
       }
     }
+
     &::before {
       margin-right: -2rem;
     }
+
     &::after {
       margin-left: -2rem;
     }
@@ -231,6 +237,11 @@ import contacts from "/public/data/contacts";
 
   &__right {
     position: relative;
+    margin-right: 36rem;
+
+    @media only screen and (max-width: 650px) {
+      margin-right: 0;
+    }
   }
 
   &__badge {
