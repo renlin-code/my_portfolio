@@ -13,7 +13,7 @@
   "hero_section": {
     "title": "René Linares",
     "subtitle": "Desarrollador Web",
-    "description": "Soy un desarrollador Fullstack con 3 años de experiencia en el desarrollo de aplicaciones y software. Con conocimentos de Frontend y Backend, entiendo a la perfección todo el ciclo de vida de un producto web. Tengo experiencia trabajando en equipo haciendo proyectos para grandes y pequeñas empresas. Contácteme para colaboraciones!",
+    "description": "Soy un desarrollador Fullstack con 3 años de experiencia en el desarrollo de aplicaciones y software. Con conocimentos de Frontend y Backend, entiendo a la perfección todo el ciclo de vida de un producto web. Tengo experiencia trabajando en equipo haciendo proyectos para grandes y pequeñas empresas.",
     "sec_button": "Proyectos",
     "prim_button": "Contrátame",
     "picture_badge": "Disponible para trabajo"
@@ -254,7 +254,7 @@
   },
   "contacts_section": {
     "title": "Contactos",
-    "description": "Si estás buscando a alguien con habilidades técnicas sólidas y una mentalidad proactiva para formar parte de tu equipo, no dudes en ponerte en contacto conmigo."
+    "description": "Si estás buscando a alguien con habilidades técnicas sólidas y una mentalidad proactiva para formar parte de tu equipo, no dudes en contactarme."
   },
   "footer": {
     "link_text": "Encuéntrame en GitHub"

@@ -30,7 +30,7 @@
         </template>
         {{ $t("resume_button") }}
       </GradientButton>
-      <div class="footer__right">
+      <div class="footer__right mobile-hidden">
         <span class="footer__link">
           {{ $t('footer.link_text') }}
           <a class="renlincode-link opacity" href="http://github.com/renlin-code/" target="_blank"
@@ -86,7 +86,6 @@ const LINKS = [
       gap: 30rem;
       @media only screen and (max-width: 650px) {
         flex-wrap: wrap;
-        margin-bottom: 24rem;
         gap: 10rem;
         justify-content: center;
       }

@@ -190,14 +190,16 @@ const currProjects = computed(() => projects[currProjectGroupName.value])
 
                 li {
                     color: $white-color;
-
+                    position: relative;
                     &:not(:last-child):after {
                         content: ';';
                     }
                     &:last-child:after {
                         content: '.';
                     }
-                    &::marker {
+                    &::before {
+                        position: absolute;
+                        left: -20rem;
                         content: ">  ";
                         color: $main-color;
                         font-family: "Russo One", sans-serif;
