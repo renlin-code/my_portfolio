@@ -17,7 +17,6 @@ export default defineNuxtConfig({
         },
         { name: "format-detection", content: "telephone=no" },
         { name: "google", content: "notranslate" },
-        { name: "yandex-verification", content: "eb69d0ab11dc8429" },
         { property: "og:image", content: "/images/og.png" }
       ],
     },
@@ -27,13 +26,6 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
-    ["yandex-metrika-module-nuxt3", {
-      id: "96447865",
-      clickmap: true,
-      trackLinks: true,
-      accurateTrackBounce: true,
-      webvisor: true,
-    }],
   ],
 
   robots: {

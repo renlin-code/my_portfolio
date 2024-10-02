@@ -16,8 +16,7 @@
     "npm-install-global": "^1.0.0",
     "nuxt": "^3.10.1",
     "vue": "^3.4.15",
-    "vue-router": "^4.2.5",
-    "yandex-metrika-module-nuxt3": "^1.5.3"
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@nuxtjs/i18n": "^8.1.0",
