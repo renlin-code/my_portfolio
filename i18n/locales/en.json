@@ -252,7 +252,8 @@
     ]
   },
   "contacts_section": {
-    "title": "Contacts"
+    "title": "Contacts",
+    "description": "If you are looking for someone with strong technical skills and a can-do mindset to join your team, please feel free to contact me."
   },
   "footer": {
     "link_text": "Find me on GitHub"

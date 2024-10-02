@@ -253,7 +253,8 @@
     ]
   },
   "contacts_section": {
-    "title": "Contactos"
+    "title": "Contactos",
+    "description": "Si estás buscando a alguien con habilidades técnicas sólidas y una mentalidad proactiva para formar parte de tu equipo, no dudes en ponerte en contacto conmigo."
   },
   "footer": {
     "link_text": "Encuéntrame en GitHub"

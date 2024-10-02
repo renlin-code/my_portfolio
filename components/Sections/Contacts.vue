@@ -4,8 +4,7 @@
       <h2 class="contacts__title renlincode-title section-title">{{ $t('contacts_section.title') }}</h2>
       <div class="contacts__wrapper">
         <div class="contacts__info">
-          <p>If you are looking for a Full stack Web Developer with great experience, please contact me if you or
-            someone you know is hiring middle developers.</p>
+          <p>{{ $t('contacts_section.description') }}</p>
         </div>
         <div class="contacts__contacts">
           <a class="contacts__contacts-tel opacity" href="tel:+16452146877" target="_blank">+1 (645) 2146 8779</a>

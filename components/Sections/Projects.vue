@@ -72,7 +72,7 @@ import Tabs from '../Others/Tabs.vue';
 import skillIcon from "../Icons/skillIcon.vue";
 import projects from "/public/data/projects.json";
 
-const activeTab = ref(1)
+const activeTab = ref(0)
 const setActiveTab = (index) => {
     activeTab.value = index
 }

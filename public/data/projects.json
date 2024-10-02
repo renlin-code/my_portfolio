@@ -2,7 +2,7 @@
   "commercial": [
     {
       "file_name": "sber-university",
-      "deploy_address": "https://sberuniversity.ru/",
+      "deploy_address": "https://sberuniversity.online/",
       "repo_address": "",
       "img_url": "/images/commercial_projects/sber-university.png",
       "stack": [
