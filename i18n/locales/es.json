@@ -36,7 +36,7 @@
         "duration": "1 año",
         "description": "Una prestigiosa plataforma de educación en línea de alto estándar con más de 500 programas de estudio que permite a miles de especialistas desarrollar habilidades profesionales y construir una carrera exitosa. Sber University es un producto financiado y patrocinado por Sberbank, una de las empresas más grandes de Rusia que cuenta con más de 276 mil empleados.",
         "details": [
-          "Desarrollo de nuevas funcionalidades para un constructor de cursos 'Drag and Drop' en las que se incluyen gráficos para estadísticas, creación automática de informes, manejo de las tareas subidas por los estudiantes, calendarios y eventos, chats de soporte, manejo de los accesos de los estudiantes, asi como integración con una IA generadora de contenido a travez de una API REST",
+          "Desarrollo de nuevas funcionalidades para un constructor de cursos “Drag and Drop” en las que se incluyen gráficos para estadísticas, creación automática de informes, manejo de las tareas subidas por los estudiantes, calendarios y eventos, chats de soporte, manejo de los accesos de los estudiantes, asi como integración con una IA generadora de contenido a travez de una API REST",
           "Migración de componentes UI de Vue.js a React",
           "Revisión de codigo para otros miembros del equipo"
         ]
@@ -59,7 +59,7 @@
         "details": [
           "Desarrollo del Frontend utilizando Server-Side Rendering (SSR) mejorando significativamente el SEO y el rendimiento del sitio web",
           "Desarrollo de una API REST para la gestión de las rutas de transporte, horarios, etc.",
-          "Desarrollo y gestión de base de datos en MongoDB",
+          "Integración con base de datos MongoDB y gestionamiento",
           "Integración con CMS (Wordpress) a través de API REST para la gestión de los contenidos del sitio web. Personalización de la interfaz de administrador de Wordpress"
         ]
       },
@@ -71,7 +71,7 @@
           "Asesoramiento a desarrolladores de menor experiencia en la creación de componentes UI",
           "Refactorización y corrección de componentes UI para mejorar la experiencia del usuario",
           "Desarrollo de una API REST para la gestión del catálogos de propiedades, realtors, etc.",
-          "Desarrollo y gestión de base de datos relacional en PostgreSQL"
+          "Integración con base de datos relacional PostgreSQL y gestionamiento"
         ]
       },
       {
@@ -98,63 +98,60 @@
     ],
     "personal": [
       {
-        "title": "Sber University | plataforma de educación en línea",
-        "duration": "1 año",
-        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "title": "Go Shortener | Aplicación para recortar URLs",
+        "duration": "1 mes",
+        "description": "Una API REST que permite a los usuarios recortar URLs largas generando un alias corto y redireccionando a la URL original.",
         "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
+          "Endpoints públicos para generar alias y para redireccionar a las URLs originales",
+          "Endpoints privados para generar URLs personalizadas y administrar las existentes",
+          "Implementación del principio de “Arquitectura Limpia”",
+          "Escritura de tests unitarios y funcionales",
+          "Contenerización de la aplicación usando Docker"
         ]
       },
       {
-        "title": "Sber University | plataforma de educación en línea",
-        "duration": "1 año",
-        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "title": "Mock Shop API | Aplicación para el gestionamiento de una tienda online",
+        "duration": "2 meses",
+        "description": "Una API REST que facilita el gestionamiento de productos, categorías, pedidos, etc. de una tienda online.",
         "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
+          "Endpoints públicos para consulta de catálogo de articulos y categorías",
+          "Endpoints privados para administración del catálogo (CRUD de productos y categorías)",
+          "Endpoints para cuenta personal del usuario (registro, inicio de sesión, recuperación de contraseñas, gestionamiento de pedidos, etc.)",
+          "Implementación del principio de “Arquitectura Limpia”",
+          "Escritura de tests unitarios",
+          "Escritura de documentación Swagger",
+          "Contenerización de la aplicación usando Docker"
         ]
       },
       {
-        "title": "Sber University | plataforma de educación en línea",
-        "duration": "1 año",
-        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "title": "Time Master | Aplicación para la gestión de tareas pendientes (Frontend)",
+        "duration": "3 meses",
+        "description": "Una aplicación que permite a los usuarios crear, editar, eliminar y marcar como completadas las tareas pendientes.",
         "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
+          "Maquetado elástico de diseño orientado a dispositivos móviles",
+          "Integración con API REST para la gestión de la cuenta de usuario (registro, inicio de sesión, recuperación de contraseñas, CRUD de tareas, etc.)",
+          "Despliegue de la aplicación en modo SPA (Single Page App) y PWA (Progressive Web App)"
         ]
       },
       {
-        "title": "Sber University | plataforma de educación en línea",
-        "duration": "1 año",
-        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "title": "Time Master | Aplicación para la gestión de tareas pendientes (Backend)",
+        "duration": "4 meses",
+        "description": "Una aplicación que permite a los usuarios crear, editar, eliminar y marcar como completadas las tareas pendientes.",
         "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
+          "Endpoints para cuenta personal del usuario (registro, inicio de sesión, recuperación de contraseñas, CRUD de tareas, etc.)",
+          "Conexión a un servidor SMTP para enviar correos electrónicos a los usuarios para confirmación de correo electrónico y recuperación de contraseña",
+          "Integración con base de datos relacional PostgreSQL y gestionamiento"
         ]
       },
       {
-        "title": "Sber University | plataforma de educación en línea",
-        "duration": "1 año",
-        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
+        "title": "Spyfall | Aplicación para jugar al juego Spyfall",
+        "duration": "2 meses",
+        "description": "Versión web del juego Spyfall, en el que los jugadores deben adivinar la identidad de un espía entre ellos.",
         "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
-        ]
-      },
-      {
-        "title": "Sber University | plataforma de educación en línea",
-        "duration": "1 año",
-        "description": "Una prestigiosa plataforma de educacion online de alto estandar con mas de 500 programas que permite a miles de especialistas desarrollar habilidades para el futuro y construir una carrera con éxito.",
-        "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
+          "Maquetado elástico de diseño orientado a dispositivos móviles",
+          "Creación de UI componentes",
+          "Uso de sessionStorage y localStorage para la persistencia de datos",
+          "Manejo de rutas y navegación entre pantallas"
         ]
       }
     ]

@@ -128,22 +128,6 @@
       ]
     },
     {
-      "file_name": "skills-booster",
-      "deploy_address": "https://github.com/renlin-code/skills-booster_front",
-      "repo_address": "https://github.com/renlin-code/skills-booster_front",
-      "img_url": "/images/personal_projects/skills-booster.png",
-      "stack": [
-        "html",
-        "css",
-        "js",
-        "sass",
-        "vue",
-        "nuxt",
-        "php",
-        "wordpress"
-      ]
-    },
-    {
       "file_name": "timemaster_front",
       "deploy_address": "https://github.com/renlin-code/timemaster_frontend",
       "repo_address": "https://github.com/renlin-code/timemaster_frontend",

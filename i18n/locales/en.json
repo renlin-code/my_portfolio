@@ -36,7 +36,7 @@
         "duration": "1 year",
         "description": "A prestigious, high-standard online education platform with more than 500 study programs that allows thousands of specialists to develop professional skills and build a successful career. Sber University is a product financed and sponsored by Sberbank, one of the largest companies in Russia with more than 276 thousand employees.",
         "details": [
-          "Development of new features for a 'Drag and Drop' course constructor, which includes charts for statistics, automatic report generation, management of homeworks uploaded by students, calendars and events, support chats, management of student access, as well as integration with an AI content generator through a REST API",
+          "Development of new features for a “Drag and Drop” course constructor, which includes charts for statistics, automatic report generation, management of homeworks uploaded by students, calendars and events, support chats, management of student access, as well as integration with an AI content generator through a REST API",
           "Migration of UI components from Vue.js to React",
           "Code review for other team members"
         ]
@@ -59,7 +59,7 @@
         "details": [
           "Frontend development using Server-Side Rendering (SSR) significantly improving the SEO and performance of the website",
           "Development of a REST API for the management of transport routes, schedules, etc.",
-          "Development and management of database in MongoDB",
+          "Integration with database MongoDB and management",
           "Integration with CMS (Wordpress) through REST API for the management of website content. Customization of the Wordpress administrator interface"
         ]
       },
@@ -71,7 +71,7 @@
           "Support for less experienced developers in the creation of UI components",
           "Refactoring and correction of UI components to improve the user experience",
           "Development of a REST API for the management of property catalogs, realtors, etc.",
-          "Development and management of relational database in PostgreSQL"
+          "Integration with relational database PostgreSQL and management"
         ]
       },
       {
@@ -97,63 +97,60 @@
     ],
     "personal": [
       {
-        "title": "Online course builder for training Sberbank employees",
-        "duration": "2 years of consistently shipping new features every 3 months.",
-        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "title": "Go Shortener | URL shortening application",
+        "duration": "1 month",
+        "description": "A REST API that allows users to shorten long URLs by generating a short alias and redirecting to the original URL.",
         "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
+          "Public endpoints for generating aliases and redirecting to the original URLs",
+          "Private endpoints for generating custom URLs and managing existing ones",
+          "Implementing the “Clean Architecture” principle",
+          "Writing unit and functional tests",
+          "Containerizing the application using Docker"
         ]
       },
       {
-        "title": "Online course builder for training Sberbank employees",
-        "duration": "2 years of consistently shipping new features every 3 months.",
-        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "title": "Mock Shop API | Application for managing an online store",
+        "duration": "2 months",
+        "description": "A REST API that facilitates the management of products, categories, orders, etc. of an online store.",
         "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
+          "Public endpoints for getting articles and categories",
+          "Private endpoints for catalog management (CRUD of products and categories)",
+          "Endpoints for the user's personal account (registration, login, password recovery, order management, etc.)",
+          "Implementing the “Clean Architecture” principle",
+          "Writing unit tests",
+          "Writing Swagger documentation",
+          "Containerizing the application using Docker"
         ]
       },
       {
-        "title": "Online course builder for training Sberbank employees",
-        "duration": "2 years of consistently shipping new features every 3 months.",
-        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "title": "Time Master | Task Management App (Frontend)",
+        "duration": "3 months",
+        "description": "An app that allows users to create, edit, delete, and mark completed to-do tasks.",
         "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
+          "Elastic layout for mobile-friendly design",
+          "Integration with REST API for user account management (registration, login, password recovery, task CRUD, etc.)",
+          "App deployment in SPA (Single Page App) and PWA (Progressive Web App) mode"
         ]
       },
       {
-        "title": "Online course builder for training Sberbank employees",
-        "duration": "2 years of consistently shipping new features every 3 months.",
-        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "title": "Time Master | Task Management Application (Backend)",
+        "duration": "4 months",
+        "description": "An app that allows users to create, edit, delete, and mark completed to-do tasks.",
         "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
+          "Endpoints for user personal account (registration, login, password recovery, task CRUD, etc.)",
+          "Connection to an SMTP server to send emails to users for email confirmation and password recovery",
+          "Integration with relational database PostgreSQL and management"
         ]
       },
       {
-        "title": "Online course builder for training Sberbank employees",
-        "duration": "2 years of consistently shipping new features every 3 months.",
-        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
+        "title": "Spyfall | Application to play the game Spyfall",
+        "duration": "2 months",
+        "description": "Web version of the game Spyfall, in which players must guess the identity of a spy among them.",
         "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
-        ]
-      },
-      {
-        "title": "Online course builder for training Sberbank employees",
-        "duration": "2 years of consistently shipping new features every 3 months.",
-        "description": "An elite educational university in Russia, offering advanced training for specialists and future technology leaders to enhance their future-focused skills and excel in their careers.",
-        "details": [
-          "lorem ipsum",
-          "lorem ipsum",
-          "lorem ipsum"
+          "Elastic layout for mobile-oriented design",
+          "Creating UI components",
+          "Using sessionStorage and localStorage for data persistence",
+          "Handling paths and navigation between screens"
         ]
       }
     ]
