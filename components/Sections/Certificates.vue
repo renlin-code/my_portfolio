@@ -10,7 +10,7 @@
       <h2 class="certificates__title renlincode-title section-title">{{ $t('certificates_section.title') }}</h2>
       <div class="certificates__wrapper">
         <p class="certificates__text">
-          {{ $t('certificates_section.text') }}
+          <span v-html="$t('certificates_section.text')"></span>
           <a target="_blank" class="renlincode-link opacity" href="https://platzi.com"
             rel="noopener noreferrer">Platzi</a>.
         </p>
@@ -92,7 +92,7 @@ onMounted(() => {
     grid-template-columns: 1fr 1fr;
     gap: 100rem;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 
     @media only screen and (max-width: 650px) {
       display: flex;

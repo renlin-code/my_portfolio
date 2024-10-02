@@ -37,10 +37,7 @@
 <script setup>
 import LangSelector from "../Buttons/LangSelector.vue";
 import MainButton from "../Buttons/MainButton.vue";
-
-const LINKS = [
-  "#projects", "#skills", "#certificates", "#contacts"
-];
+import LINKS from "/public/data/links.json";
 
 const props = defineProps({
   open: {

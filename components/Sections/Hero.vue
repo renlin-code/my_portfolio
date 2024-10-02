@@ -15,7 +15,7 @@
           <ul class="hero__contacts mobile-hidden">
             <li class="hero__contacts-item" v-for="contact in contacts">
               <a :href="contact.link" target="_blank">
-                <contactIcon :name="contact.name" />
+                <contactIcon :name="contact.name" color="#D6D6D6" />
               </a>
             </li>
           </ul>
@@ -99,8 +99,9 @@ const HIRE_ME_HREF = "mailto:renelj1997@gmail.com?subject=Job%20Offer"
   background-size: 2120rem 520rem;
   background-repeat: no-repeat;
   background-position: 50% 0;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 120rem;
+  padding-bottom: 100rem;
   position: relative;
   overflow: hidden;
 

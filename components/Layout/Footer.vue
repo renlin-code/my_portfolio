@@ -44,10 +44,8 @@
 
 <script setup>
 import GradientButton from '../Buttons/GradientButton.vue';
+import LINKS from "/public/data/links.json";
 
-const LINKS = [
-  "#about", "#skills", "#certificates", "#works", "#projects", "#contacts"
-];
 </script>
 
 <style scoped lang="scss">
