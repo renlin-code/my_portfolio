@@ -73,7 +73,7 @@
         <ul class="hero__contacts">
           <li class="hero__contacts-item" v-for="contact in contacts">
             <a :href="contact.link" target="_blank">
-              <contactIcon :name="contact.name" />
+              <contactIcon :name="contact.name" :color="#D6D6D6" />
             </a>
           </li>
         </ul>
