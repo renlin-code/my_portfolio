@@ -32,16 +32,6 @@
     ],
     "commercial": [
       {
-        "title": "Sber University | E-Learning platform",
-        "duration": "1 year",
-        "description": "A prestigious, high-standard online education platform with more than 500 study programs that allows thousands of specialists to develop professional skills and build a successful career. Sber University is a product financed and sponsored by Sberbank, one of the largest companies in Russia with more than 276 thousand employees.",
-        "details": [
-          "Development of new features for a “Drag and Drop” course constructor, which includes charts for statistics, automatic report generation, management of homeworks uploaded by students, calendars and events, support chats, management of student access, as well as integration with an AI content generator through a REST API",
-          "Migration of UI components from Vue.js to React",
-          "Code review for other team members"
-        ]
-      },
-      {
         "title": "M2 | Corporate website for an Internet provider",
         "duration": "4 months",
         "description": "An Internet provider dedicated to delivering high-speed, reliable services to homes and businesses.",
