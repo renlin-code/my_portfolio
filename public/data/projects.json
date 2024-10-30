@@ -1,6 +1,24 @@
 {
   "commercial": [
     {
+      "file_name": "sber-university",
+      "deploy_address": "",
+      "repo_address": "",
+      "img_url": "/images/commercial_projects/sber-university.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "ts",
+        "sass",
+        "vue",
+        "react",
+        "php",
+        "mysql",
+        "docker"
+      ]
+    },
+    {
       "file_name": "m2",
       "deploy_address": "https://m2connect.ru/",
       "repo_address": "",

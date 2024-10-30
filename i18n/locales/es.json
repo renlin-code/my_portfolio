@@ -32,6 +32,16 @@
     ],
     "commercial": [
       {
+        "title": "Plataforma de educación en línea para un prestigioso banco",
+        "duration": "1 año",
+        "description": "Una prestigiosa plataforma de educación en línea de alto estándar con más de 500 programas de estudio que permite a miles de especialistas desarrollar habilidades profesionales y construir una carrera exitosa. Este proyecto es un producto financiado y patrocinado por uno de los bancos más grandes de Rusia que cuenta con más de 276 mil empleados.",
+        "details": [
+          "Desarrollo de nuevas funcionalidades para un constructor de cursos “Drag and Drop” en las que se incluyen gráficos para estadísticas, creación automática de informes, manejo de las tareas subidas por los estudiantes, calendarios y eventos, chats de soporte, manejo de los accesos de los estudiantes, asi como integración con una IA generadora de contenido a travez de una API REST",
+          "Migración de componentes UI de Vue.js a React",
+          "Revisión de codigo para otros miembros del equipo"
+        ]
+      },
+      {
         "title": "M2 | Sitio web corporativo para un proveedor de Internet",
         "duration": "4 meses",
         "description": "Un proveedor de Internet que se dedica a ofrecer servicios de alta velocidad y confiabilidad para hogares y empresas.",

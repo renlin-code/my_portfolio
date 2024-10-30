@@ -32,6 +32,16 @@
     ],
     "commercial": [
       {
+        "title": "E-Learning platform for a prestigious bank",
+        "duration": "1 year",
+        "description": "A prestigious, high-standard online education platform with more than 500 study programs that allows thousands of specialists to develop professional skills and build a successful career. This is a product financed and sponsored by one of the largest banks in Russia with more than 276 thousand employees. The project is protected by NDA.",
+        "details": [
+          "Development of new features for a “Drag and Drop” course constructor, which includes charts for statistics, automatic report generation, management of homeworks uploaded by students, calendars and events, support chats, management of student access, as well as integration with an AI content generator through a REST API",
+          "Migration of UI components from Vue.js to React",
+          "Code review for other team members"
+        ]
+      },
+      {
         "title": "M2 | Corporate website for an Internet provider",
         "duration": "4 months",
         "description": "An Internet provider dedicated to delivering high-speed, reliable services to homes and businesses.",

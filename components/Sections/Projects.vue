@@ -49,12 +49,17 @@
                         </div>
                     </div>
                     <div class="projects__project-right">
-                        <a class="projects__project-img-link" :href="project.deploy_address" target="_blank">
+                        <a v-if="project.deploy_address" class="projects__project-img-link" :href="project.deploy_address" target="_blank">
                             <figure class="onhover-light">
                                 <img :src="project.img_url" alt="" />
                                 <div class="front-layer"></div>
                             </figure>
                         </a>
+                        <div v-else class="projects__project-img-link">
+                            <figure>
+                                <img :src="project.img_url" alt="" />
+                            </figure>
+                        </div>
                     </div>
                     <ul class="projects__project-tech">
                         <li v-for="tech in project.stack">
