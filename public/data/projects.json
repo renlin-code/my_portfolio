@@ -1,10 +1,10 @@
 {
   "commercial": [
     {
-      "file_name": "sber-university",
+      "file_name": "bank-university",
       "deploy_address": "",
       "repo_address": "",
-      "img_url": "/images/commercial_projects/sber-university.png",
+      "img_url": "/images/commercial_projects/bank-university.png",
       "stack": [
         "html",
         "css",
