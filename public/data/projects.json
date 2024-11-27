@@ -108,6 +108,19 @@
   ],
   "personal": [
     {
+      "file_name": "ai-translator",
+      "deploy_address": "https://github.com/renlin-code/ai-translator",
+      "repo_address": "https://github.com/renlin-code/ai-translator",
+      "img_url": "/images/personal_projects/ai-translator.png",
+      "stack": [
+        "html",
+        "css",
+        "js",
+        "ts",
+        "react"
+      ]
+    },
+    {
       "file_name": "go-shortener",
       "deploy_address": "https://github.com/renlin-code/go-shortener",
       "repo_address": "https://github.com/renlin-code/go-shortener",

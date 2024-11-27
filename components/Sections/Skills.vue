@@ -30,8 +30,12 @@ const clientWidth = ref(null);
 
 const MAIN_STACK = [
   {
-    key: 'go',
-    name: 'Go'
+    key: 'html',
+    name: 'HTML'
+  },
+  {
+    key: 'css',
+    name: 'CSS'
   },
   {
     key: 'js',
@@ -42,24 +46,20 @@ const MAIN_STACK = [
     name: 'TypeScript'
   },
   {
-    key: 'node',
-    name: 'Node.js'
-  },
-  {
-    key: 'express',
-    name: 'Express.js'
+    key: 'react',
+    name: 'React'
   },
   {
     key: 'vue',
     name: 'Vue.js'
   },
   {
-    key: 'react',
-    name: 'React'
+    key: 'sass',
+    name: 'SASS/SCSS'
   },
   {
-    key: 'postgres',
-    name: 'Postgres SQL'
+    key: 'node',
+    name: 'Node.js'
   },
 ]
 
@@ -75,7 +75,7 @@ const mainStackMatrix = computed(() => {
 
   return result;
 })
-const EXTRA_STACK = ['html', 'css', 'sass', 'next', 'nuxt', 'vite', 'docker', 'git', 'mongo', 'php', 'wordpress', 'figma']
+  const EXTRA_STACK = ['next', 'nuxt', 'vite', 'express', 'go', 'php', 'postgres', 'mongo', 'wordpress', 'docker', 'git', 'figma']
 
 
 const flkty = ref(null);

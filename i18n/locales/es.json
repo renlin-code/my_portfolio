@@ -98,6 +98,17 @@
     ],
     "personal": [
       {
+        "title": "Traductor IA | Un traductor que usa una IA para traducir textos",
+        "duration": "2 semanas",
+        "description": "Un traductor que usa una IA para traducir textos. Soporta multiples lenguajes y realiza traducciones de alta precisión.",
+        "details": [
+          "Creación de la UI usando componentes de React",
+          "Separación de la lógica de negocio y la UI usando hooks personalizados",
+          "Integración con una API para el uso de la IA",
+          "Creación de un debounce para reducir el número de llamadas a la API"
+        ]
+      },
+      {
         "title": "Go Shortener | Aplicación para recortar URLs",
         "duration": "1 mes",
         "description": "Una API REST que permite a los usuarios recortar URLs largas generando un alias corto y redireccionando a la URL original.",

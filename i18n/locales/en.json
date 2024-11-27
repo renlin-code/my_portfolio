@@ -97,6 +97,17 @@
     ],
     "personal": [
       {
+        "title": "AI Translator | A translator that uses AI to translate texts",
+        "duration": "2 weeks",
+        "description": "A translator that uses AI to translate texts. It supports multiple languages and provides accurate translations",
+        "details": [
+          "Creation of the UI using React components",
+          "Separation of business logic and the UI using custom hooks",
+          "Integration with an API for AI usage",
+          "Creation of a debounce to reduce the number of API calls"
+        ]
+      },
+      {
         "title": "Go Shortener | URL shortening application",
         "duration": "1 month",
         "description": "A REST API that allows users to shorten long URLs by generating a short alias and redirecting to the original URL.",
