@@ -8,7 +8,7 @@
           </li>
         </ul>
       </nav>
-      <GradientButton class="footer__resume" as="a" href="https://drive.google.com/file/d/1OJhLrp04t6Mga7F6qpnhWw09mOU7Rw1b/view" target="_blank">
+      <GradientButton class="footer__resume" as="a" href="https://drive.google.com/file/d/1Q0C_WNGqyRh1vkfQTT6oN77I674IniG3/view" target="_blank">
         <template #before>
           <svg width="20rem" height="20rem" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
