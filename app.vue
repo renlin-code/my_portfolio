@@ -25,7 +25,11 @@ import seoHeadTags from '@/helpers/seoHeadTags';
 const { t } = useI18n();
 
 useHead(
-  seoHeadTags(() => t("seo_metadata.title"), () => t("seo_metadata.description"))
+  seoHeadTags(
+    () => t("seo_metadata.title"), 
+    () => t("seo_metadata.description"),
+    () => t("seo_metadata.author")
+  )
 )
 </script>
 
