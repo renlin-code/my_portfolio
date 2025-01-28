@@ -10,7 +10,7 @@
       <div class="header__right mobile-hidden">
         <div></div>
         <LangSelector :dark="scrolled" />
-        <MainButton primary bold as="a" href="https://drive.google.com/file/d/1LNcPwyL4ilLo1I2hnQnHOlDYqwBoyk7b/view"
+        <MainButton primary bold as="a" href="https://drive.google.com/file/d/16lldxQfiZ32rukNjCsKb9LbTnPDNFnHf/view"
           target="_blank">
           <template #before>
             <svg width="20rem" height="20rem" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
