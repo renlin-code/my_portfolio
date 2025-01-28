@@ -12,7 +12,10 @@
         <p class="certificates__text">
           <span v-html="$t('certificates_section.text')"></span>
           <a target="_blank" class="renlincode-link opacity" href="https://platzi.com"
-            rel="noopener noreferrer">Platzi</a>.
+            rel="noopener noreferrer">Platzi </a>
+          <span v-html="$t('certificates_section.conjuntion')"></span>
+          <a target="_blank" class="renlincode-link opacity" href="https://www.coursera.org"
+            rel="noopener noreferrer"> Coursera</a>.
         </p>
         <div class="certificates__slider">
           <div class="certificates__slider-wrapper">
@@ -119,6 +122,7 @@ onMounted(() => {
     &-wrapper {
       width: 100%;
       height: 336rem;
+
       @media only screen and (max-width: 650px) {
         width: 100%;
         height: 276rem;

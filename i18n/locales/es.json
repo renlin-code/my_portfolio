@@ -188,7 +188,9 @@
   "certificates_section": {
     "title": "Certificados",
     "text": "Intento mejorar constantemente, lo cual puede comprobarse al observar mis certificados. La mayoría de los cursos y certificados los obtuve en la popular plataforma ",
+    "conjuntion": "y",
     "certificates_names_list": [
+      "Meta Frontend Developer",
       "Curso de Frontend Developer",
       "Curso de Ingeniería de Software"
     ]

@@ -187,8 +187,10 @@
   "certificates_section": {
     "title": "Certificates",
     "text": "I strive to constantly improve, which you can see by looking at my certificates. Most of the courses and certificates I obtained from the popular platform ",
+    "conjuntion": "and",
     "certificates_names_list": [
-      "Course of Frontend Development",
+      "Meta Frontend Developer",
+      "Course of Frontend Developer",
       "Course of Software Engineering"
     ]
   },

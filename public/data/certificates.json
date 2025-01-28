@@ -1,16 +1,23 @@
 [
   {
     "id": "0",
+    "name": "Meta Frontend Developer",
+    "file_name": "certificate-frontend-meta",
+    "url": "/images/certificates/certificate-frontend-meta.png",
+    "url_mini": "/images/certificates/certificate-frontend-meta-mini.png"
+  },
+  {
+    "id": "1",
     "name": "Curso de Frontend",
     "file_name": "certificate-frontend",
     "url": "/images/certificates/certificate-frontend.png",
     "url_mini": "/images/certificates/certificate-frontend-mini.png"
   },
   {
-    "id": "1",
+    "id": "2",
     "name": "Curso de Ingeniería de Softwares",
     "file_name": "certificate-software-engineering",
-    "url": "https://imgur.com/LqXd7rt.png",
-    "url_mini": "https://imgur.com/2cr7elT.png"
+    "url": "/images/certificates/certificate-software-engineering.png",
+    "url_mini": "/images/certificates/certificate-software-engineering-mini.png"
   }
 ]
