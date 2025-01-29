@@ -17,7 +17,10 @@
     "description": "Soy un desarrollador Fullstack con 3 años de experiencia en el desarrollo de aplicaciones y software. Con conocimentos de Frontend y Backend, entiendo a la perfección todo el ciclo de vida de un producto web. Tengo experiencia trabajando en equipo haciendo proyectos para grandes y pequeñas empresas.",
     "sec_button": "Proyectos",
     "prim_button": "Contrátame",
-    "picture_badge": "Disponible para trabajo"
+    "picture_badges": [
+      "Certificado por Meta",
+      "Disponible para trabajo"
+    ]
   },
   "projects_section": {
     "title": "Proyectos clave",

@@ -68,7 +68,7 @@ onMounted(() => {
 
   &__slider {
     width: 1500rem;
-    height: 536rem;
+    height: 640rem;
 
     @media only screen and (max-width: 650px) {
       width: 100%;
@@ -76,7 +76,7 @@ onMounted(() => {
     }
 
     &-slide {
-      width: 692rem;
+      width: 830rem;
       height: 100%;
       margin: 0 30%;
       box-shadow: 4rem 8rem 50rem rgba(0, 0, 0, 0.81);
