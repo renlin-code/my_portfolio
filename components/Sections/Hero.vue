@@ -304,11 +304,12 @@ const HIRE_ME_HREF = "mailto:renelj1997@gmail.com?subject=Job%20Offer"
     }
 
     &--meta {
-      bottom: 110rem;
+      top: 450rem;
       left: -30rem;
       background: $black-color;
       border-color: #0082FB;
       @media only screen and (max-width: 650px) {
+        top: auto;
         left: 0;
         bottom: 40rem;
       }
@@ -317,11 +318,12 @@ const HIRE_ME_HREF = "mailto:renelj1997@gmail.com?subject=Job%20Offer"
     &--available {
       background: $very-black-color;
       border-color: $main-color;
-      bottom: 60rem;
+      top: 540rem;
       right: -36rem;
 
       @media only screen and (max-width: 650px) {
         left: auto;
+        top: auto;
         right: 0;
         bottom: 0;
       }
