@@ -1,7 +1,7 @@
 {
   "seo_metadata": {
     "title": "René Linares | Ingeniero de Software y Desarrollador Web",
-    "description": "Con base en Miami, soy un desarrollador Fullstack con experiencia en la creación de sitios web, aplicaciones y software de todo tipo de complejidad que son responsivos y fáciles de usar.",
+    "description": "Con base en Miami, soy un ingeniero de software con experiencia en la creación de sitios web, aplicaciones y software de todo tipo de complejidad que son responsivos y fáciles de usar.",
     "author": "René Linares"
   },
   "nav_links": [
@@ -13,8 +13,8 @@
   "resume_button": "Currículum",
   "hero_section": {
     "title": "René Linares",
-    "subtitle": "Desarrollador Web",
-    "description": "Soy un desarrollador Fullstack certificado por Meta con una experiencia significativa en el desarrollo de softwares desde 2021. Con conocimentos de Frontend y Backend, entiendo a la perfección todo el ciclo de vida de un producto web. Tengo experiencia en proyectos de alto estándar en equipos de desarrollo Agile, añadiendo nuevas funcionalidades, escribiendo tests y realizando revisiones de código.",
+    "subtitle": "Ingeniero de Software",
+    "description": "Soy un ingeniero de software certificado por Meta con una experiencia significativa en el desarrollo de softwares desde 2021. Con conocimentos de Frontend y Backend, entiendo a la perfección todo el ciclo de vida de un producto web. Tengo experiencia en proyectos de alto estándar en equipos de desarrollo Agile, añadiendo nuevas funcionalidades, escribiendo tests y realizando revisiones de código.",
     "sec_button": "Proyectos",
     "prim_button": "Contrátame",
     "picture_badges": [
@@ -173,7 +173,7 @@
   },
   "about_me_section": {
     "title": "Sobre mí",
-    "top_text": "Soy un desarrollador Fullstack apasionado y cualificado con experiencia en el diseño, desarrollo e implementación de aplicaciones web robustas.",
+    "top_text": "Soy un ingeniero de software apasionado y cualificado con experiencia en el diseño, desarrollo e implementación de aplicaciones web robustas.",
     "skills_block": {
       "text": "Estoy bien versado en el ciclo de vida de desarrollo de software y tengo un profundo conocimiento de tecnologías de Frontend y Backend, que incluyen:",
       "skills": [

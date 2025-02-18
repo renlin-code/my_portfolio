@@ -1,7 +1,7 @@
 {
   "seo_metadata": {
     "title": "Rene Linares | Software Engineer & Web Developer",
-    "description": "Based in Miami, I'm a Fullstack Developer with experience creating responsive, user-friendly websites, applications and software of all kinds of complexity.",
+    "description": "Based in Miami, I'm a software engineer with experience creating responsive, user-friendly websites, applications and software of all kinds of complexity.",
     "author": "Rene Linares"
   },
   "nav_links": [
@@ -13,8 +13,8 @@
   "resume_button": "Resume",
   "hero_section": {
     "title": "Rene Linares",
-    "subtitle": "Web Developer",
-    "description": "I am a Fullstack Developer certified by Meta with a significant experience in software development since 2021. Proficient in both Frontend and Backend, I perfectly understand the entire web product lifecycle. I have experience in high-standard projects within Agile development teams, adding new features, writing tests, and conducting code reviews.",
+    "subtitle": "Softaware Engineer",
+    "description": "I am a software engineer certified by Meta with a significant experience in software development since 2021. Proficient in both Frontend and Backend, I perfectly understand the entire web product lifecycle. I have experience in high-standard projects within Agile development teams, adding new features, writing tests, and conducting code reviews.",
     "sec_button": "Projects",
     "prim_button": "Hire me",
     "picture_badges": [
@@ -172,7 +172,7 @@
   },
   "about_me_section": {
     "title": "About me",
-    "top_text": "I am a passionate and skilled Fullstack developer with experience in designing, developing, and implementing robust web applications.",
+    "top_text": "I am a passionate and skilled software engineer with experience in designing, developing, and implementing robust web applications.",
     "skills_block": {
       "text": "I am well-versed in the software development lifecycle and have a deep understanding of both Frontend and Backend technologies, including:",
       "skills": [
