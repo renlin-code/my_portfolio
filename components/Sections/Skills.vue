@@ -54,12 +54,12 @@ const MAIN_STACK = [
     name: 'Vue.js'
   },
   {
-    key: 'sass',
-    name: 'SASS/SCSS'
-  },
-  {
     key: 'node',
     name: 'Node.js'
+  },
+  {
+    key: 'express',
+    name: 'Express.js'
   },
 ]
 
@@ -75,7 +75,7 @@ const mainStackMatrix = computed(() => {
 
   return result;
 })
-  const EXTRA_STACK = ['next', 'nuxt', 'vite', 'express', 'go', 'php', 'postgres', 'mongo', 'wordpress', 'docker', 'git', 'figma']
+  const EXTRA_STACK = ['next', 'nuxt', 'vite', 'sass', 'go', 'php', 'postgres', 'mongo', 'wordpress', 'docker', 'aws', 'git', 'figma']
 
 
 const flkty = ref(null);
@@ -102,13 +102,11 @@ onMounted(() => {
 .skills {
   width: 100%;
   background: $very-black-color;
-  background-image: url("/images/ellipse_bg2.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: radial-gradient(ellipse 150% 200% at 50% 50%, $main-color -200%, $very-black-color 30%);
   overflow: hidden;
   @media only screen and (max-width: 650px) {
     padding-top: 30rem;
+    background: radial-gradient(ellipse 300% 200% at 50% 50%, $main-color -200%, $very-black-color 30%);
   }
   &__title {
     color: $white-color;
@@ -200,6 +198,7 @@ onMounted(() => {
       @media only screen and (max-width: 650px) {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 18rem;
       }
     }
 

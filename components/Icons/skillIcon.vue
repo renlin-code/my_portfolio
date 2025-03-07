@@ -37,6 +37,7 @@ import FigmaIcon from "@/public/images/skills_icons/FigmaIcon.svg"
 import MongoIcon from "@/public/images/skills_icons/MongoIcon.svg"
 import SQLiteIcon from "@/public/images/skills_icons/SQLiteIcon.svg"
 import MySQLIcon from "@/public/images/skills_icons/MySQLIcon.svg"
+import AWSIcon from "@/public/images/skills_icons/AWSIcon.svg"
 
 const props = defineProps({
   type: {
@@ -181,6 +182,11 @@ const ICONS = [
     key: 'mysql',
     name: 'MySQL',
     icon: MySQLIcon
+  },
+  {
+    key: 'aws',
+    name: 'AWS',
+    icon: AWSIcon
   },
 
 ]

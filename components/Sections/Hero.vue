@@ -127,11 +127,7 @@ const HIRE_ME_HREF = "mailto:renelj1997@gmail.com?subject=Job%20Offer"
 <style scoped lang="scss">
 .hero {
   width: 100%;
-  background: $black-color;
-  background-image: url("/images/ellipse_bg.png");
-  background-size: 2120rem 520rem;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
+  background: radial-gradient(ellipse 90% 90% at 50% -5%, $main-color -100%, transparent 50%);
   min-height: 100vh;
   padding-top: 120rem;
   padding-bottom: 100rem;
@@ -144,6 +140,7 @@ const HIRE_ME_HREF = "mailto:renelj1997@gmail.com?subject=Job%20Offer"
   }
 
   @media only screen and (max-width: 650px) {
+    background: radial-gradient(ellipse 200% 100% at 50% -5%, #00E991 -70%, transparent 50%);
     padding-top: 56rem;
     padding-bottom: 0;
     height: auto;
@@ -308,6 +305,7 @@ const HIRE_ME_HREF = "mailto:renelj1997@gmail.com?subject=Job%20Offer"
       left: -30rem;
       background: $black-color;
       border-color: #0082FB;
+
       @media only screen and (max-width: 650px) {
         top: auto;
         left: 0;

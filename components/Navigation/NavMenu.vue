@@ -6,7 +6,7 @@
       </li>
     </ul>
     <MainButton class="nav-menu__resume desktop-hidden" primary as="a"
-      href="https://drive.google.com/file/d/1wZHSXHwm12QpzX0mY_MSLfbc9bwcVuVs/view" target="_blank">
+      href="https://drive.google.com/file/d/1r0f4Dl0RQtHgeUHoHTNj--d95AlE2KDQ/view" target="_blank">
       <template #before>
         <svg width="20rem" height="20rem" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
