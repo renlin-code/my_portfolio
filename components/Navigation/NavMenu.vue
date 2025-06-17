@@ -6,7 +6,7 @@
       </li>
     </ul>
     <MainButton class="nav-menu__resume desktop-hidden" primary as="a"
-      :href="resumeLink" target="_blank">
+      :href="$t('resume_button.link')" target="_blank">
       <template #before>
         <svg width="20rem" height="20rem" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -26,7 +26,7 @@
             fill="#1B1B1B" />
         </svg>
       </template>
-      {{ $t("resume_button") }}
+      {{ $t("resume_button.text") }}
     </MainButton>
     <div class="nav-menu__lang desktop-hidden">
       <LangSelector />
@@ -38,9 +38,6 @@
 import LangSelector from "../Buttons/LangSelector.vue";
 import MainButton from "../Buttons/MainButton.vue";
 import LINKS from "/public/data/links.json";
-import { useResumeLink } from "~/hooks/useResumeLink";
-
-const { link: resumeLink } = useResumeLink();
 
 const props = defineProps({
   open: {

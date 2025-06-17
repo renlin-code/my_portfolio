@@ -10,7 +10,10 @@
     "Certificates",
     "Contacts"
   ],
-  "resume_button": "Resume",
+  "resume_button": {
+    "text": "Resume",
+    "link": "https://drive.google.com/file/d/12WpZO_QZhVsvQ7lp3tCjfw73-vDoU1MK/view"
+  },
   "hero_section": {
     "title": "Rene Linares",
     "subtitle": "Software Engineer",

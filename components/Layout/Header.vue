@@ -10,7 +10,7 @@
       <div class="header__right mobile-hidden">
         <div></div>
         <LangSelector :dark="scrolled" />
-        <MainButton primary as="a" :href="resumeLink"
+        <MainButton primary as="a" :href="$t('resume_button.link')"
           target="_blank">
           <template #before>
             <svg width="20rem" height="20rem" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@
                 fill="#1B1B1B" />
             </svg>
           </template>
-          {{ $t("resume_button") }}
+          {{ $t("resume_button.text") }}
         </MainButton>
 
       </div>
@@ -45,9 +45,7 @@ import NavMenu from "../Navigation/NavMenu.vue";
 import RenlinCodeLogo from "../Logos/renlinCodeLogo.vue";
 import LangSelector from "../Buttons/LangSelector.vue";
 import MainButton from "../Buttons/MainButton.vue";
-import { useResumeLink } from "~/hooks/useResumeLink";
 
-const { link: resumeLink } = useResumeLink();
 const menuOpen = ref(false);
 watch(menuOpen, (value) => {
   document.querySelector("body").style.overflowY = value ? "hidden" : "scroll";

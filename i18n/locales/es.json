@@ -10,7 +10,10 @@
     "Certificados",
     "Contactos"
   ],
-  "resume_button": "Currículum",
+  "resume_button": {
+    "text": "Currículum",
+    "link": "https://drive.google.com/file/d/1i8XIDWavLxXIrnrgt2xu2UQ1sqeSlRpn/view"
+  },
   "hero_section": {
     "title": "René Linares",
     "subtitle": "Ingeniero de Software",

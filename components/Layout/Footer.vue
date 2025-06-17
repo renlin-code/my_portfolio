@@ -8,7 +8,7 @@
           </li>
         </ul>
       </nav>
-      <GradientButton class="footer__resume" as="a" :href="resumeLink" target="_blank">
+      <GradientButton class="footer__resume" as="a" :href="$t('resume_button.link')" target="_blank">
         <template #before>
           <svg width="20rem" height="20rem" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -28,7 +28,7 @@
               fill="#EFEFFF" />
           </svg>
         </template>
-        {{ $t("resume_button") }}
+        {{ $t("resume_button.text") }}
       </GradientButton>
       <div class="footer__right mobile-hidden">
         <span class="footer__link">
@@ -45,10 +45,6 @@
 <script setup>
 import GradientButton from '../Buttons/GradientButton.vue';
 import LINKS from "/public/data/links.json";
-import { useResumeLink } from "~/hooks/useResumeLink";
-
-const { link: resumeLink } = useResumeLink();
-
 </script>
 
 <style scoped lang="scss">
