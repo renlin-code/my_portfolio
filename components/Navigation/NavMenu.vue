@@ -6,7 +6,7 @@
       </li>
     </ul>
     <MainButton class="nav-menu__resume desktop-hidden" primary as="a"
-      href="https://drive.google.com/file/d/1uQ7tSQXmEBgNjoOo9HgHUKMX-z_aXZrz/view" target="_blank">
+      :href="resumeLink" target="_blank">
       <template #before>
         <svg width="20rem" height="20rem" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -38,6 +38,9 @@
 import LangSelector from "../Buttons/LangSelector.vue";
 import MainButton from "../Buttons/MainButton.vue";
 import LINKS from "/public/data/links.json";
+import { useResumeLink } from "~/hooks/useResumeLink";
+
+const { link: resumeLink } = useResumeLink();
 
 const props = defineProps({
   open: {

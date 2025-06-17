@@ -28,9 +28,7 @@ const props = defineProps({
 const open = ref(false);
 
 const { locale, locales } = useI18n()
-const availableLocales = computed(() => {
-  return (locales.value).filter(i => i !== locale.value)
-})
+const availableLocales = computed(() => (locales.value).filter(i => i !== locale.value))
 
 const router = useRouter();
 

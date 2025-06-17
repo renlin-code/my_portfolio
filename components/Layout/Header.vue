@@ -10,7 +10,7 @@
       <div class="header__right mobile-hidden">
         <div></div>
         <LangSelector :dark="scrolled" />
-        <MainButton primary as="a" href="https://drive.google.com/file/d/1uQ7tSQXmEBgNjoOo9HgHUKMX-z_aXZrz/view"
+        <MainButton primary as="a" :href="resumeLink"
           target="_blank">
           <template #before>
             <svg width="20rem" height="20rem" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +45,9 @@ import NavMenu from "../Navigation/NavMenu.vue";
 import RenlinCodeLogo from "../Logos/renlinCodeLogo.vue";
 import LangSelector from "../Buttons/LangSelector.vue";
 import MainButton from "../Buttons/MainButton.vue";
+import { useResumeLink } from "~/hooks/useResumeLink";
 
+const { link: resumeLink } = useResumeLink();
 const menuOpen = ref(false);
 watch(menuOpen, (value) => {
   document.querySelector("body").style.overflowY = value ? "hidden" : "scroll";
