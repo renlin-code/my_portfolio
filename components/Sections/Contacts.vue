@@ -7,7 +7,7 @@
           <p>{{ $t('contacts_section.description') }}</p>
         </div>
         <div class="contacts__contacts">
-          <a class="contacts__contacts-tel opacity" href="tel:+16452146877" target="_blank">+1 (645) 214 6877</a>
+          <a class="contacts__contacts-tel opacity" href="tel:+59898651388" target="_blank">+598 98 651 388</a>
           <ul class="contacts__contacts-list">
             <li class="contacts__contacts-item" v-for="contact in contacts">
               <a :href="contact.link" target="_blank">
